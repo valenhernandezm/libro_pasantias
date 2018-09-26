@@ -1,0 +1,79 @@
+% Centro de Estadística y Matemática Aplicada
+% Universidad Simón Bolívar
+% Plantilla LaTeX para manuscritos (tesis y pasantías)
+% pregrado y postgrado
+%
+% Andrés M. Sajo-Castelli
+% Carlos Contreras
+%
+% 15 Abril 2015 -- primera versión pública
+% ...
+% 11 Mayo 2018 --- Se agrega bibliografía en castellano via babelbib
+%
+\documentclass[pregrado]{tesis-usb}
+
+% paquetes
+\usepackage[utf8]{inputenc}
+\usepackage{verbatim}
+\usepackage{acronym}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+% \usepackage{hyperref}
+
+% estilo de las referencias
+\usepackage[fixlanguage]{babelbib-and}\selectbiblanguage{spanish}
+\usepackage{url}
+\bibliographystyle{babplain-lf}
+
+\autor{Valentina Hernández}
+\autori{V. Hernández}
+\usbid{10-10353}
+\titulo{Desarrollo de la versión 2 de la aplicación web CPI}
+\fecha{Septiembre~de~2018}
+\agno{2018}
+\fechadefensa{15~de~noviembre~de~2018}
+\tutor{Tutor Académico: Prof. Soraya Carrasquel}
+\usarcotutor
+\cotutor{Tutor Industrial: Ing. José Cerqueiro}
+\trabajo{Informe de Pasantía}
+\coord{Ingeniería de la Computación}
+\grado{Ingeniero en Computación}
+\carrera{Ingeniería de la Computación}
+\programa{Nombre del Programa}
+\juradouno{Nombre y Apellido}
+\juradodos{Nombre y Apellido}
+\juradotres{Nombre y Apellido}
+
+% Cambia comillas simple por comilla cerrada en ambiente verbatim
+\makeatletter
+\let \@sverbatim \@verbatim
+\def \@verbatim {\@sverbatim \verbatimplus}
+{\catcode`'=13 \gdef \verbatimplus{\catcode`'=13 \chardef '=13 }}
+\makeatother
+
+\begin{document}
+
+\frontmatter
+\maketitle
+\begin{resumen}
+     Es una exposici\'on clara del tema tratado en el trabajo, de los objetivos, de la metodolog\'ia utilizada, de los resultados relevantes obtenidos y de las conclusiones. Mismo tipo de fuente seleccionado con tamaño 12 e interlineado sencillo en el p\'arrafo. El resumen no debe exceder de trescientas (300) palabras escritas. \\
+     Palabras cl\'aves: palabras, cl\'aves, separadas por coma, cinco m\'aximo.
+\end{resumen}
+\tableofcontents
+
+\mainmatter
+\chapter*{Introducción}
+\par Introducción aquí.
+\input{capitulo-1}
+\input{capitulo-2}
+\input{capitulo-3}
+\input{capitulo-4}
+\input{capitulo-5}
+\chapter*{Conclusiones y Recomendaciones}
+\par Conclusiones aquí.
+\nocite{*}
+\bibliography{referencias}
+%\appendix
+
+\end{document}
