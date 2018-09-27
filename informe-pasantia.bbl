@@ -1,0 +1,105 @@
+\begin{thebibliography}{10}
+  \providebibliographyfont{name}{}%
+  \providebibliographyfont{lastname}{}%
+  \providebibliographyfont{title}{\emph}%
+  \providebibliographyfont{jtitle}{\btxtitlefont}%
+  \providebibliographyfont{etal}{\emph}%
+  \providebibliographyfont{journal}{}%
+  \providebibliographyfont{volume}{}%
+  \providebibliographyfont{ISBN}{\MakeUppercase}%
+  \providebibliographyfont{ISSN}{\MakeUppercase}%
+  \providebibliographyfont{url}{\url}%
+  \providebibliographyfont{numeral}{}%
+  \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+
+\expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+\bibitem {cmsBarker}
+\btxnamefont {\btxlastnamefont {Barker}, Deane}\btxauthorcolon\ \btxtitlefont
+  {Web Content Management: Systems, Features, and Best Practices}.
+\newblock \btxpublisherfont {O'Reilly Media}, 2016\ifbtxprintISBN {,
+  \mbox{\btxISBN~\btxISBNfont {978-1491908129}}}.
+
+\bibitem {javaScriptChristensson}
+\btxnamefont {\btxlastnamefont {Christensson}, Per}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {Javascript definition.}{JavaScript
+  Definition.}}, 2014.
+\newblock {\latintext
+  \btxurlfont{https://techterms.com/definition/javascript}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{2018-09-25}}}.
+
+\bibitem {apiChristensson}
+\btxnamefont {\btxlastnamefont {Christensson}, Per}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {Api definition.}{API Definition.}}, 2016.
+\newblock {\latintext \btxurlfont{https://techterms.com/definition/api}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{2018-09-02}}}.
+
+\bibitem {webServiceChristensson}
+\btxnamefont {\btxlastnamefont {Christensson}, Per}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {Web service definition.}{Web Service
+  Definition.}}, 2017.
+\newblock {\latintext
+  \btxurlfont{https://techterms.com/definition/web_service}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{2018-09-25}}}.
+
+\bibitem {restFielding}
+\btxnamefont {\btxlastnamefont {Fielding}, Roy\btxfnamespacelong
+  T.}\btxauthorcolon\ \btxtitlefont {Architectural Styles and the Design of
+  Network-based Software Architectures}.
+\newblock \btxphdthesis {}, University of California, 2000.
+
+\bibitem {mvcKrasner}
+\btxnamefont {\btxlastnamefont {Krasner}, Glen\btxfnamespacelong E.}
+  \btxandlong {}\ \btxnamefont {\btxlastnamefont {Pope},
+  Stephen\btxfnamespacelong T.}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {A cookbook for using the model-view-controller user
+  interface paradigm in smalltalk-80}{A cookbook for using the
+  model-view-controller user interface paradigm in Smalltalk-80}}.
+\newblock \btxjournalfont {Journal of Object-Oriented Programming}, 1:26--49,
+  1988.
+
+\bibitem {cssW3C}
+\btxnamefont {\btxlastnamefont {Lie}, H\aa{}kon\btxfnamespacelong Wium},
+  \btxnamefont {\btxlastnamefont {Lilley}, Chris}, \btxnamefont
+  {\btxlastnamefont {Jacobs}, Ian}\btxandcomma {} \btxandlong {}\ \btxnamefont
+  {\btxlastnamefont {Bos}, Bert}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Cascading style sheets, level 2 (css2
+  specification)}{Cascading Style Sheets, level 2 (CSS2 Specification)}}.
+\newblock \btxifchangecase {{W3C} recommendation}{{W3C} Recommendation}, W3C,
+  \btxprintmonthyear{.}{4}{2008}{long}.
+\newblock http://www.w3.org/TR/2008/REC-CSS2-20080411/.
+
+\bibitem {cSharpMicrosoft}
+\btxnamefont {\btxlastnamefont {Microsoft}}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Introduction to the c\# language and the .net
+  framework.}{Introduction to the C\# Language and the .NET Framework.}}, 2015.
+\newblock {\latintext
+  \btxurlfont{https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{2018-09-21}}}.
+
+\bibitem {htmlW3C}
+\btxnamefont {\btxlastnamefont {Moon}, Sangwhan}, \btxnamefont
+  {\btxlastnamefont {Leithead}, Travis}, \btxnamefont {\btxlastnamefont
+  {Eicholz}, Arron}, \btxnamefont {\btxlastnamefont {Danilo}, Alex}\btxandcomma
+  {} \btxandlong {}\ \btxnamefont {\btxlastnamefont {Faulkner},
+  Steve}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {{HTML} 5.2}{{HTML}
+  5.2}}.
+\newblock \btxifchangecase {{W3C} recommendation}{{W3C} Recommendation}, W3C,
+  \btxprintmonthyear{.}{12}{2017}{long}.
+\newblock https://www.w3.org/TR/2017/REC-html52-20171214/.
+
+\bibitem {scrumSchwaber}
+\btxnamefont {\btxlastnamefont {Schwaber}, Ken} \btxandlong {}\ \btxnamefont
+  {\btxlastnamefont {Sutherland}, Jeff}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {The scrum guide}{The Scrum Guide}}, 2017.
+\newblock {\latintext
+  \btxurlfont{https://www.scrumguides.org/scrum-guide.html}}.
+
+\bibitem {redesTanenbaum}
+\btxnamefont {\btxlastnamefont {Tanenbaum}, Andrew\btxfnamespacelong S.}
+  \btxandlong {}\ \btxnamefont {\btxlastnamefont {Wetherall},
+  David\btxfnamespacelong J.}\btxauthorcolon\ \btxtitlefont {Computer
+  Networks}.
+\newblock \btxpublisherfont {Pearson}, 2010\ifbtxprintISBN {,
+  \mbox{\btxISBN~\btxISBNfont {978-0132126953}}}.
+
+\end{thebibliography}
