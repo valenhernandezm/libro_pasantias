@@ -21,7 +21,7 @@ Scrum inicialmente fue desarrollado para la gestión y desarrollo de productos. 
 
 El equipo Scrum está conformado por el Dueño del Producto (\textit{Product Owner}), el Equipo de desarrollo (\textit{Development Team}) y un \textit{Scrum Master}. Los equipos Scrum son autoorganizados y multifuncionales. Los equipos autoorganizados eligen la mejor forma de llevar a cabo su trabajo y no son dirigidos por personas externas al equipo. Los equipos multifuncionales tienen todas las competencias necesarias para llevar a cabo el trabajo sin depender de otras personas que no son parte del equipo. El modelo de equipo en Scrum está diseñado para optimizar la flexibilidad, la creatividad y la productividad. \cite{scrumSchwaber}
 
-\subsection{Dueño del Producto}
+\subsection{Dueño del Producto} \label{productOwner}
 Es el responsable de maximizar el valor del producto resultante del trabajo del Equipo de Desarrollo. Es la única persona responsable de gestionar la Lista del Producto (\textit{Product Backlog}), esto incluye:
 \begin{itemize}
 \item Expresar claramente los elementos de la lista.
@@ -35,28 +35,44 @@ Es el responsable de maximizar el valor del producto resultante del trabajo del 
     \item Expresar los items del \emph{Product Backlog}
 \end{itemize}
 
+\subsection{Equipo de Desarrollo}
+El Equipo de Desarrollo está conformado por profesionales que realizan el trabajo de entregar un Incremento (ver sección \ref{incremento}) de producto “Terminado” que potencialmente se puede poner en producción al final de cada Sprint (ver sección \ref{sprint}). Cabe destacar que solo los miembros del Equipo de Desarrollo participan en la creación del Incremento, ellos se organizan y gestionan su propio trabajo. Los Equipos de Desarrollo tienen las siguientes características: 
+
+\begin{itemize}
+	\item Son autoorganizados. Nadie (ni siquiera el Scrum Master) indica al Equipo de Desarrollo cómo convertir elementos de la Lista del Producto en Incrementos de funcionalidad potencialmente desplegables.
+	\item Los Equipos de Desarrollo son multifuncionales, esto es, como equipo cuentan con todas las habilidades necesarias para crear un Incremento de producto.
+	\item Scrum no reconoce títulos para los miembros de un Equipo de Desarrollo independientemente del trabajo que realice cada persona
+	\item Los Miembros individuales del Equipo de Desarrollo pueden tener habilidades especializadas y áreas en las que estén más enfocados, pero la responsabilidad recae en el Equipo de Desarrollo como un todo. 
+\end{itemize}
+
+
+\subsection{Scrum Master} \label{scrumMaster}
+
+El Facilitador (o \emph{Scrum Master}) es el responsable de promover y apoyar Scrum como está definido en la Guía de Scrum (ver \cite{scrumSchwaber}). Esto lo logran ayudando a todo el Equipo Scrum a entender la teoría, práctica, reglas y valores de Scrum. \cite{scrumSchwaber}
+
 \section{Eventos de Scrum}
+\subsection{La Iteración} \label{sprint}
+
 
 \section{Artefactos de Scrum}
-\subsection{Lista de objetivos del producto}
-La lista de objetivos del producto es una lista ordenada de todas las tareas que deben ser completadas para entregar el producto. Esta lista nunca está completa, la primera versión muestra los primeros requerimientos conocidos y mejor entendidos. \cite{scrumSchwaber} La lista de objetivos del producto evoluciona junto con el producto para actualizar los requerimientos dependiendo de las exigencias del cliente y del mercado.
+\subsection{Lista de Objetivos del Producto} \label{productBacklog}
+La Lista de Objetivos del Producto es una lista ordenada de todas las tareas que deben ser completadas para entregar el producto. Esta lista nunca está completa, la primera versión muestra los primeros requerimientos conocidos y mejor entendidos. \cite{scrumSchwaber} La Lista de Objetivos del Producto evoluciona junto con el producto para actualizar los requerimientos dependiendo de las exigencias del cliente y del mercado. El Dueño del Producto (ver sección \ref{productOwner}) es el responsable de este artefacto.
 
-\subsection{Lista de tareas de la iteración}
-La loita de tareas de la iteración es el conjunto de tareas de la lista de objetivos del producto seleccionadas para completar en un Sprint, puede verse como una predicción de lo que estará completado al llevarse a cabo es Sprint. \cite{scrumSchwaber} Esta lista va a ir cambiando a medida que se identifiquen tareas y trabajo que debe ser realizado para completar los items durante el desarrollo del Sprint.
+\subsection{Lista de Tareas de la Iteración}
+La Lista de Tareas de la Iteración es el conjunto de tareas de la lista de objetivos del producto seleccionadas para completar en una Iteración, puede verse como una predicción de lo que estará completado al llevarse a cabo la Iteración. \cite{scrumSchwaber} Esta lista va a ir cambiando a medida que el Equipo de Desarrollo identifique tareas y trabajo que debe ser realizado para completar los items durante el desarrollo de la Iteración, es decir, además de las tareas tomadas de la Lista de Objetivos del Producto, pueden surgir nuevas tareas que deben ser cumplidas para llevar a cabo el trabajo de la Iteración.
 
 \subsection{Tablero de tareas}
 El tablero de tareas es una tabla utilizada para gestionar el estado de los objetivos de la lista de objetivos del producto, contiene 4 columnas:
 
 \begin{itemize}
-    \item \textbf{Por hacer}: contiene las tareas que no se han empezado.
-    \item \textbf{Haciendo}: contiene las tareas en las que se está trabajando actualmente.
-    \item \textbf{Hechas}: contiene las tareas que se han completado.
-    \item \textbf{Mejoras}: contiene tareas u objetivos que salen del alcance del proyecto actual y que pueden ser desarrolladas para una versión futura del producto.
+   \item \textbf{Por hacer}: contiene las tareas que no se han empezado.
+   \item \textbf{Haciendo}: contiene las tareas en las que se está trabajando actualmente.
+   \item \textbf{Hechas}: contiene las tareas que se han completado.
+   \item \textbf{Mejoras}: contiene tareas u objetivos que salen del alcance del proyecto actual y que pueden ser desarrolladas para una versión futura del producto.
 \end{itemize}
 
 Cada una de las tareas en este tablero puede ser asignada a una persona específica, también se pueden etiquetar dependiendo de la naturaleza de la tarea.
 
-Para el proyecto presente se escribió una lista de objetivos del producto al inicio y se fue actualizando a medida que se avanzó en el desarrollo. 
-
+\subsection{Incremento} \label{incremento}
 
 
