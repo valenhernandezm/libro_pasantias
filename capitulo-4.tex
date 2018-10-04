@@ -51,28 +51,26 @@ El Equipo de Desarrollo está conformado por profesionales que realizan el traba
 El Facilitador (o \emph{Scrum Master}) es el responsable de promover y apoyar Scrum como está definido en la Guía de Scrum (ver \cite{scrumSchwaber}). Esto lo logran ayudando a todo el Equipo Scrum a entender la teoría, práctica, reglas y valores de Scrum. \cite{scrumSchwaber}
 
 \section{Eventos de Scrum}
-\subsection{La Iteración} \label{sprint}
 
+Para minimizar y regularizar la necesidad de reuniones no definidas en Scrum existen eventos predefinidos. Los eventos son bloques de tiempo (\textit{label-boxes}), de tal modo que todos tienen una duración máxima. En el caso de un Sprint (ver sección \ref{sprint}), su duración es fija y no puede acortarse ni alargarse, el resto de eventos pueden terminar antes siempre y cuando se cumplan con el objetivo del evento. \cite{scrumSchwaber}
+
+
+\subsection{Sprint} \label{sprint}
+El Sprint es el corazón de Scrum, es un bloque de tiempo de aproximadamente un mes de duración durante el cual se crea un Incremento (ver sección \ref{incremento}) del producto “Terminado” utilizable y potencialmente desplegable. Cada nuevo Sprint comienza inmediatamente después de la finalización del Sprint anterior. \cite{scrumSchwaber}
+
+Los Sprint están compuestos por la Planificación del Sprint (\textit{Sprint Planning}), los Scrums Diarios (\textit{Daily Scrums}), el trabajo de desarrollo, la Revisión del Sprint (\textit{Sprint Review}), y la Retrospectiva del Sprint (\textit{Sprint Retrospective}). 
 
 \section{Artefactos de Scrum}
-\subsection{Lista de Objetivos del Producto} \label{productBacklog}
-La Lista de Objetivos del Producto es una lista ordenada de todas las tareas que deben ser completadas para entregar el producto. Esta lista nunca está completa, la primera versión muestra los primeros requerimientos conocidos y mejor entendidos. \cite{scrumSchwaber} La Lista de Objetivos del Producto evoluciona junto con el producto para actualizar los requerimientos dependiendo de las exigencias del cliente y del mercado. El Dueño del Producto (ver sección \ref{productOwner}) es el responsable de este artefacto.
+Los artefactos de Scrum representan trabajo o valor en diversas formas que son útiles para proporcionar transparencia y oportunidades para la inspección y adaptación. Los artefactos definidos por Scrum están diseñados específicamente para maximizar la transparencia de la información clave, necesaria para asegurar que todos tengan el mismo entendimiento del artefacto. \cite{scrumSchwaber}
 
-\subsection{Lista de Tareas de la Iteración}
-La Lista de Tareas de la Iteración es el conjunto de tareas de la lista de objetivos del producto seleccionadas para completar en una Iteración, puede verse como una predicción de lo que estará completado al llevarse a cabo la Iteración. \cite{scrumSchwaber} Esta lista va a ir cambiando a medida que el Equipo de Desarrollo identifique tareas y trabajo que debe ser realizado para completar los items durante el desarrollo de la Iteración, es decir, además de las tareas tomadas de la Lista de Objetivos del Producto, pueden surgir nuevas tareas que deben ser cumplidas para llevar a cabo el trabajo de la Iteración.
+\subsection{Lista de Producto} \label{productBacklog}
+La Lista de Producto es una lista ordenada de los objetivos y requisitos que se conoce que son necesario en el producto. El Dueño de Producto (Product Owner) es el responsable de esta lista, incluyendo su contenido, disponibilidad y ordenación. La Lista de Producto va cambiando constantemente a medida de que el producto y el entorno en el que se usará también lo hacen, es decir cambia mientras se van identificando necesidades para que el producto pueda ser adecuado, competitivo y útil.La Lista de Producto enumera todas las características, funcionalidades, requisitos, mejoras y correcciones que constituyen cambios a realizarse sobre el producto para entregas futuras. \cite{scrumSchwaber}
 
-\subsection{Tablero de tareas}
-El tablero de tareas es una tabla utilizada para gestionar el estado de los objetivos de la lista de objetivos del producto, contiene 4 columnas:
-
-\begin{itemize}
-   \item \textbf{Por hacer}: contiene las tareas que no se han empezado.
-   \item \textbf{Haciendo}: contiene las tareas en las que se está trabajando actualmente.
-   \item \textbf{Hechas}: contiene las tareas que se han completado.
-   \item \textbf{Mejoras}: contiene tareas u objetivos que salen del alcance del proyecto actual y que pueden ser desarrolladas para una versión futura del producto.
-\end{itemize}
-
-Cada una de las tareas en este tablero puede ser asignada a una persona específica, también se pueden etiquetar dependiendo de la naturaleza de la tarea.
+\subsection{Lista de Pendientes del Sprint} \label{sprintBacklog}
+La lista de Pendientes del Sprint es el conjunto de elementos seleccionados para realizar en el Sprint de la Lista de Productos, más un plan para entregar el Incremento (ver sección \ref{incremento} del producto y cumplir los objetivos del Sprint. \cite{scrumSchwaber} Esta lista la realiza el Equipo de Desarrollo y se basa en la funcionalidad que formará parte del próximo Incremento.
 
 \subsection{Incremento} \label{incremento}
+
+El Incremento es la suma de todos los elementos de la Lista de Producto completados durante un Sprint y el valor de los incrementos de todos los Sprints anteriores. Al final de un Sprint el nuevo Incremento debe estar “Terminado”, lo cual significa que está en condiciones de ser utilizado y que cumple la Definición de “Terminado” del Equipo Scrum (cada equipo tiene su propia definición de un producto o Incremento terminado). El incremento es un paso hacia una visión o meta. El incremento debe estar en condiciones de utilizarse sin importar si el Dueño de Producto decide liberarlo o no. \cite{scrumSchwaber}
 
 

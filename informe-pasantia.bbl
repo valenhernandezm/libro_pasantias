@@ -68,6 +68,20 @@
   \btxprintmonthyear{.}{4}{2008}{long}.
 \newblock http://www.w3.org/TR/2008/REC-CSS2-20080411/.
 
+\bibitem {aspMicrosoft}
+\btxnamefont {\btxlastnamefont {Microsoft}}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Asp.net overview.}{ASP.NET Overview.}}
+\newblock {\latintext
+  \btxurlfont{https://msdn.microsoft.com/en-us/library/4w3ex9c2.aspx}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{2018-09-19}}}.
+
+\bibitem {aspmvcMicrosoft}
+\btxnamefont {\btxlastnamefont {Microsoft}}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Asp.net mvc 3.}{ASP.NET MVC 3.}}, 2010.
+\newblock {\latintext
+  \btxurlfont{https://docs.microsoft.com/en-us/aspnet/mvc/mvc3}}\empty
+  \btxurldatecomment {\btxkeywordlanguage {\btxurldatefont{2018-09-19}}}.
+
 \bibitem {cSharpMicrosoft}
 \btxnamefont {\btxlastnamefont {Microsoft}}\btxauthorcolon\ \btxtitlefont
   {\btxifchangecase {Introduction to the c\# language and the .net

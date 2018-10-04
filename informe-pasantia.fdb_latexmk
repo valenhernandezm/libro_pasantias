@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex informe-pasantia"] 1538497643 "informe-pasantia.aux" "informe-pasantia.bbl" "informe-pasantia" 1538497646
+["bibtex informe-pasantia"] 1538686105 "informe-pasantia.aux" "informe-pasantia.bbl" "informe-pasantia" 1538686107
   "C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/bibtex/bst/babelbib/babplain-lf.bst" 1328096837 29108 88f6a7a0f43bbc592990cc4282c358fb ""
-  "informe-pasantia.aux" 1538497646 8326 16fe4f5e6ffd3cf473190ccd5587c2ab ""
-  "referencias.bib" 1538060080 3326 d5d82d22850fbb00a8960eccaeb04f29 ""
+  "informe-pasantia.aux" 1538686107 6873 902876bb35edf30d44de78ed7f819872 ""
+  "referencias.bib" 1538686101 3706 100301116d1dda405510092cdadf29b0 ""
   (generated)
   "informe-pasantia.bbl"
   "informe-pasantia.blg"
-["pdflatex"] 1538497644 "c:/Users/Valentina/Documents/Valentina/libro_pasantias/informe-pasantia.tex" "informe-pasantia.pdf" "informe-pasantia" 1538497646
+["pdflatex"] 1538686105 "c:/Users/Valentina/Documents/Valentina/libro_pasantias/informe-pasantia.tex" "informe-pasantia.pdf" "informe-pasantia" 1538686107
   "C:/Users/Valentina/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1537372201 4162864 491e5190b98306e519d52f791f338ee6 ""
   "C:/Users/Valentina/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1537372317 83721 56dfc66f96b4bc7777806d83f0266370 ""
   "C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -154,18 +154,19 @@
   "C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xstring/xstring.sty" 1381656702 144 0ca8d67b000b795a4d9ec000e0fd09c7 ""
   "babelbib-and.sty" 1538055392 14321 f7975c354c5cff6f27ffdc8a28a2e8f4 ""
   "c:/Users/Valentina/Documents/Valentina/libro_pasantias/informe-pasantia.tex" 1538055392 2377 b8c468a569978a35524201c2f5b4332e ""
-  "capitulo-1.tex" 1538055392 2767 4e337924b1488c22f9de2e3354f80336 ""
+  "capitulo-1.tex" 1538682025 2989 67ca6d581499714d9ae73f8c1fad46e5 ""
   "capitulo-2.tex" 1538057918 8817 988c5e922904469fe3b51cf8902d0971 ""
-  "capitulo-3.tex" 1538059890 2749 eff02a585799d3d5d2131b461f490b9a ""
-  "capitulo-4.tex" 1538497639 7252 24b5e8886b97cbab89f75ac82be15664 ""
-  "capitulo-5.tex" 1538055392 1534 82000cfd3377676680694a8ee70dd5c8 ""
-  "informe-pasantia.aux" 1538497646 8326 16fe4f5e6ffd3cf473190ccd5587c2ab ""
-  "informe-pasantia.bbl" 1538497644 5187 d91b21d50e31ffb3d73dee45c0fb0f2d "bibtex informe-pasantia"
+  "capitulo-3.tex" 1538686101 3469 0deac0707cd52d1d7956041989199eaf ""
+  "capitulo-4.tex" 1538681279 8525 318887c65cbc74c20ba8a539c7ff808a ""
+  "capitulo-5.tex" 1538511559 24 a92e3f2ee813929c372abdb3fa184975 ""
+  "informe-pasantia.aux" 1538686107 6873 902876bb35edf30d44de78ed7f819872 ""
+  "informe-pasantia.bbl" 1538686105 5863 66e2df624b5a528eb94b0dc620774243 "bibtex informe-pasantia"
   "informe-pasantia.tex" 1538055392 2377 b8c468a569978a35524201c2f5b4332e ""
-  "informe-pasantia.toc" 1538497646 5575 2bd735f4feec1f138ecea47235a51525 ""
+  "informe-pasantia.toc" 1538686107 4000 284beffe055e4d1e6367cad46946fafd ""
+  "organigrama.png" 1538681449 18785 30a8324421f03e0b0559c1c3e0db23ec ""
   "tesis-usb.cls" 1538055392 51362 2a688aa65a3a5cc66d7af69b180cd8f2 ""
   (generated)
-  "informe-pasantia.log"
-  "informe-pasantia.pdf"
   "informe-pasantia.toc"
+  "informe-pasantia.pdf"
   "informe-pasantia.aux"
+  "informe-pasantia.log"

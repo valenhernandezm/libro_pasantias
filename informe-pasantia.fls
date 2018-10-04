@@ -232,6 +232,11 @@ INPUT informe-pasantia.toc
 OUTPUT informe-pasantia.toc
 INPUT capitulo-1.tex
 INPUT capitulo-1.tex
+INPUT organigrama.png
+INPUT ./organigrama.png
+INPUT ./organigrama.png
+INPUT ./organigrama.png
+INPUT ./organigrama.png
 INPUT capitulo-2.tex
 INPUT capitulo-2.tex
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmti12.tfm
