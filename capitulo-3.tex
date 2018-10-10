@@ -19,8 +19,15 @@ JavaScript es un lenguaje de programación  interpretado comúnmente utilizado p
 
 Es un lenguaje de \textit{scripting} del lado del cliente, lo que significa que el código fuente es procesado por el navegador web del cliente y no en el servidor web. \cite{javaScriptChristensson}
 
+\subsection{ASP.NET Razor}
+Razor es un lenguaje de marcado, no es un lenguaje de programación, que permite incluir código basado en servidor (Visual Basic y C\#) en páginas web. 
 
-\section{Entorno de trabajo}
+El código basado en servidor puede crear contenido web dinámico sobre la marcha, mientras que una página web se escribe en el navegador. Cuando se hace un llamado a una página web, el servidor ejecuta el código basado en servidor dentro de la página antes de devolver la página al navegador, y al ejecutarse en el servidor, este código puede realizar tareas complejas.
+ 
+Razor se basa en ASP.NET y está diseñado para crear aplicaciones web. Tiene el poder del marcado ASP.NET tradicional, pero es más fácil de usar y más fácil de aprender. \cite{aspRazorW3school}
+
+
+\section{Frameworks}
 \subsection{ASP.NET}
 ASP.NET es un modelo de desarrollo Web unificado que incluye los servicios necesarios para crear aplicaciones Web de clase empresarial con un mínimo de codificación. ASP.NET es parte de .NET Framework y al codificar las aplicaciones en ASP.NET se tiene acceso a las clases de .NET Framework. \cite{aspMicrosoft}
 
@@ -30,14 +37,51 @@ ASP.NET MVC es un marco de trabajo para crear aplicaciones web escalables y basa
 Para el desarrollo de uno de los módulos de la aplicación \textbf{CPI\_Core} se utilizó este marco de trabajo, en donde se encuentran los controladores de la misma.
 
 \subsection{ASP.NET Web Api}
-\subsection{ASP.NET Razor}
-\subsection{Umbraco}
+ASP.NET Web API es un marco de trabajo que facilita la creación de servicios HTTP que llegan a una amplia gama de clientes, incluidos navegadores y dispositivos móviles. ASP.NET Web API es una plataforma ideal para crear aplicaciones RESTful en .NET Framework. \cite{aspWebAPIMicrosoft}
 
-\section{}
+Para el desarrollo de uno de los módulos de la aplicación \textbf{CPI\_API} se utilizó este marco de trabajo, en donde se implementaron los servicios del API para acceder a información del sistema (ver sección \ref{WebService}) de la aplicación web.
+
+\subsection{Umbraco}
+Umbraco es un Sistema de Gestión de Contenido de código abierto gratuito desarrollado sobre ASP.NET, la primera versión de código abierto de Umbraco se lanzó el 16 de febrero del año 2005. \cite{umbraco}
+
+El principal objetivo de esta plataforma es brindar flexibilidad para que se puedan editar y hacer las cosas de la manera en la que se necesiten realizar, tiene todas las funcionalidades necesarias para desarrollar aplicaciones web como: la autenticación de usuarios, permisología, interfaces para manejar la base de datos, entre muchas más. Además para agregar funcionalidades extras a la versión básica de Umbraco cuenta con un repositorio de paquetes y extensiones que proveen variedad de librerías y módulos para facilitar el desarrollo del sistema. 
+
+Ikels tiene varios años de experiencia desarrollando aplicaciones web usando Umbraco, por lo que resultó de mucha ayuda para el desarrollo de la aplicación. CPI fue desarrollada sobre Umbraco v7.10.4
+
+
+\section{Control de Versiones}
+\subsection{Git}
+Git es un sistema de control de versiones distribuido de código abierto y gratuito, diseñado para manejar desde proyectos pequeños hasta proyectos muy grandes con rapidez y eficiencia. \cite{git} Fue diseñado por Linus Torvalds en el año 2005 pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones para facilitar el trabajo de varios desarrolladores sobre un mismo código fuente. Permite llevar el registro de los cambios de archivos y sincronizar el trabajo que varias personas realizan sobre archivos compartidos.
+
+\section{Manejador de Base de Datos}
 \subsection{SQL Server}
-\subsection{JSON}
-\subsection{Ajax}
-\subsection{JQuery}
-\subsection{Highcharts}
-\subsection{DataTables}
+SQL Server es una parte central de la plataforma de datos de Microsoft. SQL Server es un líder de la industria en sistemas operativos de gestión de bases de datos (\textit{ODBMS}). \cite{sqlServerMicrosoft}. Entre las tecnologías que tiene SQL Server la que se utilizó para la aplicación fue el motor de base de datos, el cual es el servicio principal para almacenar, procesar y proteger datos. El motor de base de datos proporciona acceso controlado y rápido procesamiento de transacciones para cumplir con los requisitos de las aplicaciones que requieren los datos más exigentes dentro de su empresa. 
+
+\section{Entorno de Trabajo}
+\subsection{Visual Studio}
+Visual Studio es un entorno de desarrollo integrado que permite editar, depurar, compilar código para luego publicar una aplicación. \cite{visualStudioMicrosoft} Este entorno de desarrollo (\textit{IDE}) incluye una gran cantidad de funcionalidades para facilitar el desarrollo de software, entre las cuales están la depuración del código con información detallada de las variable y otras entidades del programa, instrucciones de compilación complejas para la aplicación, descarga y actualización paquetes y librerías, integración con Git, \textit{IntelliSense} de Microsoft como ayuda de codificación y la depuración de una aplicación para ver el valor de una variable durante la ejecución del programa y para la completación de código usando el contexto de la aplicación (clases, relaciones y métodos), entre otras.
+
+
+\section{JSON}
+JSON por sus siglas en inglés \textit{JavaScript Object Notation} es una sintaxis de texto que facilita el intercambio de datos estructurados entre todos los lenguajes de programación. Está basado en un subconjunto del lenguaje JavaScript. Utiliza en su sintaxis llaves, corchetes, dos puntos y comas lo cual es útil en muchos contextos y aplicaciones. \cite{json} Está constituido por dos estructuras:
+
+\begin{itemize}
+	\item Una colección de pares de nombre/valor. En varios lenguajes esto es conocido como un objeto, registro, estructura, diccionario, tabla hash, lista de claves o un arreglo asociativo.
+    \item Una lista ordenada de valores. En la mayoría de los lenguajes, esto se implementa como arreglos, vectores, listas o secuencias.
+\end{itemize}
+
+\section{Ajax}
+Ajax por sus siglas en inglés \textit{Asynchronous JavaScript And XML} es una combinación de tecnologías de desarrollo web utilizadas para crear sitios web dinámicos. Los sitios que utilizan Ajax combinan JavaScript y XML para mostrar contenido dinámico. \cite{ajaxChristensson} Con “asíncrono” se refiere a la forma en la que se realizan las solicitudes al servidor web, ya que al enviar una solicitud al servidor web, éste puede recibir datos que luego pueden ser mostrados en la página web.
+
+\section{Highcharts}
+Highcharts es una biblioteca de gráficos escrita en JavaScript puro, que ofrece una manera fácil de agregar gráficos interactivos a su sitio web o aplicación web. Fue lanzado en el año 2009. \cite{highcharts} 
+
+En la aplicación CPI se usó para realizar los gráficos de barra, boxplot y dispersión que muestran los reportes de precios de los productos, de los productos por categorías, y el histórico de precios de un producto.
+
+
+\section{DataTables}
+DataTables es un complemento para la biblioteca jQuery de Javascript. Es una herramienta altamente flexible, y su objetivo es mejorar la accesibilidad de los datos en las tablas HTML. \cite{dataTables} 
+
+Este complemento fue usado para cada una de las tablas de la aplicación CPI.
+
 

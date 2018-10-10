@@ -12,8 +12,27 @@ Warning--entry type for "JavaScriptChristensson" isn't style-file defined
 Warning--entry type for "scrumSchwaber" isn't style-file defined
 --line 98 of file referencias.bib
 Warning--entry type for "aspMicrosoft" isn't style-file defined
---line 105 of file referencias.bib
+--line 106 of file referencias.bib
 Warning--entry type for "aspmvcMicrosoft" isn't style-file defined
---line 113 of file referencias.bib
-Warning--empty language in cmsBarker
-(There were 8 warnings)
+--line 114 of file referencias.bib
+Warning--entry type for "aspWebAPIMicrosoft" isn't style-file defined
+--line 122 of file referencias.bib
+Warning--entry type for "aspRazorW3school" isn't style-file defined
+--line 130 of file referencias.bib
+Warning--entry type for "umbraco" isn't style-file defined
+--line 138 of file referencias.bib
+Warning--entry type for "git" isn't style-file defined
+--line 147 of file referencias.bib
+Warning--entry type for "sqlServerMicrosoft" isn't style-file defined
+--line 156 of file referencias.bib
+Warning--entry type for "visualStudioMicrosoft" isn't style-file defined
+--line 164 of file referencias.bib
+Warning--entry type for "ajaxChristensson" isn't style-file defined
+--line 183 of file referencias.bib
+Warning--entry type for "dataTables" isn't style-file defined
+--line 191 of file referencias.bib
+Warning--entry type for "highcharts" isn't style-file defined
+--line 198 of file referencias.bib
+Warning--to sort, need author or key in json
+Warning--empty language in json
+(There were 18 warnings)
