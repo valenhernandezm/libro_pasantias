@@ -1,0 +1,97 @@
+\documentclass{article}
+
+\usepackage{fancyhdr, ragged2e, indentfirst, longtable, tabu, graphicx, float, hhline, makecell, bookmark}
+\usepackage[table]{xcolor}
+\usepackage[letterpaper, total={7in, 9in}]{geometry}
+
+\graphicspath{ {./imgs/} }
+
+\makeatletter
+\title{Documento de Arquitectura del Software} \let\Title\@title
+\date{Septiembre 2018} \let\Date\@date
+\author{Ricardo Münch} \let\Author\@author
+\makeatother
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Versión: 1.0 \\ \Date}
+\lhead{eFuel \\ DAS \\ Identificador del documento}
+
+\lfoot{Confidencial}
+\cfoot{iKels Consulting \\ \Date}
+\rfoot{Pag. \thepage}
+
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+\renewcommand{\contentsname}{Índice}
+
+\newcommand\Tstrut{\rule{0pt}{2.6ex}}       % "top" strut
+\newcommand\Bstrut{\rule[-0.9ex]{0pt}{0pt}} % "bottom" strut
+\newcommand{\TBstrut}{\Tstrut\Bstrut}       % top&bottom struts
+
+\renewcommand{\cellalign}{cl}
+\renewcommand\cellgape{\gape[t]}
+
+\begin{document}
+
+    \newgeometry{textwidth=12cm,textheight=10cm}
+    \begin{titlepage}
+        \huge{\Title}
+        \begin{flushright}
+            \Large{eFuel \\ Versión: 1.0}
+        \end{flushright}
+    \end{titlepage}
+
+    \restoregeometry
+
+    \newpage
+    \tableofcontents
+
+    \newpage
+    \begin{center}
+        \begin{tabular}{ |c|c|c|c| }
+            \hline
+            \rowcolor{gray!30}
+            Fecha & Versión & Descripción & Autores \\ [0.5ex]
+            \hline\hline
+            29/09/2018 & 1.0 & Documento de Arquitectura & Ricardo Münch \\
+            \hline
+        \end{tabular}
+    \end{center}
+
+    \newpage
+    \section{Introducción}
+    El objetivo principal de la arquitectura del software es aportar conceptos y un lenguaje común que ayuden a describir el software y permita la comunicación entre el cliente y los diseñadores.
+
+    \subsection{Propósito}
+    Este documento busca hacer una abstracción de lo que será el sistema a través de algunas vistas de la arquitectura del mismo. Se pretende definir algunos elementos estructurales que describen el sistema \emph{eFuel}.
+
+    \subsection{Alcance}
+    A continuación presentamos una abstracción de la estructura que debe tener el sistema. El documento contempla la vista lógica, la vista de datos y las características no funcionales que debe tener el sistema.
+
+    \subsection{Referencias}
+    No hace referencia a ningún otro documento.
+
+    \subsection{Vista Global}
+    Este documento comprende 6 secciones en las cuales se elaboran los distintos aspectos de la arquitectura de \emph{eFuel}, tanto a nivel de software como de hardware. En la sección \ref{reprArq} se introduce la representación arquitectónica del sistema. Luego, en la sección \ref{metasArq}, se enumeran los objetivos y restricciones que suscriben la arquitectura presentada. Seguidamente, se describen las distintas vistas que conforman la arquitectura de la sección \ref{vistaCasosDeUso} a la \ref{vistaDatos}, teniendo en la sección \ref{vistaCasosDeUso} la Vista de Casos de Uso. Finalmente, la sección \ref{tamDesemp}.
+
+
+    \section{Representación Arquitectónica} \label{reprArq}
+    La representación arquitectónica de \emph{eFuel} está basada en el modelo de 4+1 vistas de Philippe Kruchten. En el transcurso del documento se tratarán más a fondo los detalles de cada una.
+
+    \section{Metas y Restricciones Arquitectónicas} \label{metasArq}
+
+    \input{vista_casos_de_uso}
+    \input{vista_logica}
+    \input{vista_implantacion}
+    \input{vista_implementacion}
+    \input{vista_de_datos}
+
+    \section{Tamaño y Desempeño} \label{tamDesemp}
+
+    \section{Calidad}
+    \subsection{Mantenibilidad}
+    \subsection{Flexibilidad}
+    \subsection{Seguridad}
+\end{document}
+
