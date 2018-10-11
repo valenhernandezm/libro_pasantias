@@ -1,12 +1,13 @@
 \contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{3}{section.1}
 \contentsline {subsection}{\numberline {1.1}Prop\IeC {\'o}sito}{3}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Alcance}{3}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Referencias}{3}{subsection.1.3}
-\contentsline {subsection}{\numberline {1.4}Vista Global}{3}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.3}Definiciones, Siglas y Abreviaciones}{3}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Referencias}{3}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Vista Global}{3}{subsection.1.5}
 \contentsline {section}{\numberline {2}Representaci\IeC {\'o}n Arquitect\IeC {\'o}nica}{3}{section.2}
 \contentsline {section}{\numberline {3}Metas y Restricciones Arquitect\IeC {\'o}nicas}{3}{section.3}
 \contentsline {section}{\numberline {4}Vista de Casos de Uso}{3}{section.4}
-\contentsline {subsection}{\numberline {4.1}Resumen de Casos de Uso}{3}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.1}Resumen de Casos de Uso}{4}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Diagrama de Casos de Uso}{5}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Especificaciones de Casos de Uso}{6}{subsection.4.3}
 \contentsline {section}{\numberline {5}Vista L\IeC {\'o}gica}{9}{section.5}

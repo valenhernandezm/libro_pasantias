@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1539202183 "c:/Users/Valentina/Documents/Valentina/Ricardo/libro_pasantia/anexos/das/das.tex" "das.pdf" "das" 1539202246
+["pdflatex"] 1539286319 "c:/Users/Valentina/Documents/Valentina/libro_pasantias/Anexos/das/das.tex" "das.pdf" "das" 1539286322
   "C:/Users/Valentina/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1537372201 4162864 491e5190b98306e519d52f791f338ee6 ""
   "C:/Users/Valentina/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1539202176 83721 56dfc66f96b4bc7777806d83f0266370 ""
   "C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -64,10 +64,10 @@
   "C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/varwidth/varwidth.sty" 1238469540 10894 d359a13923460b2a73d4312d613554c8 ""
   "C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty" 1463135581 57049 34128738f682d033422ca125f82e5d62 ""
-  "c:/Users/Valentina/Documents/Valentina/Ricardo/libro_pasantia/anexos/das/das.tex" 1539176466 3835 eb74b6e6bc1d807cc848bd1719c0bcda ""
-  "das.aux" 1539202186 7785 f3dbe34194cac47a4daa90a96009989f ""
-  "das.tex" 1539176466 3835 eb74b6e6bc1d807cc848bd1719c0bcda ""
-  "das.toc" 1539202186 2509 94fe2afddf7eebd6b9fe166432b50ba5 ""
+  "c:/Users/Valentina/Documents/Valentina/libro_pasantias/Anexos/das/das.tex" 1539286311 4093 4fdae444bbaca1ff4075116bd3e9a455 ""
+  "das.aux" 1539286321 8047 c1af92fea68d1300c18611342b884e16 ""
+  "das.tex" 1539286311 4093 4fdae444bbaca1ff4075116bd3e9a455 ""
+  "das.toc" 1539286321 2611 d3442b5f56527dbb6ed9c1c66b224521 ""
   "imgs/cu_admin.png" 1539176467 3151176 bed7ff15296a8db161d494d7f86edf38 ""
   "imgs/cu_customer_staff.png" 1539176467 1969675 52a4f203d9fe22676ad4cf1916ac8eba ""
   "vista_casos_de_uso.tex" 1539176467 12091 d834af7aa491427782f50fefe613e3f8 ""
@@ -77,6 +77,6 @@
   "vista_logica.tex" 1539176467 176 e780098558c772678f3d4b4b970607b2 ""
   (generated)
   "das.pdf"
-  "das.aux"
-  "das.log"
   "das.toc"
+  "das.log"
+  "das.aux"

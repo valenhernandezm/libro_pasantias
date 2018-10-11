@@ -1,6 +1,6 @@
-PWD c:/Users/Valentina/Documents/Valentina/Ricardo/libro_pasantia/anexos/das
+PWD c:/Users/Valentina/Documents/Valentina/libro_pasantias/Anexos/das
 INPUT C:/Users/Valentina/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
-INPUT c:/Users/Valentina/Documents/Valentina/Ricardo/libro_pasantia/anexos/das/das.tex
+INPUT c:/Users/Valentina/Documents/Valentina/libro_pasantias/Anexos/das/das.tex
 OUTPUT das.log
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls
