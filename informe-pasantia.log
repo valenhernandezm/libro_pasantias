@@ -1,16 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.19)  10 OCT 2018 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.14)  14 OCT 2018 20:42
 entering extended mode
-**c:/Users/Valentina/Documents/Valentina/libro_pasantias/informe-pasantia.tex
-(c:/Users/Valentina/Documents/Valentina/libro_pasantias/informe-pasantia.tex
+**c:/Users/FabioUriel/Documents/libro_pasantias/informe-pasantia.tex
+(c:/Users/FabioUriel/Documents/libro_pasantias/informe-pasantia.tex
 LaTeX2e <2018-04-01> patch level 5
 (tesis-usb.cls
-Document Class: tesis-usb 2015/07/20 v4.2Clase para documentos de LaTeX no ofic
-ial para libros de tesis USB
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancy
-hdr.sty"
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
+Document Class: tesis-usb 2015/07/20 v4.2Clase para documentos de LaTeX no oficial para libros de tesis USB
+("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footers
 \f@nch@headwidth=\skip41
 \f@nch@O@elh=\skip42
 \f@nch@O@erh=\skip43
@@ -20,8 +16,7 @@ s
 \f@nch@O@erf=\skip47
 \f@nch@O@olf=\skip48
 \f@nch@O@orf=\skip49
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk12.clo"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk12.clo"
 File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -37,27 +32,17 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip50
 \belowcaptionskip=\skip51
 \bibindent=\dimen102
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geome
-try.sty"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyva
-l.sty"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifp
-df.sty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifv
-tex.sty"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxe
-tex.sty"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count90
@@ -72,81 +57,50 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geome
-try.cfg"))
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.
-sty"
-Package: babel 2018/06/05 3.22 The Babel package
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch
-.def"
-File: switch.def 2018/06/05 3.22 Babel switching mechanism
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2018/09/26 3.24 The Babel package
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2018/09/26 3.24 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.
-cfg"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-spanish\
-spanish.ldf"
+("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-spanish\spanish.ldf"
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.
-def"
-File: babel.def 2018/06/05 3.22 Babel common definitions
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2018/09/26 3.24 Babel common definitions
 \babel@savecnt=\count93
 \U@D=\dimen111
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbab
-el.def")
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.def")
 \bbl@dirlevel=\count94
 )
 \es@quottoks=\toks16
 \es@quotdepth=\count95
 Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making ' an active character on input line 725.
-))
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\setsp
-ace.sty"
+)) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graph
-icx.sty"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graph
-ics.sty"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.
-sty"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\g
-raphics.cfg"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\p
-dftex.def"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\captio
-n.sty"
-Package: caption 2018/05/01 v3.3-147 Customizing captions (AR)
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\captio
-n3.sty"
-Package: caption3 2018/05/27 v1.8a caption3 kernel (AR)
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen114
 \captionmargin@=\dimen115
@@ -156,69 +110,38 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@parindent=\dimen119
 \caption@hangindent=\dimen120
 )
-\c@ContinuedFloat=\count96
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\rotat
-ing.sty"
+\c@caption@flags=\count96
+\c@ContinuedFloat=\count97
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.st
-y"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count97
+\c@r@tfl@t=\count98
 \rotFPtop=\skip52
 \rotFPbot=\skip53
 \rot@float@box=\box26
 \rot@mess@toks=\toks17
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\textcase\textc
-ase.sty"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendla
-yer\tikz.sty"
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer
-\pgf.sty"
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\
-pgfrcs.sty"
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilitie
-s\pgfutil-common.tex"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty" ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty" ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty" ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
 \pgfutil@everybye=\toks18
 \pgfutil@tempdima=\dimen121
 \pgfutil@tempdimb=\dimen122
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilitie
-s\pgfutil-common-lists.tex"))
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilitie
-s\pgfutil-latex.def"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.tex")) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
 \pgfutil@abb=\box27
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.st
-y"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilitie
-s\pgfrcs.code.tex"
+)) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer
-\pgfcore.sty"
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlaye
-r\pgfsys.sty"
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemla
-yer\pgfsys.code.tex"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty" ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty" ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilitie
-s\pgfkeys.code.tex"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
 \pgfkeys@pathtoks=\toks19
 \pgfkeys@temptoks=\toks20
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilitie
-s\pgfkeysfiltered.code.tex"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks21
 ))
 \pgf@x=\dimen123
@@ -231,44 +154,30 @@ s\pgfkeysfiltered.code.tex"
 \pgf@yc=\dimen130
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count98
-\c@pgf@countb=\count99
-\c@pgf@countc=\count100
-\c@pgf@countd=\count101
+\c@pgf@counta=\count99
+\c@pgf@countb=\count100
+\c@pgf@countc=\count101
+\c@pgf@countd=\count102
 \t@pgf@toka=\toks22
 \t@pgf@tokb=\toks23
 \t@pgf@tokc=\toks24
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemla
-yer\pgf.cfg"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemla
-yer\pgfsys-pdftex.def"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemla
-yer\pgfsys-common-pdf.def"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def"
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
-)))
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemla
-yer\pgfsyssoftpath.code.tex"
+))) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count102
-\pgfsyssoftpath@bigbuffer@items=\count103
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemla
-yer\pgfsysprotocol.code.tex"
+\pgfsyssoftpath@smallbuffer@items=\count103
+\pgfsyssoftpath@bigbuffer@items=\count104
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-))
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.
-sty"
+)) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\c
-olor.cfg"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -281,50 +190,18 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
-er\pgfcore.code.tex"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
-math.code.tex"
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
-mathcalc.code.tex"
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
-mathutil.code.tex")
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
-mathparser.code.tex"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex" ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex" ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex") ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
 \pgfmath@dimen=\dimen131
-\pgfmath@count=\count104
+\pgfmath@count=\count105
 \pgfmath@box=\box28
 \pgfmath@toks=\toks25
 \pgfmath@stack@operand=\toks26
 \pgfmath@stack@operation=\toks27
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
-mathfunctions.code.tex"
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
-mathfunctions.basic.code.tex")
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
-mathfunctions.trigonometric.code.tex")
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
-mathfunctions.random.code.tex")
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
-mathfunctions.comparison.code.tex")
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
-mathfunctions.base.code.tex")
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
-mathfunctions.round.code.tex")
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
-mathfunctions.misc.code.tex")
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
-mathfunctions.integerarithmetics.code.tex")))
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
-mathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count105
-))
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
-er\pgfcorepoints.code.tex"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex" ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex") ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex") ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code.tex") ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex") ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.tex") ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.tex") ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex") ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex"))) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count106
+)) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen132
 \pgf@picmaxx=\dimen133
@@ -340,131 +217,75 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@yy=\dimen143
 \pgf@zx=\dimen144
 \pgf@zy=\dimen145
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
-er\pgfcorepathconstruct.code.tex"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen146
 \pgf@path@lasty=\dimen147
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
-er\pgfcorepathusage.code.tex"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen148
 \pgf@shorten@start@additional=\dimen149
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
-er\pgfcorescopes.code.tex"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box29
 \pgf@hbox=\box30
 \pgf@layerbox@main=\box31
-\pgf@picture@serial@count=\count106
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
-er\pgfcoregraphicstate.code.tex"
+\pgf@picture@serial@count=\count107
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen150
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
-er\pgfcoretransformations.code.tex"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen151
 \pgf@pt@y=\dimen152
 \pgf@pt@temp=\dimen153
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
-er\pgfcorequick.code.tex"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
-er\pgfcoreobjects.code.tex"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex"
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
-er\pgfcorepathprocessing.code.tex"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex"
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
-er\pgfcorearrows.code.tex"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen154
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
-er\pgfcoreshade.code.tex"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen155
-\pgf@sys@shading@range@num=\count107
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
-er\pgfcoreimage.code.tex"
+\pgf@sys@shading@range@num=\count108
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex"
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
-er\pgfcoreexternal.code.tex"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box32
-))
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
-er\pgfcorelayers.code.tex"
+)) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex"
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
-er\pgfcoretransparency.code.tex"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex"
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
-er\pgfcorepatterns.code.tex"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex"
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
-)))
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\
-pgfmoduleshapes.code.tex"
+))) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box33
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\
-pgfmoduleplot.code.tex"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibil
-ity\pgfcomp-version-0-65.sty"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen156
 \pgf@nodesepend=\dimen157
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibil
-ity\pgfcomp-version-1-18.sty"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty"
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-))
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\
-pgffor.sty"
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\
-pgfkeys.sty"
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilitie
-s\pgfkeys.code.tex"))
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfma
-th.sty"
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
-math.code.tex"))
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilitie
-s\pgffor.code.tex"
+)) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty" ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty" ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex")) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty" ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
-math.code.tex")
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
 \pgffor@iter=\dimen158
 \pgffor@skip=\dimen159
 \pgffor@stack=\toks28
 \pgffor@toks=\toks29
-))
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
-layer\tikz\tikz.code.tex"
+)) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\librarie
-s\pgflibraryplothandlers.code.tex"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count108
+\pgf@plot@mark@count=\count109
 \pgfplotmarksize=\dimen160
 )
 \tikz@lastx=\dimen161
@@ -477,90 +298,64 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box35
 \tikz@tempbox=\box36
 \tikz@tempbox@bg=\box37
-\tikztreelevel=\count109
-\tikznumberofchildren=\count110
-\tikznumberofcurrentchild=\count111
-\tikz@fig@count=\count112
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\
-pgfmodulematrix.code.tex"
+\tikztreelevel=\count110
+\tikznumberofchildren=\count111
+\tikznumberofcurrentchild=\count112
+\tikz@fig@count=\count113
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count113
-\pgfmatrixcurrentcolumn=\count114
-\pgf@matrix@numberofcolumns=\count115
+\pgfmatrixcurrentrow=\count114
+\pgfmatrixcurrentcolumn=\count115
+\pgf@matrix@numberofcolumns=\count116
 )
-\tikz@expandcount=\count116
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
-layer\tikz\libraries\tikzlibrarytopaths.code.tex"
+\tikz@expandcount=\count117
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-))))
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.
-sty"
+)))) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks30
 \inpenc@posthook=\toks31
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim
-.sty"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks32
 \verbatim@line=\toks33
 \verbatim@in@stream=\read2
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\acronym\acrony
-m.sty"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\acronym\acronym.sty"
 Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bigfoot\suffix
-.sty"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bigfoot\suffix.sty"
 Package: suffix 2006/07/15 1.5a Variant command support
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xstring\xstrin
-g.sty"
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xstring\xstr
-ing.tex"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xstring\xstring.sty" ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
 \@xs@message=\write4
-\integerpart=\count117
-\decimalpart=\count118
+\integerpart=\count118
+\decimalpart=\count119
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
 \AC@clearlist=\toks34
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmat
-h.sty"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip54
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstex
-t.sty"
+("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen
-.sty"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks35
 \ex@=\dimen167
-))
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy
-.sty"
+)) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen168
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn
-.sty"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count119
+\inf@bad=\count120
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count120
-\leftroot@=\count121
+\uproot@=\count121
+\leftroot@=\count122
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count122
-\DOTSCASE@=\count123
+\classnum@=\count123
+\DOTSCASE@=\count124
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -569,15 +364,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen169
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count124
-\c@MaxMatrixCols=\count125
+\macc@depth=\count125
+\c@MaxMatrixCols=\count126
 \dotsspace@=\muskip10
-\c@parentequation=\count126
-\dspbrk@lvl=\count127
+\c@parentequation=\count127
+\dspbrk@lvl=\count128
 \tag@help=\toks36
-\row@=\count128
-\column@=\count129
-\maxfields@=\count130
+\row@=\count129
+\column@=\count130
+\maxfields@=\count131
 \andhelp@=\toks37
 \eqnshift@=\dimen170
 \alignsep@=\dimen171
@@ -591,23 +386,17 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks39
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfo
-nts.sty"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssy
-mb.sty"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 ) (babelbib-and.sty
-Package: babelbib-and 2009/10/10 v1.29 babelbib: multilingual bibliographies (H
-H)
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+Package: babelbib-and 2009/10/10 v1.29 babelbib: multilingual bibliographies (HH)
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -743,56 +532,36 @@ LaTeX Font Info:    ... okay on input line 55.
 
 LaTeX Info: Redefining \. on input line 55.
 LaTeX Info: Redefining \% on input line 55.
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pd
-f.mkii"
+("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count131
+\scratchcounter=\count132
 \scratchdimen=\dimen176
 \scratchbox=\box40
-\nofMPsegments=\count132
-\nofMParguments=\count133
+\nofMPsegments=\count133
+\nofMParguments=\count134
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count134
+\MPscratchCnt=\count135
 \MPscratchDim=\dimen177
-\MPnumerator=\count135
-\makeMPintoPDFobject=\count136
+\MPnumerator=\count136
+\makeMPintoPDFobject=\count137
 \everyMPtoPDFconversion=\toks41
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epsto
-pdf-base.sty"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\inf
-warerr.sty"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfex
-t.sty"
+) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvd
-efinekeys.sty"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltx
-cmds.sty"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvopt
-ions.sty"
+))) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvs
-etkeys.sty"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ete
-xcmds.sty"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifl
-uatex.sty"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -800,21 +569,16 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-)))
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdf
-texcmds.sty"
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
-)
+))) ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -822,9 +586,7 @@ Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
 babelbib: Set bibliography fall-back language to spanish
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babelbib\spani
-sh.bdf"
+("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babelbib\spanish.bdf"
 File: spanish.bdf 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
 
 babelbib extension \btxifchangecaseoff added to \extrasspanish
@@ -836,17 +598,13 @@ babelbib: Set language for keywords in the bibliography fixed to spanish
 
 
 
-{C:/Users/Valentina/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/Users/FabioUriel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Try loading font information for U+msa on input line 58.
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.
-fd"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 58.
-
-("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.
-fd"
+ ("C:\Users\FabioUriel\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2] [1
 
@@ -995,14 +753,12 @@ LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--22
-[]\OT1/cmr/m/it/12 The JSON Da-ta In-ter-chan-ge Syn-tax\OT1/cmr/m/n/12 , Di-ci
-em-bre 2017.  $\OT1/cmtt/m/n/12 http : / / www .
+[]\OT1/cmr/m/it/12 The JSON Da-ta In-ter-chan-ge Syn-tax\OT1/cmr/m/n/12 , Di-ciem-bre 2017.  $\OT1/cmtt/m/n/12 http : / / www .
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--22
-\OT1/cmtt/m/n/12 ecma-[]international . org / publications / files / ECMA-[]ST 
-/ ECMA-[]404 . pdf$\OT1/cmr/m/n/12 , vi-si-
+\OT1/cmtt/m/n/12 ecma-[]international . org / publications / files / ECMA-[]ST / ECMA-[]404 . pdf$\OT1/cmr/m/n/12 , vi-si-
  []
 
 LaTeX Info: Redefining \. on input line 33.
@@ -1019,8 +775,7 @@ LaTeX Info: Redefining \. on input line 41.
 LaTeX Info: Redefining \% on input line 41.
 
 Underfull \hbox (badness 4569) in paragraph at lines 36--42
-[]\OT1/cmr/m/n/12 Christensson, Per: \OT1/cmr/m/it/12 Ja-vaS-cript De-fi-ni-tio
-n.\OT1/cmr/m/n/12 , 2014.  $\OT1/cmtt/m/n/12 https : / / techterms . com /
+[]\OT1/cmr/m/n/12 Christensson, Per: \OT1/cmr/m/it/12 Ja-vaS-cript De-fi-ni-tion.\OT1/cmr/m/n/12 , 2014.  $\OT1/cmtt/m/n/12 https : / / techterms . com /
  []
 
 LaTeX Info: Redefining \. on input line 47.
@@ -1037,8 +792,7 @@ LaTeX Info: Redefining \. on input line 55.
 LaTeX Info: Redefining \% on input line 55.
 
 Underfull \hbox (badness 1708) in paragraph at lines 50--56
-[]\OT1/cmr/m/n/12 Christensson, Per: \OT1/cmr/m/it/12 Web Ser-vi-ce De-fi-ni-ti
-on.\OT1/cmr/m/n/12 , 2017.  $\OT1/cmtt/m/n/12 https : / / techterms . com /
+[]\OT1/cmr/m/n/12 Christensson, Per: \OT1/cmr/m/it/12 Web Ser-vi-ce De-fi-ni-tion.\OT1/cmr/m/n/12 , 2017.  $\OT1/cmtt/m/n/12 https : / / techterms . com /
  []
 
 LaTeX Info: Redefining \. on input line 61.
@@ -1069,8 +823,7 @@ LaTeX Info: Redefining \. on input line 99.
 LaTeX Info: Redefining \% on input line 99.
 
 Underfull \hbox (badness 1910) in paragraph at lines 92--101
-[]\OT1/cmr/m/n/12 Lie, Hakon Wium, Li-lley, Chris, Ja-cobs, Ian y Bos, Bert: \
-OT1/cmr/m/it/12 Cas-ca-ding Sty-le
+[]\OT1/cmr/m/n/12 Lie, Hakon Wium, Li-lley, Chris, Ja-cobs, Ian y Bos, Bert: \OT1/cmr/m/it/12 Cas-ca-ding Sty-le
  []
 
 [22
@@ -1102,14 +855,12 @@ LaTeX Info: Redefining \. on input line 129.
 LaTeX Info: Redefining \% on input line 129.
 
 Underfull \hbox (badness 10000) in paragraph at lines 124--130
-\OT1/cmtt/m/n/12 https : / / docs . microsoft . com / en-[]us / dotnet / csharp
- / getting-[]started /
+\OT1/cmtt/m/n/12 https : / / docs . microsoft . com / en-[]us / dotnet / csharp / getting-[]started /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 124--130
-\OT1/cmtt/m/n/12 introduction-[]to-[]the-[]csharp-[]language-[]and-[]the-[]net-
-[]framework$\OT1/cmr/m/n/12 , vi-si-ta-do
+\OT1/cmtt/m/n/12 introduction-[]to-[]the-[]csharp-[]language-[]and-[]the-[]net-[]framework$\OT1/cmr/m/n/12 , vi-si-ta-do
  []
 
 LaTeX Info: Redefining \. on input line 137.
@@ -1120,14 +871,12 @@ LaTeX Info: Redefining \. on input line 137.
 LaTeX Info: Redefining \% on input line 137.
 
 Underfull \hbox (badness 7081) in paragraph at lines 132--138
-[]\OT1/cmr/m/n/12 Microsoft: \OT1/cmr/m/it/12 SQL Ser-ver Do-cu-men-ta-tion\OT1
-/cmr/m/n/12 , 2018.  $\OT1/cmtt/m/n/12 https : / / docs . microsoft .
+[]\OT1/cmr/m/n/12 Microsoft: \OT1/cmr/m/it/12 SQL Ser-ver Do-cu-men-ta-tion\OT1/cmr/m/n/12 , 2018.  $\OT1/cmtt/m/n/12 https : / / docs . microsoft .
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 132--138
-\OT1/cmtt/m/n/12 com / en-[]us / sql / sql-[]server / sql-[]server-[]technical-
-[]documentation ? view =
+\OT1/cmtt/m/n/12 com / en-[]us / sql / sql-[]server / sql-[]server-[]technical-[]documentation ? view =
  []
 
 LaTeX Info: Redefining \. on input line 145.
@@ -1142,14 +891,12 @@ LaTeX Info: Redefining \. on input line 155.
 LaTeX Info: Redefining \% on input line 155.
 
 Underfull \hbox (badness 2922) in paragraph at lines 148--157
-[]\OT1/cmr/m/n/12 Moon, Sangw-han, Leit-head, Tra-vis, Ei-cholz, Arron, Da-ni-l
-o, Alex y Faulk-
+[]\OT1/cmr/m/n/12 Moon, Sangw-han, Leit-head, Tra-vis, Ei-cholz, Arron, Da-ni-lo, Alex y Faulk-
  []
 
 
 Underfull \hbox (badness 4647) in paragraph at lines 148--157
-\OT1/cmr/m/n/12 ner, Ste-ve: \OT1/cmr/m/it/12 HTML 5.2\OT1/cmr/m/n/12 .  W3C Re
--com-men-da-tion, W3C, Di-ciem-bre 2017.
+\OT1/cmr/m/n/12 ner, Ste-ve: \OT1/cmr/m/it/12 HTML 5.2\OT1/cmr/m/n/12 .  W3C Re-com-men-da-tion, W3C, Di-ciem-bre 2017.
  []
 
 LaTeX Info: Redefining \. on input line 159.
@@ -1162,8 +909,7 @@ LaTeX Info: Redefining \. on input line 164.
 LaTeX Info: Redefining \% on input line 164.
 
 Underfull \hbox (badness 1303) in paragraph at lines 159--165
-[]\OT1/cmr/m/n/12 Schwaber, Ken y Sut-her-land, Jeff: \OT1/cmr/m/it/12 The Scru
-m Gui-de\OT1/cmr/m/n/12 , 2017.  $\OT1/cmtt/m/n/12 https : / / www .
+[]\OT1/cmr/m/n/12 Schwaber, Ken y Sut-her-land, Jeff: \OT1/cmr/m/it/12 The Scrum Gui-de\OT1/cmr/m/n/12 , 2017.  $\OT1/cmtt/m/n/12 https : / / www .
  []
 
 LaTeX Info: Redefining \. on input line 168.
@@ -1265,21 +1011,14 @@ LaTeX Info: Redefining \. on input line 176.
 LaTeX Info: Redefining \% on input line 176.
 ) ) 
 Here is how much of TeX's memory you used:
- 15914 strings out of 492973
- 304919 string characters out of 3124920
- 371069 words of memory out of 3000000
- 19440 multiletter control sequences out of 15000+200000
+ 15940 strings out of 492970
+ 305355 string characters out of 3124373
+ 372083 words of memory out of 3000000
+ 19468 multiletter control sequences out of 15000+200000
  10670 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,56p,1014b,768s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb><C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Valentina/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Valentina/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/User
-s/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-ti12.pfb><C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmtt12.pfb>
+ 62i,12n,56p,1005b,768s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 Output written on informe-pasantia.pdf (30 pages, 166889 bytes).
 PDF statistics:
  126 PDF objects out of 1000 (max. 8388607)
