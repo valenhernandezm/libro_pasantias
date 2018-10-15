@@ -51,7 +51,7 @@
     \begin{center}
         \begin{tabular}{ |c|c|c|c| }
             \hline
-            \rowcolor{gray!30}
+            \rowcolor{blue!25}
             Fecha & Versión & Descripción & Autores \\ [0.5ex]
             \hline\hline
             29/09/2018 & 1.0 & Documento de Arquitectura & Valentina Hernández \\
@@ -61,10 +61,8 @@
 
     \newpage
     \section{Introducción}
-    El objetivo principal de la arquitectura del software es aportar conceptos y un lenguaje común que ayuden a describir el software y permita la comunicación entre el cliente y los diseñadores.
-
     \subsection{Propósito}
-    Este documento busca hacer una abstracción de lo que será el sistema a través de algunas vistas de la arquitectura del mismo. Se pretende definir algunos elementos estructurales que describen el sistema \emph{CPI}.
+    Este documento permitirá a los involucrados en el desarrollo de este sistema, tener una visión general de su arquitectura. Sirviendo como guía para el desarrollo, la identificación de las funcionalidades al dar una visión detallada de ellas, así como para dar una base informativa para el mantenimiento del sistema por parte del equipo de trabajo original o de terceros.
 
     \subsection{Alcance}
     A continuación se presenta una abstracción de la estructura que debe tener el sistema, el presente documento servirá de guía para los desarrolladores, usuarios y stakeholders para conocer los requerimientos del sistema, el diseño de la base de datos, así como mostrar sus funcionalidades y como están implementadas en el sistema. 
@@ -78,11 +76,11 @@
 
     \subsection{Vista Global}
     Este documento contiene todas las especificaciones de la arquitectura de la aplicación web \emph{CPI} tanto a nivel de hardware como de software. Se introduce la representación arquitectónica del sistema, especificando en detalle los objetivos y restricciones de la misma, los casos de uso, procesos dentro del sistema, la implantación, implementación, los datos almacenados, tamaño, desempeño y calidad. También se explicará datos importantes del sistema mediante diagramas de actividades, de casos de uso, de clases, diagrama ERE, etc.
-    
+
 
     \section{Representación Arquitectónica} \label{reprArq}
-    La representación arquitectónica de \emph{eFuel} está basada en el modelo de 4+1 vistas de Philippe Kruchten. En el transcurso del documento se tratarán más a fondo los detalles de cada una.
-
+    La representación arquitectónica de \emph{CPI} está basada en el modelo de 4+1 vistas de Philippe Kruchten. En el transcurso del documento se tratarán más a fondo los detalles de cada una.
+    
     \section{Metas y Restricciones Arquitectónicas} \label{metasArq}
 
     \input{vista_casos_de_uso}

@@ -13,7 +13,7 @@
     \begin{center}
         \begin{longtable}{ | l | l | c | }
             \hline
-            \rowcolor{blue!30}
+            \rowcolor{blue!25}
             \multicolumn{1}{|c|}{ID del Caso de Uso} &
             \multicolumn{1}{|c|}{Caso de Uso} &
             \multicolumn{1}{|c|}{Actor} \\
@@ -23,21 +23,32 @@
             \endfoot
 
            CU-\rownumber & Iniciar sesión (Umbraco) & Admin \\ \hline
+           CU-\rownumber & Consultar lista miembros & Admin \\ \hline
+           CU-\rownumber & Gestionar miembro (CRUD) & Admin \\ \hline
            CU-\rownumber & Consultar grupos & Admin \\ \hline
            CU-\rownumber & Gestionar grupo (CRUD) & Admin \\ \hline
+           CU-\rownumber & Asignar miembro/s a grupo & Admin \\ \hline
+           CU-\rownumber & Remover miembro/s de grupo (CRUD) & Admin \\ \hline
+           CU-\rownumber & Cambiar permisos de miembro & Admin \\ \hline
 
            CU-\rownumber & Gestionar contenido & Admin \\ \hline
            CU-\rownumber & Consultar lista de cadenas & Admin \\ \hline
            CU-\rownumber & Gestionar cadena (CRUD) & Admin \\ \hline
            CU-\rownumber & Consultar lista de productos & Admin \\ \hline
            CU-\rownumber & Gestionar producto (CRUD) & Admin \\ \hline
+           CU-\rownumber & Consultar lista de productos UPC & Admin \\ \hline
+           CU-\rownumber & Gestionar producto UPC (CRUD) & Admin \\ \hline
+           CU-\rownumber & Asignar producto/s a producto UPC & Admin \\ \hline
+           CU-\rownumber & Remover producto/s de producto UPC & Admin \\ \hline
            CU-\rownumber & Consultar lista de precios & Admin \\ \hline
            CU-\rownumber & Consultar lista de tiendas & Admin \\ \hline
            CU-\rownumber & Gestionar tienda (CRUD) & Admin \\ \hline
            CU-\rownumber & Consultar lista de zonas & Admin \\ \hline
            CU-\rownumber & Gestionar zonas (CRUD) & Admin \\ \hline
-	       CU-\rownumber & Consultar lista de categorías generales & Admin \\ \hline
-           CU-\rownumber & Gestionar categorías (CRUD) & Admin \\ \hline
+	       CU-\rownumber & Consultar lista de catálogo generales & Admin \\ \hline
+           CU-\rownumber & Gestionar catálogo (CRUD) & Admin \\ \hline
+           CU-\rownumber & Asignar producto/s a catálogo & Admin \\ \hline
+           CU-\rownumber & Remover producto/s de catálogo & Admin \\ \hline
 
            
            CU-\rownumber & Iniciar sesión (CPI) & Retailer \\ \hline
@@ -47,8 +58,10 @@
            CU-\rownumber & Consultar histórico de producto & Retailer \\ \hline
            CU-\rownumber & Consultar gráfico dispersión por categoría & Retailer \\ \hline
            CU-\rownumber & Filtrar gráfico dispersión por categoría & Retailer \\ \hline
- 
-
+           CU-\rownumber & Consultar lista de catálogos personalizados & Retailer \\ \hline
+           CU-\rownumber & Gestionar catálogo (CRUD) & Retailer \\ \hline
+           CU-\rownumber & Asignar producto/s a catálogo & Retailer \\ \hline
+           CU-\rownumber & Remover producto/s de catálogo & Retailer \\ \hline
 
         \end{longtable}
     \end{center}
@@ -58,11 +71,15 @@
 
     \begin{figure}[H]
         \includegraphics[width=\textwidth]{cu_admin.png}
+        \caption{Casos de uso para usuario Admin}
+        \label{fig:cu_admin}
         \centering
     \end{figure}
 
     \begin{figure}[H]
-        \includegraphics[width=\textwidth]{cu_customer_staff.png}
+        \includegraphics[scale=0.8]{cu_retailer.png}
+        \caption{Casos de uso para usuario Retailer}
+        \label{fig:cu_retailer}
         \centering
     \end{figure}
 
@@ -73,7 +90,7 @@
         \begin{longtabu} to 0.9\textwidth { | X[p] | X[p] | }
             \hline
             \multicolumn{2}{|l|}{
-                \cellcolor{gray!30}{\large{\textbf{Caso de Uso:}} Iniciar sesión (Umbraco)}
+                \cellcolor{blue!25}{\large{\textbf{Caso de Uso:}} Iniciar sesión (Umbraco)}
             } \TBstrut \\
             \hline\hline
 
@@ -83,12 +100,12 @@
             \hline
 
             \multicolumn{2}{|l|}{
-                \makecell{\large{\textbf{Precondición:}} \\ Haber ingresado la dirección correcta del sitio en la barra de navegación.}
+                \makecell{\large{\textbf{Precondición:}} \\ Ingresar la dirección correcta del sitio en la barra de navegación.}
             } \\
             \hline
 
 
-            \multicolumn{2}{|l|}{\cellcolor{gray!15}\large{\textbf{Flujo básico:}}}  \TBstrut\\
+            \multicolumn{2}{|l|}{\cellcolor{blue!15}\large{\textbf{Flujo básico:}}}  \TBstrut\\
             \hline
 
             Actor & Sistema \TBstrut\\
@@ -103,7 +120,7 @@
              \hline\hline
 
 
-            \multicolumn{2}{|l|}{\cellcolor{gray!15}\large{\textbf{Flujos alternos:}}}  \TBstrut\\
+            \multicolumn{2}{|l|}{\cellcolor{blue!15}\large{\textbf{Flujos alternos:}}}  \TBstrut\\
             \hline
 
             Actor & Sistema \TBstrut\\
@@ -133,18 +150,18 @@
         \begin{longtabu} to 0.9\textwidth { | X[p] | X[p] | }
             \hline
             \multicolumn{2}{|l|}{
-                \cellcolor{gray!30}{\large{\textbf{Caso de Uso:}} Consultar lista de miembros}
+                \cellcolor{blue!25}{\large{\textbf{Caso de Uso:}} Consultar lista de miembros}
             } \TBstrut \\
             \hline\hline
             \multicolumn{2}{|l|}{
-                \makecell{\large{\textbf{Descripción:}} \\ El usuario quiere consultar la lista de miembros de eFuel.}
+                \makecell{\large{\textbf{Descripción:}} \\ El usuario quiere consultar la lista de miembros de CPI.}
             } \\
             \hline
             \multicolumn{2}{|l|}{
                 \makecell{\large{\textbf{Precondición:}} \\ Haber ingresado al back end de Umbraco.}
             } \\
             \hline
-            \multicolumn{2}{|l|}{\cellcolor{gray!15}\large{\textbf{Flujo básico:}}}  \TBstrut\\
+            \multicolumn{2}{|l|}{\cellcolor{blue!15}\large{\textbf{Flujo básico:}}}  \TBstrut\\
             \hline
 
             Actor & Sistema \TBstrut\\
@@ -153,13 +170,13 @@
             \hline
             & 2. El sistema muestra el panel de miembros. \TBstrut\\
             \hline
-            3. El usuario le da click a la carpeta "Members" y selecciona "eFuel Member". &  \TBstrut\\
+            3. El usuario le da click a la carpeta "Members". &  \TBstrut\\
             \hline
-            & 4. El sistema muestra la lista de los miembros de eFuel. \TBstrut\\
+            & 4. El sistema muestra la lista de los miembros de CPI. \TBstrut\\
             \hline\hline
 
 
-            \multicolumn{2}{|l|}{\cellcolor{gray!15}\large{\textbf{Flujos alternos:}}}  \TBstrut\\
+            \multicolumn{2}{|l|}{\cellcolor{blue!15}\large{\textbf{Flujos alternos:}}}  \TBstrut\\
             \hline
             Actor & Sistema \TBstrut\\
             \hline
@@ -185,7 +202,7 @@
         \begin{longtabu} to 0.9\textwidth { | X[p] | X[p] | }
             \hline
             \multicolumn{2}{|l|}{
-                \cellcolor{gray!30}{\large{\textbf{Caso de Uso:}} Nombre del caso de uso}
+                \cellcolor{blue!25}{\large{\textbf{Caso de Uso:}} Nombre del caso de uso}
             } \TBstrut \\
             \hline\hline
             \multicolumn{2}{|l|}{
@@ -196,7 +213,7 @@
                 \makecell{\large{\textbf{Precondición:}} \\ Aquí va la precondición.}
             } \\
             \hline
-            \multicolumn{2}{|l|}{\cellcolor{gray!15}\large{\textbf{Flujo básico:}}}  \TBstrut\\
+            \multicolumn{2}{|l|}{\cellcolor{blue!15}\large{\textbf{Flujo básico:}}}  \TBstrut\\
             \hline
 
             Actor & Sistema \TBstrut\\
@@ -207,7 +224,7 @@
              \hline\hline
 
 
-            \multicolumn{2}{|l|}{\cellcolor{gray!15}\large{\textbf{Flujos alternos:}}}  \TBstrut\\
+            \multicolumn{2}{|l|}{\cellcolor{blue!15}\large{\textbf{Flujos alternos:}}}  \TBstrut\\
             \hline
             Actor & Sistema \TBstrut\\
             \hline

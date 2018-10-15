@@ -10,21 +10,21 @@
 \contentsline {subsection}{\numberline {4.1}Resumen de Casos de Uso}{3}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Diagrama de Casos de Uso}{4}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Especificaciones de Casos de Uso}{6}{subsection.4.3}
-\contentsline {section}{\numberline {5}Vista L\IeC {\'o}gica}{9}{section.5}
-\contentsline {subsection}{\numberline {5.1}Vista General}{9}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Diagrama Conceptual (Modelo de Dominio)}{9}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Diagrama de Clases}{9}{subsubsection.5.1.2}
-\contentsline {section}{\numberline {6}Vista de Implantaci\IeC {\'o}n}{9}{section.6}
-\contentsline {subsection}{\numberline {6.1}Configuraci\IeC {\'o}n Est\IeC {\'a}ndar}{9}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Diagrama de Despliegue}{9}{subsection.6.2}
-\contentsline {section}{\numberline {7}Vista de Implementaci\IeC {\'o}n}{9}{section.7}
-\contentsline {subsection}{\numberline {7.1}Vista General}{9}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Diagrama de Componentes}{9}{subsection.7.2}
-\contentsline {section}{\numberline {8}Vista de Datos}{9}{section.8}
-\contentsline {subsection}{\numberline {8.1}Diagrama de Entidad Relaci\IeC {\'o}n (ER)}{9}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Diccionario de Datos}{9}{subsection.8.2}
-\contentsline {section}{\numberline {9}Tama\IeC {\~n}o y Desempe\IeC {\~n}o}{9}{section.9}
-\contentsline {section}{\numberline {10}Calidad}{9}{section.10}
-\contentsline {subsection}{\numberline {10.1}Mantenibilidad}{9}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Flexibilidad}{9}{subsection.10.2}
-\contentsline {subsection}{\numberline {10.3}Seguridad}{9}{subsection.10.3}
+\contentsline {section}{\numberline {5}Vista L\IeC {\'o}gica}{10}{section.5}
+\contentsline {subsection}{\numberline {5.1}Vista General}{10}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Diagrama Conceptual (Modelo de Dominio)}{10}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Diagrama de Clases}{10}{subsubsection.5.1.2}
+\contentsline {section}{\numberline {6}Vista de Implantaci\IeC {\'o}n}{10}{section.6}
+\contentsline {subsection}{\numberline {6.1}Configuraci\IeC {\'o}n Est\IeC {\'a}ndar}{10}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Diagrama de Despliegue}{10}{subsection.6.2}
+\contentsline {section}{\numberline {7}Vista de Implementaci\IeC {\'o}n}{10}{section.7}
+\contentsline {subsection}{\numberline {7.1}Vista General}{10}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Diagrama de Componentes}{10}{subsection.7.2}
+\contentsline {section}{\numberline {8}Vista de Datos}{10}{section.8}
+\contentsline {subsection}{\numberline {8.1}Diagrama de Entidad Relaci\IeC {\'o}n (ER)}{10}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Diccionario de Datos}{11}{subsection.8.2}
+\contentsline {section}{\numberline {9}Tama\IeC {\~n}o y Desempe\IeC {\~n}o}{11}{section.9}
+\contentsline {section}{\numberline {10}Calidad}{11}{section.10}
+\contentsline {subsection}{\numberline {10.1}Mantenibilidad}{11}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Flexibilidad}{11}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}Seguridad}{11}{subsection.10.3}

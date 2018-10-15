@@ -1,135 +1,135 @@
-PWD c:/Users/FabioUriel/Documents/libro_pasantias/Anexos/das
-INPUT C:/Users/FabioUriel/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
-INPUT c:/Users/FabioUriel/Documents/libro_pasantias/Anexos/das/das.tex
+PWD c:/Users/Valentina/Documents/Valentina/libro_pasantias/Anexos/das
+INPUT C:/Users/Valentina/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
+INPUT c:/Users/Valentina/Documents/Valentina/libro_pasantias/Anexos/das/das.tex
 OUTPUT das.log
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size10.clo
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size10.clo
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fancyhdr/fancyhdr.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fancyhdr/fancyhdr.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/ms/ragged2e.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/ms/ragged2e.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/ms/everysel.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/ms/everysel.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/indentfirst.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/indentfirst.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/longtable.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/longtable.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tabu/tabu.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tabu/tabu.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/array.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/array.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/varwidth/varwidth.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/varwidth/varwidth.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/keyval.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/keyval.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphics.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphics.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/trig.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/trig.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/float/float.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/float/float.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/hhline.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/hhline.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/makecell/makecell.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/makecell/makecell.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/bookmark.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/bookmark.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/pdfescape.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/pdfescape.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifvtex.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifvtex.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hpdftex.def
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hpdftex.def
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/bkm-pdftex.def
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/bkm-pdftex.def
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/colortbl/colortbl.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/colortbl/colortbl.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size10.clo
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size10.clo
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fancyhdr/fancyhdr.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fancyhdr/fancyhdr.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/ms/ragged2e.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/ms/ragged2e.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/ms/everysel.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/ms/everysel.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/indentfirst.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/indentfirst.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/longtable.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/longtable.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tabu/tabu.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tabu/tabu.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/array.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/array.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/varwidth/varwidth.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/varwidth/varwidth.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/keyval.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/keyval.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphics.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphics.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/trig.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/trig.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/float/float.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/float/float.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/hhline.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/hhline.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/makecell/makecell.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/makecell/makecell.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/bookmark.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/bookmark.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/pdfescape.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/pdfescape.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifvtex.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifvtex.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hpdftex.def
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hpdftex.def
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/bkm-pdftex.def
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/bkm-pdftex.def
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/colortbl/colortbl.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/colortbl/colortbl.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
 INPUT das.aux
 INPUT das.aux
 OUTPUT das.aux
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/nameref.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/nameref.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/nameref.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/nameref.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty
 OUTPUT das.pdf
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr17.tfm
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
-INPUT C:/Users/FabioUriel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr17.tfm
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
+INPUT C:/Users/Valentina/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
 INPUT das.toc
 INPUT das.toc
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx10.tfm
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx10.tfm
 OUTPUT das.toc
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmti10.tfm
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmti10.tfm
 INPUT vista_casos_de_uso.tex
 INPUT vista_casos_de_uso.tex
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omscmr.fd
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omscmr.fd
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omscmr.fd
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omscmr.fd
 INPUT imgs/cu_admin.png
 INPUT ./imgs/cu_admin.png
 INPUT ./imgs/cu_admin.png
 INPUT ./imgs/cu_admin.png
 INPUT ./imgs/cu_admin.png
-INPUT imgs/cu_customer_staff.png
-INPUT ./imgs/cu_customer_staff.png
-INPUT ./imgs/cu_customer_staff.png
-INPUT ./imgs/cu_customer_staff.png
-INPUT ./imgs/cu_customer_staff.png
+INPUT imgs/cu_retailer.png
+INPUT ./imgs/cu_retailer.png
+INPUT ./imgs/cu_retailer.png
+INPUT ./imgs/cu_retailer.png
+INPUT ./imgs/cu_retailer.png
 INPUT vista_logica.tex
 INPUT vista_logica.tex
 INPUT vista_implantacion.tex
@@ -138,18 +138,23 @@ INPUT vista_implementacion.tex
 INPUT vista_implementacion.tex
 INPUT vista_de_datos.tex
 INPUT vista_de_datos.tex
+INPUT imgs/er.png
+INPUT ./imgs/er.png
+INPUT ./imgs/er.png
+INPUT ./imgs/er.png
+INPUT ./imgs/er.png
 INPUT das.aux
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb
