@@ -1,2 +1,113 @@
-\chapter{Desarrollo}
+\chapter{Desarrollo} \label{development}
+En este capítulo se presentan las actividades realizadas durante el desarrollo del proyecto correspondientes al período de pasantías. El proyecto inicialmente tenía planteado el desarrollo de cuatro módulos el módulo de administración de cadenas, tiendas, zonas, productos y categorías, el módulo de administración de precios, el módulo de generación de reportes y por último el módulo de preferencias para usuario, no se alcanzó por completo el desarrollo de estos módulos debido a que alguno de los módulos tomó más tiempo del planificado. 
+El proyecto se dividió en 7 fases:
+\begin{itemize}
+   \item Fase de inducción en el que el pasante se familiariza con las herramientas y tecnologías necesarias para realizar el proyecto.
+   \item 5 Iteraciones de desarrollo.
+   \item 1 Iteración de documentación.
+\end{itemize}
+A continuación, se explicará en detalle cada fase e iteración.
 
+\section{Inducción}
+Durante esta fase el pasante realizó un proceso de familiarización con la empresa junto con el estudio de herramientas y lenguajes de trabajo que serán empleados a lo largo del desarrollo del proyecto.
+
+Realizó varios tutoriales y utilizó recursos (guía de Umbraco) que la empresa proporcionó para tener los conocimientos necesarios para llevar a cabo el proyecto. Además investigó sobre herramientas como: ASP.NET, SQL Server, Highcharts y Visual Studio. 
+
+Esta fase tuvo una duración de una semana, aunque durante toda la pasantía se mantuvo la investigación de recursos que se necesitaron en el camino y la misma sirvió al aprendizaje del pasante y a que se adquirieran las destrezas necesarias que facilitaron el desarrollo de la aplicación.
+
+Al culminar esta fase se empezó el desarrollo de la aplicación.
+
+\section{Desarrollo}
+Esta fase duró 17 semanas continuas y se llevaron a cabo 6 Iteraciones donde se desarrolló la aplicación. A continuación una descripción del trabajo realizado en cada iteración.
+
+\subsection{Análisis de requerimientos (1era Iteración)}
+Durante esta iteración se definió de manera detallada los requerimientos y el alcance inicial de la aplicación, la arquitectura con sus diferentes módulos y funcionalidades y por último la estructura de la base de datos. Se creó el repositorio de Git, el proyecto de Visual Studio y el sitio de Umbraco, y además, se eligió la plantilla de HTML para el \emph{look and feel} de la aplicación.
+
+\textbf{Actividades realizadas:}
+\begin{itemize}
+   \item Familiarización con la versión original de CPI.
+   \item Definir las reglas de negocio para el sistema.
+   \item Definir los actores del sistema.
+   \item Listar las funcionalidades básicas a desarrollar.
+   \item Crear de la solución de Visual Studio.
+   \item Crear del repositorio de Git y familiarización con las reglas del mismo.
+   \item Definir las entidades de la base de datos del proyecto.
+   \item Crear el sitio de Umbraco.
+   \item Elegir la plantilla a utilizar para el front end de la aplicación.
+\end{itemize}
+
+\textbf{Duración:} 2 semanas.
+
+\subsection{Módulo de Administración de cadenas, productos y categorías (2da Iteración)}
+Durante esta iteración se implementó la funcionalidad para el manejo de las principales entidades de la aplicación: cadenas, productos y categorías. En la cual se desarrolló una interfaz gráfica en el back end de Umbraco usando un paquete llamado Fluidity para el manejo de estas entidades en la base de datos. Se definieron los Doctypes y Datatypes para crear el contenido en Umbraco. Se inició el desarrollo de las vistas de la aplicación.
+
+Al finalizar esta iteración fue posible manejar las entidades de la aplicación por medio del árbol de contenido de Umbraco o por medio de la interfaz gráfica de Fluidity. 
+
+\textbf{Actividades realizadas:}
+\begin{itemize}
+   \item Definir los Doctypes para las entidades principales.
+   \item Definir los Datatypes para las entidades principales.
+   \item Desarrollar la interfaz de Fluidity para creación, edición y eliminación de registros de las entidades que se guardan en la base de datos de SQL Server.
+   \item Iniciar desarrollo de las vistas de la aplicación.
+   \item Realizar vista de listado de productos.
+\end{itemize}
+
+
+\textbf{Duración:} 3 semanas.
+
+\subsection{Módulo de Generación de Reportes (3ra Iteración)}
+En esta iteración se desarrolló parte de la funcionalidad de generación de reportes comparativos. Se realizó la vista de cada uno de los gráficos (barras y boxplot) que permiten la comparación de precios entre productos de una cadena, o productos que tienen en común distintas cadenas y además tablas que muestran información necesaria para cada uno de estos gráficos. Esta iteración tuvo una duración más larga de la planificada ya que para realizar cada uno de los gráficos se necesitaba traer datos de la base de datos y la traducción del código de la versión antigua a la nueva versión tomó más tiempo de lo esperado ya que no se encontraba bien documentada.
+
+
+\textbf{Actividades realizadas:}
+\begin{itemize}
+   \item Desarrollar vista de gráfico de barras para un producto seleccionado de la lista de productos de la cadena, separando precio normal y oferta.
+   \item Desarrollar vista de gráfico tipo boxplot para el precio histórico de un producto.
+   \item Traducir scripts para traer datos de la base de datos.
+   \item Mejorar código y funcionalidad que se desarrollaron en iteraciones anteriores.
+\end{itemize}
+
+
+\textbf{Duración:} 4 semanas.
+
+\subsection{Continuación con el Módulo de Generación de Reportes (4ta Iteración)}
+En esta Iteración se siguió el desarrollo de la generación de reportes completando el reporte de precios por categorías (gráfico de dispersión) y se mejoraron algunos aspectos de las otras iteraciones.
+
+\textbf{Actividades realizadas:}
+\begin{itemize}
+   \item Desarrollar la vista del reporte de precios por categorías.
+   \item Mejorar código de la aplicación.
+\end{itemize}
+
+\textbf{Duración:} 3 semanas.
+
+
+\subsection{Refactorización (5ta Iteración)}
+Al iniciar esta iteración se llegó a la conclusión que el desarrollo de la funcionalidad que se tenía hasta el momento no estaba siguiendo la estructura que realmente se quería tener en la solución de Visual Studio, ya que los controladores no estaban organizados correctamente según el patrón MVC. Además habian funciones que debían estar implementadas en \verb|CPI_API| pero se encontraba en \verb|CPI_Core| y se estaba utilizando el tipo de controlador incorrecto. Este inconveniente ocurrió por la falta de comunicación entre el dueño del producto y el desarrollador (pasante), sin embargo se hicieron las correcciones necesarias para corregir este imprevisto, sin embargo tomó tiempo extra que no se tenía planificado y por esta razón no se alcanzó a realizar parte de algunos módulos que ya se encontraban en la planificación.
+
+
+\textbf{Actividades realizadas:}
+\begin{itemize}
+   \item Reorganizar los controladores de la aplicación.
+   \item Refactorizar código en gran parte de la funcionalidad.
+   \item Mejorar calidad del código.
+\end{itemize}
+
+\textbf{Duración:} 2 semanas.
+
+
+\subsection{Módulo de Administración de precios (6ta Iteración)}
+Esta fue la última Iteración de desarrollo, en la cual se implementó el módulo de administración de precios de productos. Se creó la interfaz gráfica usando Fluidity y además la funcionalidad para importar un lote de precios usando un archivo en formato MS Excel (CSV). Además se hicieron mejoras de código implementado en las iteraciones anteriores y correcciones de bugs.
+
+\textbf{Actividades realizadas:}
+\begin{itemize}
+   \item Implementar la autenticación, inicio y cierre de sesión para el front end de la aplicación.
+   \item Desarrollar interfaz gráfica para creación, edición y eliminación de registros.
+   \item Mejorar código y corregir bugs.
+\end{itemize}
+
+\textbf{Duración:} 3 semanas.
+
+
+\section{Documentación} \label{documentation}
+Esta última fase del proyecto duró las últimas dos semanas del período de pasantía. Se realizó la documentación necesaria para la aplicación, se dejó expresado el estado final del sistema, se elaboraron los documentos de instalación de CPI y el Documento de Arquitectura de Software donde se detallan los componentes y casos de uso desarrollados de la aplicación.
