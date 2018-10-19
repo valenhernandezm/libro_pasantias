@@ -136,6 +136,11 @@ INPUT vista_implantacion.tex
 INPUT vista_implantacion.tex
 INPUT vista_implementacion.tex
 INPUT vista_implementacion.tex
+INPUT imgs/diagrama_componentes.png
+INPUT ./imgs/diagrama_componentes.png
+INPUT ./imgs/diagrama_componentes.png
+INPUT ./imgs/diagrama_componentes.png
+INPUT ./imgs/diagrama_componentes.png
 INPUT vista_de_datos.tex
 INPUT vista_de_datos.tex
 INPUT imgs/er.png

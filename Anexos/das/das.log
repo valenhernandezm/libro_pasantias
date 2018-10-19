@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.19)  15 OCT 2018 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.19)  19 OCT 2018 15:47
 entering extended mode
 **c:/Users/Valentina/Documents/Valentina/libro_pasantias/Anexos/das/das.tex
 (c:/Users/Valentina/Documents/Valentina/libro_pasantias/Anexos/das/das.tex
@@ -455,13 +455,13 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
 \c@magicrownumbers=\count124
  [3]
-<./imgs/cu_admin.png, id=87, 791.20593pt x 749.80125pt>
+<./imgs/cu_admin.png, id=79, 791.20593pt x 749.80125pt>
 File: ./imgs/cu_admin.png Graphic file (type png)
 <use ./imgs/cu_admin.png>
 Package pdftex.def Info: ./imgs/cu_admin.png  used on input line 73.
 (pdftex.def)             Requested size: 505.89pt x 479.42497pt.
  [4]
-<./imgs/cu_retailer.png, id=94, 522.45187pt x 721.94719pt>
+<./imgs/cu_retailer.png, id=86, 522.45187pt x 721.94719pt>
 File: ./imgs/cu_retailer.png Graphic file (type png)
 <use ./imgs/cu_retailer.png>
 Package pdftex.def Info: ./imgs/cu_retailer.png  used on input line 80.
@@ -478,18 +478,21 @@ Underfull \vbox (badness 10000) detected at line 197
 Underfull \vbox (badness 10000) detected at line 245
  []
 
-) (vista_logica.tex) (vista_implantacion.tex) (vista_implementacion.tex) (vista_de_datos.tex
-<./imgs/er.png, id=114, 568.37344pt x 591.71063pt>
+) (vista_logica.tex) (vista_implantacion.tex) (vista_implementacion.tex
+<./imgs/diagrama_componentes.png, id=106, 587.19376pt x 248.42813pt>
+File: ./imgs/diagrama_componentes.png Graphic file (type png)
+<use ./imgs/diagrama_componentes.png>
+Package pdftex.def Info: ./imgs/diagrama_componentes.png  used on input line 9.
+(pdftex.def)             Requested size: 505.89pt x 214.03067pt.
+) (vista_de_datos.tex [8]
+<./imgs/er.png, id=112, 568.37344pt x 591.71063pt>
 File: ./imgs/er.png Graphic file (type png)
 <use ./imgs/er.png>
 Package pdftex.def Info: ./imgs/er.png  used on input line 4.
 (pdftex.def)             Requested size: 454.69937pt x 473.36914pt.
- [8] [9]
-Overfull \vbox (124.16112pt too high) has occurred while \output is active []
-
- [10 <./imgs/er.png>])
+) [9 <./imgs/diagrama_componentes.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
- [11]
+ [10 <./imgs/er.png>] [11]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
  (das.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
@@ -497,17 +500,17 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 98.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
  ) 
 Here is how much of TeX's memory you used:
- 7622 strings out of 492973
- 113954 string characters out of 3124920
- 235435 words of memory out of 3000000
- 11337 multiletter control sequences out of 15000+200000
+ 7621 strings out of 492973
+ 114075 string characters out of 3124920
+ 235477 words of memory out of 3000000
+ 11338 multiletter control sequences out of 15000+200000
  5803 words of font info for 21 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,16n,43p,642b,633s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on das.pdf (12 pages, 278624 bytes).
+Output written on das.pdf (12 pages, 289947 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 256 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 241 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 229 words of extra memory for PDF output out of 10000 (max. 10000000)
 
