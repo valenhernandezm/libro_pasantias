@@ -52,17 +52,17 @@
 \contentsline {subsection}{\numberline {4.5.2}Lista de Pendientes del Sprint}{18}
 \contentsline {subsection}{\numberline {4.5.3}Incremento}{19}
 \contentsline {chapter}{\MakeTextUppercase {Cap\'{\i }tulo}~V:~\MakeTextUppercase {Desarrollo}}{20}
-\contentsline {section}{\numberline {5.1}Inducci\IeC {\'o}n}{20}
+\contentsline {section}{\numberline {5.1}Inducci\IeC {\'o}n}{21}
 \contentsline {section}{\numberline {5.2}Desarrollo}{21}
-\contentsline {subsection}{\numberline {5.2.1}An\IeC {\'a}lisis de requerimientos (1era Iteraci\IeC {\'o}n)}{21}
-\contentsline {subsection}{\numberline {5.2.2}M\IeC {\'o}dulo de Administraci\IeC {\'o}n de cadenas, productos y categor\IeC {\'\i }as (2da Iteraci\IeC {\'o}n)}{21}
-\contentsline {subsection}{\numberline {5.2.3}M\IeC {\'o}dulo de Generaci\IeC {\'o}n de Reportes (3ra Iteraci\IeC {\'o}n)}{22}
-\contentsline {subsection}{\numberline {5.2.4}Continuaci\IeC {\'o}n con el M\IeC {\'o}dulo de Generaci\IeC {\'o}n de Reportes (4ta Iteraci\IeC {\'o}n)}{23}
-\contentsline {subsection}{\numberline {5.2.5}Refactorizaci\IeC {\'o}n (5ta Iteraci\IeC {\'o}n)}{23}
-\contentsline {subsection}{\numberline {5.2.6}M\IeC {\'o}dulo de Administraci\IeC {\'o}n de precios (6ta Iteraci\IeC {\'o}n)}{23}
-\contentsline {section}{\numberline {5.3}Documentaci\IeC {\'o}n}{24}
-\contentsline {chapter}{\MakeTextUppercase {Conclusiones y Recomendaciones}}{25}
-\contentsline {chapter}{\MakeTextUppercase {Referencias}}{26}
+\contentsline {subsection}{\numberline {5.2.1}Primer Sprint}{22}
+\contentsline {subsection}{\numberline {5.2.2}M\IeC {\'o}dulo de Administraci\IeC {\'o}n de cadenas, productos y categor\IeC {\'\i }as (2da Iteraci\IeC {\'o}n)}{23}
+\contentsline {subsection}{\numberline {5.2.3}M\IeC {\'o}dulo de Generaci\IeC {\'o}n de Reportes (3ra Iteraci\IeC {\'o}n)}{24}
+\contentsline {subsection}{\numberline {5.2.4}Continuaci\IeC {\'o}n con el M\IeC {\'o}dulo de Generaci\IeC {\'o}n de Reportes (4ta Iteraci\IeC {\'o}n)}{24}
+\contentsline {subsection}{\numberline {5.2.5}Refactorizaci\IeC {\'o}n (5ta Iteraci\IeC {\'o}n)}{25}
+\contentsline {subsection}{\numberline {5.2.6}M\IeC {\'o}dulo de Administraci\IeC {\'o}n de precios (6ta Iteraci\IeC {\'o}n)}{25}
+\contentsline {section}{\numberline {5.3}Documentaci\IeC {\'o}n}{26}
+\contentsline {chapter}{\MakeTextUppercase {Conclusiones y Recomendaciones}}{29}
+\contentsline {chapter}{\MakeTextUppercase {Referencias}}{30}
 \babel@toc {spanish}{}
 \babel@toc {spanish}{}
 \babel@toc {spanish}{}

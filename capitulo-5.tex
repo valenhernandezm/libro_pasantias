@@ -1,41 +1,68 @@
 \chapter{Desarrollo} \label{development}
-En este capítulo se presentan las actividades realizadas durante el desarrollo del proyecto correspondientes al período de pasantías. El proyecto inicialmente tenía planteado el desarrollo de cuatro módulos el módulo de administración de cadenas, tiendas, zonas, productos y categorías, el módulo de administración de precios, el módulo de generación de reportes y por último el módulo de preferencias para usuario, no se alcanzó por completo el desarrollo de estos módulos debido a que alguno de los módulos tomó más tiempo del planificado. 
-El proyecto se dividió en 7 fases:
+En este capítulo se presentan las actividades realizadas durante el desarrollo del proyecto correspondientes al período de pasantías Abril-Septiembre 2018. El proyecto inicialmente tenía planteado el desarrollo de cuatro módulos:
+\begin{enumerate}
+	\item Módulo de administración de cadenas, tiendas, zonas, productos y categorías: En principio el desarrollo de este módulo consistía en el desarrollo de la interfaz gráfica para cada una de estas entidades para la creación, edición y eliminación de registros, sin embargo faltaron las entidades tiendas y zonas, la asignación de tiendas a cadenas, el cual no se realizó, asignar productos a categorías y finalmente crear el listado de los registros de productos con mecanismo de búsqueda.
+	\item Módulo de administración de precios: Este módulo incluye la interfaz de creación, edición y eliminación de registros, el desarrollo de un mecanismo para importar los precios en lote usando un archivo en formato Microsoft Excel y de igual manera importar por lote mediante webservice desde una fuente externa en formato JSON, sin embargo ésta última no se realizó.
+	\item Módulo de generación de reportes: Para este módulo se planteó el desarrollo de la funcionalidad de generar reportes comparativos para: 
+    \begin{itemize}
+        \item Gráfico de dispersión de precios / categorías.
+        \item Gráfico de barras para un producto seleccionado separando precio normal y oferta.
+        \item Gráfico tipo box-plot para el histórico de precios de un producto.
+	\end{itemize}
+	Implementar un mecanismo automático para generar reportes de manera frecuente y enviar alertas de correo con el resultado, y finalmente un mecanismo para exportar los reportes en un formato tipo tabla en Microsoft Excel, sin embargo estas dos últimas funcionalidades se decidieron dejar para una próxima versión del sistema, ya que el desarrollo de la primera funcionalidad tomó más tiempo del pensado, debido a su complejidad.
+	\item Módulo de preferencias para usuario: Este módulo no se desarrolló, debido a que el mismo tenía directa relación con las dos últimas funcionalidades del módulo anterior y al no desarrollarlas, este módulo no tenía sentido. 
+\end{enumerate}
+    El proyecto se dividió en 3 Fases :
 \begin{itemize}
-   \item Fase de inducción en el que el pasante se familiariza con las herramientas y tecnologías necesarias para realizar el proyecto.
-   \item 5 Iteraciones de desarrollo.
-   \item 1 Iteración de documentación.
+   \item Fase de Inducción, en la cual se hace la introducción del proyecto, el pasante se familiariza con las herramientas y tecnologías necesarias para realizar el proyecto.
+   \item Fase de Desarrollo la cual se divide en 5 Sprints, en esta fase se hace la implementación de los diferentes módulos de la aplicación.
+   \item Fase de Documentación en la cual se realiza parte de la documentación necesaria para la aplicación.
 \end{itemize}
-A continuación, se explicará en detalle cada fase e iteración.
+A continuación, se explicará en detalle en qué consiste cada Fase.
 
 \section{Inducción}
-Durante esta fase el pasante realizó un proceso de familiarización con la empresa junto con el estudio de herramientas y lenguajes de trabajo que serán empleados a lo largo del desarrollo del proyecto.
+Durante esta Fase el pasante realizó un proceso de familiarización con la empresa junto con el estudio de herramientas y lenguajes de trabajo que fueron empleados a lo largo del desarrollo del proyecto.
+Realizó varios cursos tutoriales (Umbraco Course level 1, Learn ASP.NET MVC de Microsoft Virtual Academy, entre otros),  y utilizó recursos (guía de Umbraco) que la empresa proporcionó para tener los conocimientos necesarios para llevar a cabo el proyecto. Además investigó sobre herramientas como: ASP.NET, SQL Server, Highcharts y Visual Studio.
 
-Realizó varios tutoriales y utilizó recursos (guía de Umbraco) que la empresa proporcionó para tener los conocimientos necesarios para llevar a cabo el proyecto. Además investigó sobre herramientas como: ASP.NET, SQL Server, Highcharts y Visual Studio. 
-
-Esta fase tuvo una duración de una semana, aunque durante toda la pasantía se mantuvo la investigación de recursos que se necesitaron en el camino y la misma sirvió al aprendizaje del pasante y a que se adquirieran las destrezas necesarias que facilitaron el desarrollo de la aplicación.
-
-Al culminar esta fase se empezó el desarrollo de la aplicación.
+La duración de esta fase fue de una semana, sin embargo, el pasante tuvo que mantenerse en constante búsqueda de recursos e investigar sobre la marcha sobre herramientas o conceptos nuevos, los cuales se fueron necesitando en el camino. Todo este proceso fue sumamente útil y de gran aprendizaje ya que la mayoría de las herramientas utilizadas para el desarrollo del proyecto eran nuevas y muchos de los conceptos se investigaron a profundidad.
 
 \section{Desarrollo}
-Esta fase duró 17 semanas continuas y se llevaron a cabo 6 Iteraciones donde se desarrolló la aplicación. A continuación una descripción del trabajo realizado en cada iteración.
+La Fase de desarrollo de la aplicación se realizó en cinco Sprints, los cuales tuvieron una duración en total de 17 semanas continuas. A continuación una descripción del trabajo realizado en cada uno.
 
-\subsection{Análisis de requerimientos (1era Iteración)}
-Durante esta iteración se definió de manera detallada los requerimientos y el alcance inicial de la aplicación, la arquitectura con sus diferentes módulos y funcionalidades y por último la estructura de la base de datos. Se creó el repositorio de Git, el proyecto de Visual Studio y el sitio de Umbraco, y además, se eligió la plantilla de HTML para el \emph{look and feel} de la aplicación.
-
+\subsection{Primer Sprint}
+Durante este Sprint se hizo el análisis y definición de los requerimientos de la aplicación, los cuales eran primero definir el alcance inicial de la aplicación (ver bla bla), definir la arquitectura a utilizar y por último la estructura de la base de datos. El pasante inició la familiarización de la versión actual de CPI junto con el dueño del producto para resolver las posibles dudas de la funcionalidad, o conceptos necesarios para entender la aplicación. Además se creó el repositorio de Git, el proyecto de Visual Studio y el sitio de Umbraco, y por último el Dueño del producto sugirió dos posibles plantillas de HTML que podrían ser utilizadas para las vistas de la aplicación y el pasante eligió la que era más adecuada visual y funcionalmente para la misma. 
+\\
+\\
 \textbf{Actividades realizadas:}
 \begin{itemize}
-   \item Familiarización con la versión original de CPI.
-   \item Definir las reglas de negocio para el sistema.
-   \item Definir los actores del sistema.
-   \item Listar las funcionalidades básicas a desarrollar.
-   \item Crear de la solución de Visual Studio.
-   \item Crear del repositorio de Git y familiarización con las reglas del mismo.
-   \item Definir las entidades de la base de datos del proyecto.
-   \item Crear el sitio de Umbraco.
-   \item Elegir la plantilla a utilizar para el front end de la aplicación.
-\end{itemize}
+   \item Familiarización con la versión original de CPI. Esta actividad consistió principalmente en reuniones con el dueño del producto para aclarar dudas con respecto a los conceptos necesarios para entender la aplicación y sus funcionalidades.
+   \item Elegir la arquitectura de la aplicación. El pasante junto con el Dueño del Producto decidieron utilizar el modelo de 4+1 Vistas de Philippe Kruchten.
+   \item Definir los actores del sistema. En principio se definieron dos actores principales para la aplicación, \textit{Admin} (el administrador del sistema) y \textit{Retailer} (representantes de cadenas).
+   \item Realizar una matriz de permisología de las funcionalidades de la aplicación. Lo que el pasante realizó fue listar todas las posibles funciones de cada uno de los módulos de aplicación y definir cuáles eran los permisos que tendrán cada uno de los actores.
+   \item Elegir las entidades de la aplicación. El pasante basándose en la primera versión de la aplicación y junto el dueño del producto tomaron la decisión de cuáles serían las entidades que se manejarían desde la base de datos de Umbraco (cadenas) y cuáles en la base de datos de SQL Server (tiendas, zonas, productos, precios y categorías).
+   \item Rediseñar la base de datos. Luego de decidir cuáles eran las entidades a trabajar en la base de datos de SQL Server el pasante junto con el Dueño del Producto decidieron cuál podría ser la nueva estructura de la base de datos. A continuación se muestra el Diagrama de la versión original de CPI (ver Figura \ref{fig:er_viejo}) y el Diagrama ER de la versión 2 de CPI (ver Figura \ref{fig:er_nuevo})
+        \begin{figure}[hbt]
+        \begin{center}
+        \includegraphics[scale=0.8]{er_viejo.png}
+        \caption{Diegrama ER de la base de datos de la versión 1 de CPI.}
+        \label{fig:er_viejo}
+        \end{center}
+        \end{figure}
 
+        \begin{figure}[hbt]
+        \begin{center}
+        \includegraphics[scale=0.8]{er.png}
+        \caption{Diagrama de la base de datos de la nueva versión de CPI.}
+        \label{fig:er_nuevo}
+        \end{center}
+        \end{figure}
+        \item Crear el proyecto en Visual Studio. 
+        \item Crear el repositorio de Git. Para el proyecto se creó un repositorio llamado CPI el cual se utilizó para el control de versiones del proyecto. Para utilizar correctamente el repositorio el pasante tuvo que refrescar los comandos.
+        \item Crear el sitio de Umbraco.
+        \item Elegir la plantilla a utilizar para las vistas de la aplicación. El pasante junto con el Dueño del Producto eligieron entre dos posibles plantillas, la elegida fue la que más se acopló a las necesidades de la aplicación.
+        \item Investigar sobre Datatables ya que fue el pluggin (complemento) elegido por el Dueño del Producto para manejar dinámicamente las tablas.
+        \item Listar las vistas que tendrá la aplicación, según los módulos que se eligieron como alcance inicial.
+    \end{itemize}
 \textbf{Duración:} 2 semanas.
 
 \subsection{Módulo de Administración de cadenas, productos y categorías (2da Iteración)}
