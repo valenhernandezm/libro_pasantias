@@ -1,13 +1,14 @@
 \babel@toc {spanish}{}
 \contentsline {chapter}{\MakeTextUppercase {Resumen}}{iii}
 \contentsline {chapter}{\MakeTextUppercase {\'{I}ndice general}}{iv}
+\contentsline {chapter}{\MakeTextUppercase {\'{I}ndice de figuras}}{vi}
 \contentsline {chapter}{\MakeTextUppercase {Introducci\IeC {\'o}n}}{1}
 \contentsline {chapter}{\MakeTextUppercase {Cap\'{\i }tulo}~I:~\MakeTextUppercase {Entorno empresarial}}{2}
 \contentsline {section}{\numberline {1.1}Antecedentes de la empresa}{2}
 \contentsline {section}{\numberline {1.2}Misi\IeC {\'o}n}{3}
 \contentsline {section}{\numberline {1.3}Visi\IeC {\'o}n}{3}
 \contentsline {section}{\numberline {1.4}Ubicaci\IeC {\'o}n del pasante}{3}
-\contentsline {section}{\numberline {1.5}Organigrama}{3}
+\contentsline {section}{\numberline {1.5}Organigrama}{4}
 \contentsline {chapter}{\MakeTextUppercase {Cap\'{\i }tulo}~II:~\MakeTextUppercase {Marco Te\IeC {\'o}rico}}{5}
 \contentsline {section}{\numberline {2.1}Bases Te\IeC {\'o}ricas}{5}
 \contentsline {subsection}{\numberline {2.1.1}CMS}{5}
@@ -55,49 +56,10 @@
 \contentsline {section}{\numberline {5.1}Inducci\IeC {\'o}n}{21}
 \contentsline {section}{\numberline {5.2}Desarrollo}{21}
 \contentsline {subsection}{\numberline {5.2.1}Primer Sprint}{22}
-\contentsline {subsection}{\numberline {5.2.2}M\IeC {\'o}dulo de Administraci\IeC {\'o}n de cadenas, productos y categor\IeC {\'\i }as (2da Iteraci\IeC {\'o}n)}{23}
-\contentsline {subsection}{\numberline {5.2.3}M\IeC {\'o}dulo de Generaci\IeC {\'o}n de Reportes (3ra Iteraci\IeC {\'o}n)}{24}
-\contentsline {subsection}{\numberline {5.2.4}Continuaci\IeC {\'o}n con el M\IeC {\'o}dulo de Generaci\IeC {\'o}n de Reportes (4ta Iteraci\IeC {\'o}n)}{24}
-\contentsline {subsection}{\numberline {5.2.5}Refactorizaci\IeC {\'o}n (5ta Iteraci\IeC {\'o}n)}{25}
-\contentsline {subsection}{\numberline {5.2.6}M\IeC {\'o}dulo de Administraci\IeC {\'o}n de precios (6ta Iteraci\IeC {\'o}n)}{25}
-\contentsline {section}{\numberline {5.3}Documentaci\IeC {\'o}n}{26}
-\contentsline {chapter}{\MakeTextUppercase {Conclusiones y Recomendaciones}}{29}
-\contentsline {chapter}{\MakeTextUppercase {Referencias}}{30}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
-\babel@toc {spanish}{}
+\contentsline {subsection}{\numberline {5.2.2}Segundo Sprint (M\IeC {\'o}dulo de Administraci\IeC {\'o}n de cadenas, productos y categor\IeC {\'\i }as)}{23}
+\contentsline {subsection}{\numberline {5.2.3}Tercer Sprint (M\IeC {\'o}dulo de Generaci\IeC {\'o}n de Reportes)}{24}
+\contentsline {subsection}{\numberline {5.2.4}Cuarto Sprint (Continuaci\IeC {\'o}n con el M\IeC {\'o}dulo de Generaci\IeC {\'o}n de Reportes)}{25}
+\contentsline {subsection}{\numberline {5.2.5}Quinto Sprint (M\IeC {\'o}dulo de Administraci\IeC {\'o}n de Precios y Correcci\IeC {\'o}n de estructura del proyecto)}{26}
+\contentsline {section}{\numberline {5.3}Documentaci\IeC {\'o}n}{27}
+\contentsline {chapter}{\MakeTextUppercase {Conclusiones y Recomendaciones}}{30}
+\contentsline {chapter}{\MakeTextUppercase {Referencias}}{31}

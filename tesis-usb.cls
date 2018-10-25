@@ -287,7 +287,7 @@
                     {\large {UNIVERSIDAD SIM\'ON BOL\'IVAR}}\\%--
                     {\bfseries DECANATO DE ESTUDIOS PROFESIONALES}\par%--
                     \vskip 0.1cm
-                    {\bfseries COORDINACI\'ON DE INGENIERIA DE LA COMPUTACI\'ON\MakeTextUppercase{\@coord}} \par%--
+                    {\bfseries COORDINACI\'ON DE \MakeTextUppercase{\@coord}} \par%--
                     \vskip 6cm%--
                     {\textbf{\MakeTextUppercase{\@titulo}} \par}%%--
                     \vskip 3cm%--
@@ -297,7 +297,7 @@
                     \vskip 3.0cm%---
                     {\bfseries \MakeTextUppercase \@trabajo} \\%---
                     {Presentado ante la ilustre Universidad Sim\'on Bol\'ivar \\%---
-                    como requisito parcial para optar al t\'itulo de Ingeniero de la Computaci\' on \\%---
+                    como requisito parcial para optar al t\'itulo de  \\%---
                     \@grado}%---
                     \vfill%---
                     {\bfseries Sartenejas, \@fecha}%%---

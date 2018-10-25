@@ -14,17 +14,34 @@
 
 % paquetes
 \usepackage[utf8]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{indentfirst}
+\usepackage{longtable}
+\usepackage{tabu}
+\usepackage{float}
+\usepackage{hhline}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{array}
 \usepackage{verbatim}
 \usepackage{acronym}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{float}
+\usepackage{pdfpages}
+\usepackage{xcolor}
+\definecolor{red}{HTML}{FF4C4C}
 % \usepackage{hyperref}
 
 % estilo de las referencias
 \usepackage[fixlanguage]{babelbib-and}\selectbiblanguage{spanish}
 \usepackage{url}
-\bibliographystyle{babplain-lf}
+\bibliographystyle{IEEEtran}
+
+\usepackage{graphicx}
+% \graphicspath{ {../imgs/} }
 
 \autor{Valentina Hernández}
 \autori{V. Hernández}
@@ -32,14 +49,14 @@
 \titulo{Desarrollo de la versión 2 de la aplicación web CPI}
 \fecha{Septiembre~de~2018}
 \agno{2018}
-\fechadefensa{15~de~noviembre~de~2018}
+\fechadefensa{30~de~noviembre~de~2018}
 \tutor{Tutor Académico: Prof. Soraya Carrasquel}
 \usarcotutor
 \cotutor{Tutor Industrial: Ing. José Cerqueiro}
 \trabajo{Informe de Pasantía}
 \coord{Ingeniería de la Computación}
-\grado{Ingeniero en Computación}
-\carrera{Ingeniería de la Computación}
+\grado{Ingeniero de la Computación}
+\carrera{Ingenieria de la Computación}
 \programa{Nombre del Programa}
 \juradouno{Nombre y Apellido}
 \juradodos{Nombre y Apellido}
@@ -61,6 +78,7 @@
      Palabras cl\'aves: palabras, cl\'aves, separadas por coma, cinco m\'aximo.
 \end{resumen}
 \tableofcontents
+\listoffigures
 
 \mainmatter
 \chapter*{Introducción}

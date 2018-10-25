@@ -65,75 +65,67 @@ Durante este Sprint se hizo el análisis y definición de los requerimientos de 
     \end{itemize}
 \textbf{Duración:} 2 semanas.
 
-\subsection{Módulo de Administración de cadenas, productos y categorías (2da Iteración)}
-Durante esta iteración se implementó la funcionalidad para el manejo de las principales entidades de la aplicación: cadenas, productos y categorías. En la cual se desarrolló una interfaz gráfica en el back end de Umbraco usando un paquete llamado Fluidity para el manejo de estas entidades en la base de datos. Se definieron los Doctypes y Datatypes para crear el contenido en Umbraco. Se inició el desarrollo de las vistas de la aplicación.
-
-Al finalizar esta iteración fue posible manejar las entidades de la aplicación por medio del árbol de contenido de Umbraco o por medio de la interfaz gráfica de Fluidity. 
-
+\subsection{Segundo Sprint (Módulo de Administración de cadenas, productos y categorías)}
+Durante este Sprint se implementó la funcionalidad para el manejo de las principales entidades de la aplicación: cadenas, productos y categorías, en la cual se desarrolló una interfaz gráfica en el back end de Umbraco usando un paquete llamado Fluidity para el manejo de estas entidades en la base de datos. Se definieron los Doctypes (tipos de documento) y Datatypes (tipos de datos) para crear el contenido en Umbraco. Se inició el desarrollo de las vistas de la aplicación. Y por último se empezó la implementación para la vista de listado de productos.
+\\
+\\
 \textbf{Actividades realizadas:}
 \begin{itemize}
-   \item Definir los Doctypes para las entidades principales.
-   \item Definir los Datatypes para las entidades principales.
-   \item Desarrollar la interfaz de Fluidity para creación, edición y eliminación de registros de las entidades que se guardan en la base de datos de SQL Server.
-   \item Iniciar desarrollo de las vistas de la aplicación.
-   \item Realizar vista de listado de productos.
+   \item Definir los Doctypes para las entidades principales. El pasante definió las propiedades que tendrían cada una de las entidades que se encuentran en Umbraco (ver Tabla).
+   \item Definir los Datatypes que usan las entidades principales. El pasante creo tipos de datos necesarios para las propiedades de las entidades a usarse en Umbraco (ver Tabla).
+   \item El Dueño del producto realizó una instalación local de la versión 1 de la aplicación CPI para que el pasante pudiera revisar a fondo la funcionalidad actual y además revisar el código fuente y la base de datos para ayudar al desarrollo de la nueva versión de la aplicación.
+   \item El Dueño del Producto propuso dos paquetes de Umbraco para gestionar los datos de la base de datos de SQL Server (Fluidity o UI-Matic) y el pasante investigó sobre ambos y se decidió elegir Fluidity ya que era un paquete desarrollado más recientemente y además era compatible con la versión de Umbraco utilizada para el desarrollo de la aplicación. Luego se desarrolló la interfaz de Fluidity para creación, edición y eliminación de registros de las entidades que se guardan en la base de datos de SQL Server, para de esta manera poder manejar los registros desde el back end de Umbraco. Para poder realizar la interfaz y poder manejar correctamente los datos de las tablas de la base de datos, en algunos casos se tuvo que agregar un campo adicional a la tabla y el mismo se tomaba como clave primaria, ya que estas tablas tenían dos claves primarias y Fluidity no manejaba correctamente este tipo de casos.
+   \item Se desarrollaron las principales partials views (vistas parciales) que tienen en común todas las vistas de la aplicación, como por ejemplo la barra de navegación y la barra lateral.
+   \item Se realizó la implementación de la vista y la funcionalidad para listar los productos por cadena, y esto se hizo utilizando Datatables.
 \end{itemize}
-
-
 \textbf{Duración:} 3 semanas.
 
-\subsection{Módulo de Generación de Reportes (3ra Iteración)}
-En esta iteración se desarrolló parte de la funcionalidad de generación de reportes comparativos. Se realizó la vista de cada uno de los gráficos (barras y boxplot) que permiten la comparación de precios entre productos de una cadena, o productos que tienen en común distintas cadenas y además tablas que muestran información necesaria para cada uno de estos gráficos. Esta iteración tuvo una duración más larga de la planificada ya que para realizar cada uno de los gráficos se necesitaba traer datos de la base de datos y la traducción del código de la versión antigua a la nueva versión tomó más tiempo de lo esperado ya que no se encontraba bien documentada.
 
-
+\subsection{Tercer Sprint (Módulo de Generación de Reportes)}
+En este Sprint se desarrolló parte de la funcionalidad de generación de reportes comparativos. Este módulo cuenta con tres tipos de reportes, sin embargo únicamente se pudieron desarrollar dos de ellos (reporte de comparación de precios de un producto en distintas cadenas, y reporte histórico de precios de un producto) ya que el tiempo de desarrollo de los gráficos usando la herramienta Highcharts tomó más tiempo del que se tenía planificado porque al ser una herramienta que el pasante no utilizó anteriormente se necesitó de tiempo para aprender a utilizarla y luego para poder traer los datos correctamente de la base de datos (los cuales son los que se ven reflejados en cada uno de los gráficos) se necesitó de la traducción, entendimiento y mejora considerable del código de la versión antigua y esto se hizo bastante engorroso ya que los scripts no estaban bien documentados.
+\\
+\\
 \textbf{Actividades realizadas:}
 \begin{itemize}
-   \item Desarrollar vista de gráfico de barras para un producto seleccionado de la lista de productos de la cadena, separando precio normal y oferta.
-   \item Desarrollar vista de gráfico tipo boxplot para el precio histórico de un producto.
-   \item Traducir scripts para traer datos de la base de datos.
-   \item Mejorar código y funcionalidad que se desarrollaron en iteraciones anteriores.
+   \item Elección de la herramienta para hacer los gráficos necesarios para los reportes. El Dueño del Producto propuso dos herramientas para la generación de los gráficos, la primera era Chartjs que es de licencia gratuita y la segunda se llama Highcharts la cual es de licencia paga. El pasante para realizar la elección de la herramienta, realizó ejemplos de gráficos usando ambas opciones para comparar complejidad, facilidad de conseguir recursos y ejemplos para ayudar con el desarrollo, entre otras cosas, y llegó a la conclusión que la herramienta más apta para ser usada en la aplicación era Highcharts ya que contaba con todos los tipos de gráficos necesarios para la aplicación (Chartjs no contaba con gráfico boxplot) y cuenta con mayor documentación y ejemplos en los que se podía apoyar para el desarrollo de los gráficos. 
+   \item Revisión de la documentación y la Referencia API de JavaScript de Highcharts para poder comenzar con el desarrollo de los gráficos para los reportes.
+   \item Implementación del reporte de comparación de precios de un producto en común entre distintas cadenas. Este reporte se divide en dos partes, la primera es un gráfico de barras en el que se ven reflejados el precio normal y el precio por oferta del producto en las distintas cadenas, y la segunda parte es una tabla con información más detallada del producto (precio PVP, precio oferta, IVA del producto y número de tiendas dentro de la cadena en la que se encuentra disponible dicho producto).
+   \item Implementación del reporte histórico de un producto en un período de tiempo, para esto se realizó un gráfico boxplot en el que se muestra una caja por fecha en el que esté registrado el precio de ese producto dentro del período elegido.
 \end{itemize}
-
 
 \textbf{Duración:} 4 semanas.
 
-\subsection{Continuación con el Módulo de Generación de Reportes (4ta Iteración)}
-En esta Iteración se siguió el desarrollo de la generación de reportes completando el reporte de precios por categorías (gráfico de dispersión) y se mejoraron algunos aspectos de las otras iteraciones.
+\subsection{Cuarto Sprint (Continuación con el Módulo de Generación de Reportes)}
 
+En este Sprint se realizó el reporte de precios de productos por categorías (gráfico de dispersión) que faltó por realizar en el Sprint anterior, y además se corrigieron detalles de los otros dos reportes ya implementados.
+\\
+\\
 \textbf{Actividades realizadas:}
 \begin{itemize}
-   \item Desarrollar la vista del reporte de precios por categorías.
-   \item Mejorar código de la aplicación.
+   \item Se agregó a la interfaz de Fluidity que ya se encontraba implementada la función para asignar productos a categorías.
+   \item Agregar enlace de la tabla de productos al reporte de comparación de precios. A la lista de todos los productos se le agregó un enlace desde el código SKU del producto hacia el reporte de comparación de precios de productos de diferentes cadenas.
+   \item Implementación del reporte de precios de productos por categorías. Primero para comenzar con la implementación se realizó un boceto con datos ficticios del gráfico de dispersión para que el pasante se familiarizara con la complejidad de este tipo de gráficos. Luego se realizó la traducción, mejora y entendimiento del código de la versión antigua de la aplicación para manejar los datos que se encuentran en la base de datos y reflejarlos en el gráfico.
+   \item Se inició la construcción del diccionario de Umbraco con las palabras estáticas y que se repiten en cada una de las vistas de la aplicación.
+   \item Se corrigieron detalles de los reportes anteriores. Para el reporte de comparación de precios de un producto se corrigió el formato de la fecha (pasó  de utilizarse “mm/dd/yyyy” a el formato ISO “yyyymmdd”) de igual manera para el reporte histórico, se arreglaron detalles del código de HTML y eficiencia de los controladores para traer la información de la base de datos.
 \end{itemize}
 
-\textbf{Duración:} 3 semanas.
+\textbf{Duración:} 4 semanas.
 
 
-\subsection{Refactorización (5ta Iteración)}
-Al iniciar esta iteración se llegó a la conclusión que el desarrollo de la funcionalidad que se tenía hasta el momento no estaba siguiendo la estructura que realmente se quería tener en la solución de Visual Studio, ya que los controladores no estaban organizados correctamente según el patrón MVC. Además habian funciones que debían estar implementadas en \verb|CPI_API| pero se encontraba en \verb|CPI_Core| y se estaba utilizando el tipo de controlador incorrecto. Este inconveniente ocurrió por la falta de comunicación entre el dueño del producto y el desarrollador (pasante), sin embargo se hicieron las correcciones necesarias para corregir este imprevisto, sin embargo tomó tiempo extra que no se tenía planificado y por esta razón no se alcanzó a realizar parte de algunos módulos que ya se encontraban en la planificación.
-
-
+\subsection{Quinto Sprint (Módulo de Administración de Precios y Corrección de estructura del proyecto)} 
+Este es el último Sprint de desarrollo, en el mismo se implementó el módulo de administración de precios de productos. El alcance inicial de este módulo era realizar la interfaz gráfica para la creación, edición y eliminación de registros, importar precios por lote mediante un archivo en formato Microsoft Excel e importar mediante webservice desde una fuente externa en formato JSON, sin embargo la última funcionalidad no se pudo desarrollar ya que durante el sprint el pasante se dió cuenta de que había un error en la estructura, ya que la misma no estaba siguiendo el patrón MVC que se debía tener en la solución de Visual Studio. Este error en la estructura fue debido a la falta de comunicación entre el pasante y el Dueño del Producto sobre aspectos técnicos del proyecto, y para corregir este inconveniente se tomó tiempo del Sprint por lo que no alcanzó para completar el módulo y se decidió dejar esta funcionalidad para más adelante.
+\\
+\\
 \textbf{Actividades realizadas:}
-\begin{itemize}
-   \item Reorganizar los controladores de la aplicación.
-   \item Refactorizar código en gran parte de la funcionalidad.
-   \item Mejorar calidad del código.
+\begin{itemize} 
+   \item Se implementó la autenticación, inicio y cierre de sesión para el front end de la aplicación. Para esto primero se definen los permisos de usuarios, en este caso, para el alcance de la aplicación únicamente se tiene el usuario \emph{retailer}, y se creó un grupo de miembro en el back end de Umbraco en la sección Members llamado \emph{cpi user}, luego se desarrolló la vista para el iniciar y cerrar sesión.
+   \item Se desarrolló la interfaz gráfica para creación, edición y eliminación de registros usando el paquete de Umbraco Fluidity para poder manejar esta entidad directo de la plataforma, modificando directamente la base de datos de SQL Server.
+   \item Se realizó la implementación para importar por lote los precios desde un archivo en formato Microsoft Excel.
+   \item El código de la aplicación paso a revisión y de esta manera encontrar detalles de escritura y aplicar buenas prácticas de desarrollo. Por lo que se mejoraron nombres y declaraciones de variables, se agregaron mas comentarios para el entendimiento del código, y eliminación de librerías que no se usaban por las clases.
+   \item Reorganización de controladores y vistas de la aplicación. Luego de revisar y corregir los errores encontrados, se consiguió un error en la estructura de la solución de Visual Studio, ya que no se estaba siguiendo el patrón MVC que se había escogido al principio de la pasantía. Por lo que para resolver esto, se organizaron los controladores y las vistas de la aplicación.
 \end{itemize}
 
-\textbf{Duración:} 2 semanas.
-
-
-\subsection{Módulo de Administración de precios (6ta Iteración)}
-Esta fue la última Iteración de desarrollo, en la cual se implementó el módulo de administración de precios de productos. Se creó la interfaz gráfica usando Fluidity y además la funcionalidad para importar un lote de precios usando un archivo en formato MS Excel (CSV). Además se hicieron mejoras de código implementado en las iteraciones anteriores y correcciones de bugs.
-
-\textbf{Actividades realizadas:}
-\begin{itemize}
-   \item Implementar la autenticación, inicio y cierre de sesión para el front end de la aplicación.
-   \item Desarrollar interfaz gráfica para creación, edición y eliminación de registros.
-   \item Mejorar código y corregir bugs.
-\end{itemize}
-
-\textbf{Duración:} 3 semanas.
+\textbf{Duración:} 4 semanas.
 
 
 \section{Documentación} \label{documentation}

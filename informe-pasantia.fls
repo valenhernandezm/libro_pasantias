@@ -145,6 +145,28 @@ INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/front
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/inputenc.sty
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/inputenc.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/ms/ragged2e.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/ms/ragged2e.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/ms/everysel.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/ms/everysel.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/indentfirst.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/indentfirst.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/longtable.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/longtable.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tabu/tabu.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tabu/tabu.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/array.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/array.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/varwidth/varwidth.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/varwidth/varwidth.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/float/float.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/float/float.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/hhline.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/hhline.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/makecell/makecell.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/makecell/makecell.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/multirow/multirow.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/multirow/multirow.sty
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/verbatim.sty
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/verbatim.sty
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/acronym/acronym.sty
@@ -168,6 +190,20 @@ INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/am
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/amsfonts.sty
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/amssymb.sty
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/amssymb.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pdfpages/pdfpages.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pdfpages/pdfpages.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/calc.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/calc.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/eso-pic/eso-pic.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/eso-pic/eso-pic.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/atbegshi.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/atbegshi.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pdfpages/pppdftex.def
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pdfpages/pppdftex.def
 INPUT babelbib-and.sty
 INPUT babelbib-and.sty
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty
@@ -179,14 +215,10 @@ INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/supp
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
-INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
-INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/kvdefinekeys.sty
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/kvdefinekeys.sty
-INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
-INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/kvsetkeys.sty
@@ -197,6 +229,12 @@ INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/caption/ltcaption.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/caption/ltcaption.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/pdflscape.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/pdflscape.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/lscape.sty
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/lscape.sty
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/babelbib/spanish.bdf
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/babelbib/spanish.bdf
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
@@ -230,8 +268,12 @@ INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/c
 INPUT informe-pasantia.toc
 INPUT informe-pasantia.toc
 OUTPUT informe-pasantia.toc
+INPUT informe-pasantia.lof
+INPUT informe-pasantia.lof
+OUTPUT informe-pasantia.lof
 INPUT capitulo-1.tex
 INPUT capitulo-1.tex
+INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmti12.tfm
 INPUT organigrama.png
 INPUT ./organigrama.png
 INPUT ./organigrama.png
@@ -239,7 +281,6 @@ INPUT ./organigrama.png
 INPUT ./organigrama.png
 INPUT capitulo-2.tex
 INPUT capitulo-2.tex
-INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmti12.tfm
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbxti10.tfm
 INPUT capitulo-3.tex
 INPUT capitulo-3.tex
@@ -257,7 +298,6 @@ INPUT ./er.png
 INPUT ./er.png
 INPUT ./er.png
 INPUT ./er.png
-INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmtt12.tfm
 INPUT informe-pasantia.bbl
 INPUT informe-pasantia.bbl
 INPUT informe-pasantia.aux
@@ -271,5 +311,3 @@ INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
-INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb
-INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb
