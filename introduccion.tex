@@ -1,38 +1,37 @@
 \chapter*{Introducción}
-iKêls Consulting es una empresa que se especializa en el desarrollo de aplicaciones y sitios web para el sector corporativo utilizando Umbraco como la plataforma principal de manejo de contenido (CMS). Umbraco es una herramienta de código abierto que se desarrollo en Dinamarca usando el lenguaje de programación C\# y ASP.NET para sistemas Windows de Microsoft que cuenta con una gran aceptación a nivel mundial y una amplia comunidad de desarolladores. La empresa posee entre sus activos una aplicación web llamada CPI que permite realizar comparaciones de precios entre productos ofrecidos por diferentes tiendas de vendas al detal. Esta aplicación aplicación se desarrolló hace mas de 10 años usando tecnología Classic ASP y VBScript.
+iKêls Consulting (ver Caítulo \ref{empresa}) es una empresa especializada en el desarrollo de aplicaciones y sitios web dedicada al sector corporativo utilizando Umbraco como la plataforma principal de manejo de contenido (CMS) \cite{cmsBarker}. Umbraco es una herramienta de gestión de contenido de código abierto que desarrollado sobre ASP.NET \cite{aspMicrosoft} para sistemas Windows de Microsoft y usando el lenguaje de programación C\# \cite{cSharpMicrosoft}, cuenta con una gran aceptación a nivel mundial y una amplia comunidad de desarrolladores.
+
+\section*{Antecedentes}
+ iKêls posee entre sus activos una aplicación web llamada CPI que permite realizar comparaciones de precios entre productos ofrecidos por diferentes tiendas de ventas al detal, sin embargo esta aplicación aplicación se desarrolló hace más de 10 años usando tecnología Classic ASP y VBScript por lo que la empresa necesita realizar un proceso completo de re-ingeniería para adaptar esta solución a plataformas y modelos de gestión más modernos. (No estoy segura si colocar este párrafo como antecedentes)
+
 
 \section*{Planteamiento del problema}
-
+Las cadenas de supermercados operan en un entorno comercial muy competitivo con márgenes muy pequeños de rentabilidad, por lo que para poder diferenciarse del resto de opciones en el mercado, deben confeccionar una estructura de precios que resulte simultáneamente atractiva para atraer a sus clientes así como rentable para mantener el negocio a flote.
+Para lograr lo anterior es imprescindible conocer los rangos dónde  se mueve el precio de cada producto de manera constante. Debido al volumen de datos involucrados (miles de productos en varios competidores) se necesita una aplicación que permita consolidar y analizar la información de manera rápida, sencilla y efectiva.
 \section*{Justificación e importancia}
-
+Los departamentos de análisis de precios de las cadenas minoristas invierten la mayor parte de sus recursos en actividades de investigación.
+Al disponer de una herramienta que facilite su trabajo permitirá responder más rápidamente ante los cambios del mercado así como cubrir un mayor volumen de productos en un menor  tiempo. Poder identificar de manera oportuna aquellos productos donde se requiere ajustes de precios (ya sea para competir con otras cadenas o para no perder dinero), puede ser el factor clave para definir los resultados netos de la empresa.
 \section*{Objetivo general}
-
+Crear una nueva versión de la aplicación web CPI integrada con la plataforma de manejo de contenido Umbraco para el ingreso y administración de precios de productos.
 \section*{Objetivos específicos}
 \begin{itemize}
-    \item Crear el módulo de administración de clientes, productos, precios, vehículos, rutas y conductores.
-    \begin{itemize}
-        \item Creación, edición y eliminación de registros.
-        \item Calcular costo de cisterna según volumen y precios de productos.
-        \item Asignación de vehículos y tipos de producto a clientes.
-        \item Listado de registros con mecanismo de búsqueda.
-    \end{itemize}
+   \item Crear el módulo de administración de cadenas, productos y categorías.
+   \begin{itemize}
+       \item Desarrollar interfaz para creación, edición y eliminación de registros.
+       \item Asignar productos a categorías
+       \item Listar productos con mecanismo de búsqueda.
+   \end{itemize}
 
-    \item Crear el módulo de administración de pedidos.
-    \begin{itemize}
-        \item Crear, editar y eliminar pedidos mediante consola especializada.
-        \item Opciones diferenciadas según perfil del usuario.
-        \item Listado para consulta de pedidos con opción de exportar en formato MS Excel.
-    \end{itemize}
+   \item Crear el módulo de administración de precios.
+   \begin{itemize}
+       \item Desarrollar interfaz para creación, edición y eliminación de los registros de precios.
+       \item Importar un lote de precios usando un archivo en formato Microsoft Excel
+   \end{itemize}
 
-    \item Crear el módulo de conciliación de pagos.
-    \begin{itemize}
-        \item Mecanismo para registro de pagos totales o parciales.
-        \item Mecanismo de conciliación y asignación de pagos a pedidos.
-    \end{itemize}
-
-    \item Crear el módulo de registro de usuarios y perfiles.
-    \begin{itemize}
-        \item Registro y edición de usuarios con perfil de permisos.
-        \item Asociar usuarios a clientes.
-    \end{itemize}
+   \item Crear el módulo de generación de reportes.
+   \begin{itemize}
+       \item Crear reporte para comparar precios de productos por categorías
+       \item Crear reporte comparativo entre precios de productos de diferentes cadenas.
+       \item Crear reporte histórico de precios de un producto
+   \end{itemize}
 \end{itemize}

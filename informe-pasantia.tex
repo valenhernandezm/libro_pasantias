@@ -47,7 +47,7 @@
 \autori{V. Hernández}
 \usbid{10-10353}
 \titulo{Desarrollo de la versión 2 de la aplicación web CPI}
-\fecha{Septiembre~de~2018}
+\fecha{Octubre~de~2018}
 \agno{2018}
 \fechadefensa{30~de~noviembre~de~2018}
 \tutor{Tutor Académico: Prof. Soraya Carrasquel}
@@ -73,23 +73,26 @@
 
 \frontmatter
 \maketitle
+\input{dedicatoria}
+\input{agradecimientos}
 \begin{resumen}
-     Es una exposici\'on clara del tema tratado en el trabajo, de los objetivos, de la metodolog\'ia utilizada, de los resultados relevantes obtenidos y de las conclusiones. Mismo tipo de fuente seleccionado con tamaño 12 e interlineado sencillo en el p\'arrafo. El resumen no debe exceder de trescientas (300) palabras escritas. \\
-     Palabras cl\'aves: palabras, cl\'aves, separadas por coma, cinco m\'aximo.
+    El presente informe describe las actividades realizadas durante el proyecto de pasantía larga en el período Abril-Septiembre 2018 en la empresa IKêls Consulting, el cual consistió en desarrollar la versión 2 de la aplicación web CPI que permite realizar comparaciones de precios entre productos ofrecidos por diferentes tiendas de ventas al detal. La primera versión de esta aplicación fue desarrollada hace más de diez años usando tecnología Classic ASP y VBScript por lo que la empresa tenía la necesidad de realizar un proceso de re-ingeniería para poder adaptar la solución a una plataforma y modelos más modernos. La aplicación cuenta con tres módulos iniciales, un primer módulo de administración de cadenas, productos y categorías, dedicado a la creación, edición y eliminación de registros de estas entidades, así como listar los productos pertenecientes a una cadena. El segundo módulo de administración de precios de productos. Y un tercer módulo para la generación de reportes, el mismo consiste en mostrar los reportes comparativos entre los precios de productos entre las diferentes cadenas, reportes históricos y por último un reporte de los productos por categorías de una cadena. La metodología utilizada en el desarrollo del proyecto fue Scrum, ya que se deseaba un desarrollo iterativo. Para lograr los objetivos, se emplearon diversas herramientas y tecnologías, pero principalmente la plataforma Umbraco, la cual está construida sobre la plataforma ASP.NET de Microsoft, C\#, HTML, CSS, JavaScript, Highcharts y SQL Server. Una vez culminado el proyecto, se obtuvo una versión de la aplicación con tres módulos con una serie de funcionalidades que pueden ser resumidas en las siguientes: crear, modificar y eliminar cadenas, productos, categorías y precios de productos, generación de reportes comparativos e importación por lote de precios mediante un formato de Microsoft Excel.
+  \vskip 0.5 cm
+    Palabras cl\'aves: Aplicación Web, Reingeniería, Módulos, Desarrollo Iterativo, Plataforma Umbraco.
 \end{resumen}
 \tableofcontents
 \listoffigures
+\listoftables
+\useacronyms
 
 \mainmatter
-\chapter*{Introducción}
-\par Introducción aquí.
+\input{introduccion}
 \input{capitulo-1}
 \input{capitulo-2}
 \input{capitulo-3}
 \input{capitulo-4}
 \input{capitulo-5}
-\chapter*{Conclusiones y Recomendaciones}
-\par Conclusiones aquí.
+\input{conclusiones}
 \nocite{*}
 \bibliography{referencias}
 %\appendix

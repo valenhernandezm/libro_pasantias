@@ -40,16 +40,20 @@ Transferencia de Estado Representacional o REST, por sus siglas en inglés, es u
 Las restricciones definidas para los sistemas REST son las siguientes:
 
 \begin{enumerate}
-   \item \textbf{Separación Cliente-Servidor} el cliente y el servidor actúan independientemente, la interacción entre ellos ocurre solo a través de solicitudes que realizada el cliente, y las respuestas que envía el servidor como una reacción a una solicitud. El servidor solo envía información cuando ésta es solicitada por algún cliente.
+   \item \textbf{Separación Cliente-Servidor} el cliente y el servidor actúan independientemente, la interacción entre ellos ocurre solo a través de solicitudes que realiza el cliente, y las respuestas que envía el servidor como una reacción a una solicitud. El servidor solo envía información cuando ésta es solicitada por algún cliente.
    \item \textbf{Sin estado (\emph{stateless} en inglés)} el servidor no guarda información de ningún usuario que use los servicios del sistema. Cada solicitud individual contiene toda la información necesaria para ser ejecutada y enviar una respuesta, independientemente de todas las demás solicitudes que sean atendidas.
    \item \textbf{Permite el uso de memoria caché} la respuesta debe estar explícita o implícitamente etiquetada como \textit{cacheable} (se puede guardar en alguna memoria caché) o \textit{non-cacheable} (no se puede guardar en ninguna memoria caché). La ventaja del uso de memoria caché es que se pueden eliminar parcial o completamente algunas interacciones mejorando así el rendimiento del sistema.
    \item \textbf{Interfaz uniforme} cada solicitud al servidor debe tener los mismos componentes:
         \begin{itemize}
             \item Identificador del recurso deseado (en el caso de aplicaciones web este identificador puede ser el URL).
-            \item Respuesta del servidor que debe incluir suficiente información para que el cliente pueda modificar el recurso(la información necesaria para que el servidor pueda llevar a cabo la solicitud y toda respuesta del servidor debe tener la información necesaria para que el cliente la entienda.
+            \item Respuesta del servidor que debe incluir suficiente información para que el cliente pueda modificar el recurso (la información necesaria para que el servidor pueda llevar a cabo la solicitud y toda respuesta del servidor debe tener la información necesaria para que el cliente la entienda.
             \item Usar hipermedia como motor del estado de la aplicación, lo que quiere decir que el servidor debe poder informar al cliente las formas en las que puede cambiar el estado de la aplicación a través de enlaces de hipermedia, una página web específica se puede considerar un estado de la aplicación y enlaces incluidos en esa página se consideran transiciones a otros estados de la aplicación.
         \end{itemize}
     \item \textbf{Sistema por capas} entre el cliente que realiza una solicitud y el servidor que envía la respuesta final puede haber varios servidores, por ejemplo, puede haber un servidor que proporcione una capa de seguridad, otro una capa de memoria caché, y otros con otras funcionalidades. Estos servidores intermedios no deben afectar ni la solicitud ni la respuesta. Además, cada transacción (envío de la solicitud por el cliente y la subsiguiente respuesta) debe ser transparente para el cliente, es decir, el cliente no tiene conocimiento de las capas intermedias por las que pasan la solicitud y la respuesta.
 \end{enumerate}
 
 Se dice que un servicio web o el API de un servicio web es \textit{RESTful} cuando cumple con todas estas restricciones. El proyecto presente se desarrolló adhiriéndose a estas restricciones.
+
+\subsection{SAAS}
+
+Un Software como Servicio o SAAS, por sus siglas en inglés \textit{Software as a Service}, es un modelo para la distribución de software donde los clientes acceden al software a través de Internet. En SaaS, un proveedor de servicios aloja la aplicación en su centro de datos y un cliente accede a ella a través de un navegador web estándar \cite{saas}.

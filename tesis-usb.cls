@@ -1084,9 +1084,38 @@
 \newenvironment{resumen}%%---
      {%---
      \if@pregrado%--
-          \chapter*{\resumenname}%---
-          \vskip 1cm%---
-          \begin{singlespace}%---
+       %   \chapter*{\resumenname}
+          \newpage
+          \null
+          \addcontentsline{toc}{chapter}{\MakeTextUppercase{\resumenname}}
+              \begin{center}%--
+                   \vskip -1.5cm \logousb \vskip 0.1cm%--
+                   {\large {UNIVERSIDAD SIM\'ON BOL\'IVAR}}\\%--
+                   {\bfseries DECANATO DE ESTUDIOS PROFESIONALES}\par%--
+                   \vskip 0.1cm
+                   {\bfseries COORDINACI\'ON DE \MakeTextUppercase{\@coord}} \par%--
+                   \vskip 4cm%--
+                   {\textbf{\MakeTextUppercase{\@titulo}} \par}%%--
+                   \vskip 2.5cm%--
+                   {\large Por: \par%--
+                   \vskip 0.2cm%--
+                   \@autor}%--
+                   \vskip 2.0cm%---
+                   {Realizado con la asesor\'ia de:\\%---
+                   \vskip 0.3cm%---
+                   \@tutor \par \ifcotutor \@cotutor \par \fi}%---
+                   \vskip 0.8cm%---
+              \end{center}%--
+              \begin{center}%---
+                {\large \textbf{RESUMEN}}%---
+              \end{center}%---
+              \begin{singlespace}%%---
+  
+
+
+
+
+
      %%%%%%%%%%%%%%%%%% FALTA HACER RESUMEN PARA PREGRADO
      \else%--
      \if@openright%---
