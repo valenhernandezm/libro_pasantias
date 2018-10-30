@@ -1,3 +1,4 @@
+\vskip 2cm
     \section{Vista de Casos de Uso} \label{vistaCasosDeUso}
     En esta vista se describirá el sistema desde el punto de vista de los casos de uso. El sistema tiene 2 actores:
 
@@ -6,7 +7,7 @@
         \item \emph{cpi-user}: Es un grupo de CPI, los pertenecientes a este grupo poseen credenciales para entrar al sistema.
         \item \emph{Retailer}: Representa a una cadena. Solo tiene acceso a la información referente a las tiendas y productos que pertenecen a la cadena.
          \end{itemize}
-
+\pagebreak
     \subsection{Resumen de Casos de Uso}
     \newcounter{magicrownumbers}
     \newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}}
@@ -65,7 +66,7 @@
 
         \end{longtable}
     \end{center}
-
+\pagebreak
     \subsection{Diagrama de Casos de Uso}
     Se separaron los casos de uso en varios diagramas para facilitar la lectura.
 
@@ -82,7 +83,7 @@
         \label{fig:cu_retailer}
         \centering
     \end{figure}
-
+\pagebreak
     \subsection{Especificaciones de Casos de Uso}
     A continuación las narrativas de los casos de uso:
 
@@ -198,50 +199,3 @@
     \end{center}
     \vspace{-4em}
 
-    \begin{center}
-        \begin{longtabu} to 0.9\textwidth { | X[p] | X[p] | }
-            \hline
-            \multicolumn{2}{|l|}{
-                \cellcolor{blue!25}{\large{\textbf{Caso de Uso:}} Nombre del caso de uso}
-            } \TBstrut \\
-            \hline\hline
-            \multicolumn{2}{|l|}{
-                \makecell{\large{\textbf{Descripción:}} \\ Descripción del caso de uso.}
-            } \\
-            \hline
-            \multicolumn{2}{|l|}{
-                \makecell{\large{\textbf{Precondición:}} \\ Aquí va la precondición.}
-            } \\
-            \hline
-            \multicolumn{2}{|l|}{\cellcolor{blue!15}\large{\textbf{Flujo básico:}}}  \TBstrut\\
-            \hline
-
-            Actor & Sistema \TBstrut\\
-            \hline
-            1. El actor hace algo. &  \TBstrut\\
-            \hline
-             & 2. El sistema responde. \TBstrut\\
-             \hline\hline
-
-
-            \multicolumn{2}{|l|}{\cellcolor{blue!15}\large{\textbf{Flujos alternos:}}}  \TBstrut\\
-            \hline
-            Actor & Sistema \TBstrut\\
-            \hline
-            1. El actor hace algo. &  \TBstrut\\
-            \hline
-             & 2. El sistema responde. \TBstrut\\
-             \hline\hline
-
-
-            \multicolumn{2}{|l|}{
-                \makecell{\large{\textbf{Poscondición:}} \\ Aquí va la poscondición del caso de uso.}
-            } \\
-            \hline
-            \multicolumn{2}{|l|}{
-                \makecell{\large{\textbf{Puntos de extensión:}} \\ Aquí van los puntos de extensión del caso de uso.}
-            } \\
-            \hline
-        \end{longtabu}
-    \end{center}
-    \vspace{-4em}

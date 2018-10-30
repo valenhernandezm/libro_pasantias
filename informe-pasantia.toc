@@ -3,7 +3,6 @@
 \contentsline {chapter}{\MakeTextUppercase {Resumen}}{iv}
 \contentsline {chapter}{\MakeTextUppercase {\'{I}ndice general}}{vi}
 \contentsline {chapter}{\MakeTextUppercase {\'{I}ndice de figuras}}{ix}
-\contentsline {chapter}{\MakeTextUppercase {\'{I}ndice de tablas}}{x}
 \contentsline {chapter}{\MakeTextUppercase {Introducci\IeC {\'o}n}}{1}
 \contentsline {chapter}{\MakeTextUppercase {Cap\'{\i }tulo}~I:~\MakeTextUppercase {Entorno empresarial}}{3}
 \contentsline {section}{\numberline {1.1}Antecedentes de la empresa}{3}
@@ -20,52 +19,53 @@
 \contentsline {subsection}{\numberline {2.1.5}Servicio Web}{8}
 \contentsline {subsection}{\numberline {2.1.6}REST}{8}
 \contentsline {subsection}{\numberline {2.1.7}SAAS}{10}
-\contentsline {chapter}{\MakeTextUppercase {Cap\'{\i }tulo}~III:~\MakeTextUppercase {Marco Tecnol\IeC {\'o}gico}}{11}
-\contentsline {section}{\numberline {3.1}Lenguajes}{11}
-\contentsline {subsection}{\numberline {3.1.1}C\#}{11}
-\contentsline {subsection}{\numberline {3.1.2}HTML}{11}
-\contentsline {subsection}{\numberline {3.1.3}CSS}{12}
-\contentsline {subsection}{\numberline {3.1.4}JavaScript}{12}
-\contentsline {subsection}{\numberline {3.1.5}ASP.NET Razor}{12}
-\contentsline {section}{\numberline {3.2}Frameworks}{12}
-\contentsline {subsection}{\numberline {3.2.1}.NET}{12}
-\contentsline {subsection}{\numberline {3.2.2}ASP.NET}{13}
-\contentsline {subsection}{\numberline {3.2.3}ASP.NET MVC}{13}
-\contentsline {subsection}{\numberline {3.2.4}ASP.NET Web Api}{13}
-\contentsline {subsection}{\numberline {3.2.5}Umbraco}{13}
-\contentsline {section}{\numberline {3.3}Control de Versiones}{14}
-\contentsline {subsection}{\numberline {3.3.1}Git}{14}
-\contentsline {section}{\numberline {3.4}Manejador de Base de Datos}{14}
-\contentsline {subsection}{\numberline {3.4.1}SQL Server}{14}
+\contentsline {subsection}{\numberline {2.1.8}Modelo "4+1" de Kruchten}{10}
+\contentsline {chapter}{\MakeTextUppercase {Cap\'{\i }tulo}~III:~\MakeTextUppercase {Marco Tecnol\IeC {\'o}gico}}{12}
+\contentsline {section}{\numberline {3.1}Lenguajes}{12}
+\contentsline {subsection}{\numberline {3.1.1}C\#}{12}
+\contentsline {subsection}{\numberline {3.1.2}HTML}{12}
+\contentsline {subsection}{\numberline {3.1.3}CSS}{13}
+\contentsline {subsection}{\numberline {3.1.4}JavaScript}{13}
+\contentsline {subsection}{\numberline {3.1.5}ASP.NET Razor}{13}
+\contentsline {section}{\numberline {3.2}Frameworks}{13}
+\contentsline {subsection}{\numberline {3.2.1}.NET}{13}
+\contentsline {subsection}{\numberline {3.2.2}ASP.NET}{14}
+\contentsline {subsection}{\numberline {3.2.3}ASP.NET MVC}{14}
+\contentsline {subsection}{\numberline {3.2.4}ASP.NET Web Api}{14}
+\contentsline {subsection}{\numberline {3.2.5}Umbraco}{14}
+\contentsline {section}{\numberline {3.3}Control de Versiones}{15}
+\contentsline {subsection}{\numberline {3.3.1}Git}{15}
+\contentsline {section}{\numberline {3.4}Manejador de Base de Datos}{15}
+\contentsline {subsection}{\numberline {3.4.1}SQL Server}{15}
 \contentsline {section}{\numberline {3.5}Entorno de Trabajo}{15}
 \contentsline {subsection}{\numberline {3.5.1}Visual Studio}{15}
-\contentsline {section}{\numberline {3.6}JSON}{15}
-\contentsline {section}{\numberline {3.7}Ajax}{15}
+\contentsline {section}{\numberline {3.6}JSON}{16}
+\contentsline {section}{\numberline {3.7}Ajax}{16}
 \contentsline {section}{\numberline {3.8}Highcharts}{16}
-\contentsline {section}{\numberline {3.9}DataTables}{16}
-\contentsline {chapter}{\MakeTextUppercase {Cap\'{\i }tulo}~IV:~\MakeTextUppercase {Marco Metodol\IeC {\'o}gico}}{17}
-\contentsline {section}{\numberline {4.1}\IeC {\textquestiondown }Qu\IeC {\'e} es Scrum?}{17}
-\contentsline {section}{\numberline {4.2}Usos de Scrum}{17}
-\contentsline {section}{\numberline {4.3}Equipo de Scrum}{18}
-\contentsline {subsection}{\numberline {4.3.1}Due\IeC {\~n}o del Producto}{18}
-\contentsline {subsection}{\numberline {4.3.2}Equipo de Desarrollo}{19}
-\contentsline {subsection}{\numberline {4.3.3}Scrum Master}{19}
-\contentsline {section}{\numberline {4.4}Eventos de Scrum}{19}
-\contentsline {subsection}{\numberline {4.4.1}Sprint}{20}
-\contentsline {section}{\numberline {4.5}Artefactos de Scrum}{20}
-\contentsline {subsection}{\numberline {4.5.1}Lista de Producto}{20}
-\contentsline {subsection}{\numberline {4.5.2}Lista de Pendientes del Sprint}{20}
-\contentsline {subsection}{\numberline {4.5.3}Incremento}{21}
-\contentsline {chapter}{\MakeTextUppercase {Cap\'{\i }tulo}~V:~\MakeTextUppercase {Desarrollo}}{22}
-\contentsline {section}{\numberline {5.1}Inducci\IeC {\'o}n}{23}
-\contentsline {section}{\numberline {5.2}Desarrollo}{23}
-\contentsline {subsection}{\numberline {5.2.1}Primer Sprint}{24}
-\contentsline {subsection}{\numberline {5.2.2}Segundo Sprint (M\IeC {\'o}dulo de Administraci\IeC {\'o}n de cadenas, productos y categor\IeC {\'\i }as)}{25}
-\contentsline {subsection}{\numberline {5.2.3}Tercer Sprint (M\IeC {\'o}dulo de Generaci\IeC {\'o}n de Reportes)}{26}
-\contentsline {subsection}{\numberline {5.2.4}Cuarto Sprint (Continuaci\IeC {\'o}n con el M\IeC {\'o}dulo de Generaci\IeC {\'o}n de Reportes)}{27}
-\contentsline {subsection}{\numberline {5.2.5}Quinto Sprint (M\IeC {\'o}dulo de Administraci\IeC {\'o}n de Precios y Correcci\IeC {\'o}n de estructura del proyecto)}{28}
-\contentsline {section}{\numberline {5.3}Documentaci\IeC {\'o}n}{29}
-\contentsline {chapter}{\MakeTextUppercase {Conclusiones y Recomendaciones}}{32}
-\contentsline {section}{\numberline {5.4}Conclusiones}{32}
-\contentsline {section}{\numberline {5.5}Recomendaciones}{33}
-\contentsline {chapter}{\MakeTextUppercase {Referencias}}{35}
+\contentsline {section}{\numberline {3.9}DataTables}{17}
+\contentsline {chapter}{\MakeTextUppercase {Cap\'{\i }tulo}~IV:~\MakeTextUppercase {Marco Metodol\IeC {\'o}gico}}{18}
+\contentsline {section}{\numberline {4.1}\IeC {\textquestiondown }Qu\IeC {\'e} es Scrum?}{18}
+\contentsline {section}{\numberline {4.2}Usos de Scrum}{18}
+\contentsline {section}{\numberline {4.3}Equipo de Scrum}{19}
+\contentsline {subsection}{\numberline {4.3.1}Due\IeC {\~n}o del Producto}{19}
+\contentsline {subsection}{\numberline {4.3.2}Equipo de Desarrollo}{20}
+\contentsline {subsection}{\numberline {4.3.3}Scrum Master}{20}
+\contentsline {section}{\numberline {4.4}Eventos de Scrum}{20}
+\contentsline {subsection}{\numberline {4.4.1}Sprint}{21}
+\contentsline {section}{\numberline {4.5}Artefactos de Scrum}{21}
+\contentsline {subsection}{\numberline {4.5.1}Lista de Producto}{21}
+\contentsline {subsection}{\numberline {4.5.2}Lista de Pendientes del Sprint}{21}
+\contentsline {subsection}{\numberline {4.5.3}Incremento}{22}
+\contentsline {chapter}{\MakeTextUppercase {Cap\'{\i }tulo}~V:~\MakeTextUppercase {Desarrollo}}{23}
+\contentsline {section}{\numberline {5.1}Inducci\IeC {\'o}n}{24}
+\contentsline {section}{\numberline {5.2}Desarrollo}{25}
+\contentsline {subsection}{\numberline {5.2.1}Primer Sprint}{25}
+\contentsline {subsection}{\numberline {5.2.2}Segundo Sprint (M\IeC {\'o}dulo de Administraci\IeC {\'o}n de cadenas, productos y categor\IeC {\'\i }as)}{30}
+\contentsline {subsection}{\numberline {5.2.3}Tercer Sprint (M\IeC {\'o}dulo de Generaci\IeC {\'o}n de Reportes)}{32}
+\contentsline {subsection}{\numberline {5.2.4}Cuarto Sprint (Continuaci\IeC {\'o}n con el M\IeC {\'o}dulo de Generaci\IeC {\'o}n de Reportes)}{33}
+\contentsline {subsection}{\numberline {5.2.5}Quinto Sprint (M\IeC {\'o}dulo de Administraci\IeC {\'o}n de Precios y Correcci\IeC {\'o}n de estructura del proyecto)}{34}
+\contentsline {section}{\numberline {5.3}Documentaci\IeC {\'o}n}{38}
+\contentsline {chapter}{\MakeTextUppercase {Conclusiones y Recomendaciones}}{39}
+\contentsline {section}{\numberline {5.4}Recomendaciones}{40}
+\contentsline {chapter}{\MakeTextUppercase {Referencias}}{41}
+\contentsline {chapter}{\MakeTextUppercase {Ap\'{e}ndice}~A:~\MakeTextUppercase {DOCUMENTO DE ARQUITECTURA DE SOFTWARE}}{44}

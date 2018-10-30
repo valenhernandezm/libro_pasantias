@@ -5,22 +5,14 @@
 \contentsline {subsection}{\numberline {1.4}Referencias}{3}{subsection.1.4}
 \contentsline {subsection}{\numberline {1.5}Vista Global}{3}{subsection.1.5}
 \contentsline {section}{\numberline {2}Representaci\IeC {\'o}n Arquitect\IeC {\'o}nica}{3}{section.2}
-\contentsline {section}{\numberline {3}Metas y Restricciones Arquitect\IeC {\'o}nicas}{3}{section.3}
-\contentsline {section}{\numberline {4}Vista de Casos de Uso}{3}{section.4}
-\contentsline {subsection}{\numberline {4.1}Resumen de Casos de Uso}{3}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Diagrama de Casos de Uso}{4}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Especificaciones de Casos de Uso}{6}{subsection.4.3}
-\contentsline {section}{\numberline {5}Vista L\IeC {\'o}gica}{8}{section.5}
-\contentsline {subsection}{\numberline {5.1}Vista General}{8}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Diagrama Conceptual (Modelo de Dominio)}{8}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Diagrama de Clases}{8}{subsubsection.5.1.2}
-\contentsline {section}{\numberline {6}Vista de Implantaci\IeC {\'o}n}{8}{section.6}
-\contentsline {section}{\numberline {7}Vista de Implementaci\IeC {\'o}n}{8}{section.7}
-\contentsline {subsection}{\numberline {7.1}Diagrama de Componentes}{9}{subsection.7.1}
-\contentsline {section}{\numberline {8}Vista de Datos}{10}{section.8}
-\contentsline {subsection}{\numberline {8.1}Diagrama de Entidad Relaci\IeC {\'o}n (ER)}{10}{subsection.8.1}
-\contentsline {section}{\numberline {9}Tama\IeC {\~n}o y Desempe\IeC {\~n}o}{11}{section.9}
-\contentsline {section}{\numberline {10}Calidad}{11}{section.10}
-\contentsline {subsection}{\numberline {10.1}Mantenibilidad}{11}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Flexibilidad}{11}{subsection.10.2}
-\contentsline {subsection}{\numberline {10.3}Seguridad}{11}{subsection.10.3}
+\contentsline {section}{\numberline {3}Vista L\IeC {\'o}gica}{4}{section.3}
+\contentsline {section}{\numberline {4}Vista de Desarrollo}{6}{section.4}
+\contentsline {section}{\numberline {5}Vista de Procesos}{6}{section.5}
+\contentsline {section}{\numberline {6}Vista F\IeC {\'\i }sica}{6}{section.6}
+\contentsline {section}{\numberline {7}Vista de Casos de Uso}{7}{section.7}
+\contentsline {subsection}{\numberline {7.1}Resumen de Casos de Uso}{8}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Diagrama de Casos de Uso}{9}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Especificaciones de Casos de Uso}{11}{subsection.7.3}
+\contentsline {section}{\numberline {8}Componentes de Umbraco}{12}{section.8}
+\contentsline {subsection}{\numberline {8.1}Datatypes}{12}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Doctypes}{12}{subsection.8.2}

@@ -22,7 +22,7 @@ El servidor mantiene una relación de uno-a-muchos con los clientes, por otro la
 \subsection{MVC}
 MVC, siglas para Modelo-Vista-Controlador, es un patrón de software utilizado ampliamente en la actualidad. Consiste en separar los datos de la aplicación (Modelo), la interfaz con el usuario (Vista), y la lógica de control (Controlador) en tres componentes distintos. Al realizar esta separación se reduce la complejidad del diseño arquitectónico y se incrementa la flexibilidad, la reusabilidad y mantenimiento del código. Adicionalmente, se pueden realizar cambios sobre un componente sin afectar a los demás, lo cual permite que cada componente tenga ciclos de desarrollo independientes del resto \cite{mvcKrasner}. 
 
-Cabe destacar que este patrón es usado frecuentemente en el desarrollo de aplicaciones web, por lo que resulta bastante sencillo aplicarlo al modelo cliente-servidor utilizado en la aplicación. \textit{CPI} fue desarrollado usando una plataforma de desarrollo web basada en .NET que implementa este patrón.
+Cabe destacar que este patrón es usado frecuentemente en el desarrollo de aplicaciones web, por lo que resulta bastante sencillo aplicarlo al modelo cliente-servidor utilizado en la aplicación. \textit{CPI} fue desarrollado usando una plataforma de desarrollo web basada en .NET \cite{netMicrosoft} que implementa este patrón.
 
 \subsection{API}
 Un API, llamado así por sus siglas en inglés para \textit{Application Programming Interface} (Interfaz de Programación de Aplicaciones), es un conjunto de comandos, funciones, protocolos y objetos que permiten exponer los datos de una aplicación de software, establecen las reglas y los mecanismos a través de los cuales se puede tener acceso a estos datos. También permite la interacción con algún software externo \cite{apiChristensson}.
@@ -57,3 +57,22 @@ Se dice que un servicio web o el API de un servicio web es \textit{RESTful} cuan
 \subsection{SAAS}
 
 Un Software como Servicio o SAAS, por sus siglas en inglés \textit{Software as a Service}, es un modelo para la distribución de software donde los clientes acceden al software a través de Internet. En SaaS, un proveedor de servicios aloja la aplicación en su centro de datos y un cliente accede a ella a través de un navegador web estándar \cite{saas}.
+
+\subsection{Modelo "4+1" de Kruchten}
+
+El modelo “4+1” de Kruchten, es un modelo de vistas diseñado por el profesor Philippe Kruchten y que encaja con el estándar “IEEE 1471-2000” que se utiliza para describir la arquitectura de un sistema software intensivo basado en el uso de múltiples vistas que deben estar relacionadas entre sí (ver Figura \ref{fig:vistas}) \cite{vistasKruchten}. Cada una de estas vistas permite abordar por separado las inquietudes de los distintos "interesados" de la arquitectura: usuario final, desarrolladores, ingenieros de sistemas, gerentes de proyectos, entre otros, y manejar por separado los requisitos funcionales y no funcionales. Las vistas que abarca este modelo son:
+\begin{itemize}
+	\item Vista Lógica: En esta vista se representa la funcionalidad que el sistema proporciona a los usuarios finales, es decir, se ha de representar lo que el sistema debe hacer y las funciones y servicios que ofrece.
+	\item Vista de Despliegue: En esta vista se muestra el sistema desde la perspectiva de un programador y se ocupa de la gestión del software, es decir, se muestra como esta dividido el sistema de software en componentes y las dependencias que hay entre estos componentes.
+ 	\item Vista de Procesos: En esta vista se muestran los procesos que hay en el sistema y la forma en la que se comunican estos procesos, se muestra desde la perspectiva de un integrador de sistemas, el flujo de trabajo paso a paso de negocio y operaciones de los componentes que conforman el sistema.
+	\item Vista Física: Se muestra desde la perspectiva de un ingeniero de sistemas todos los componentes físicos del sistema, así como las conexiones físicas entre esos componentes que conforman la solución.
+	\item Vista de Escenarios: Esta vista va a ser representada por los casos de uso  software y va a tener la función de unir y relacionar las otras 4 vistas.
+\end{itemize}
+
+\begin{figure}[H]
+    \begin{center}
+    \includegraphics[width=\textwidth]{vistas.png}
+    \caption{Modelo “4+1” de Kruchten}
+    \label{fig:vistas}
+    \end{center}
+\end{figure}

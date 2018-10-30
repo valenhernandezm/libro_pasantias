@@ -1,0 +1,71 @@
+\vskip 2cm
+\section{Componentes de Umbraco} \label{componentesUmbraco}
+En esta sección se muestran los componentes desarrollados para la parte Umbraco del sistema.
+
+\subsection{Datatypes}
+A continuación se muestra una lista de los Datatypes usados por la aplicación.
+Nota: Todos los Datatypes creados para CPI tienen el prefijo \emph{\_cpi::} en su nombre.
+
+\begin{longtable}{  l | l  }
+   \hline\hline
+   \rowcolor{blue!25}
+   \textbf{Datatype} & \textbf{Función} \\
+   \hline\hline
+   \endhead
+
+   \hline
+   \endfoot
+
+   \endlastfoot
+
+   Attached images & Seleccionar una imagen \\
+   Cadena & Seleccionar una cadena \\
+   Categoria & Seleccionar una categoría \\
+   Email address & Introducir un correo electrónico \\
+   Fechas & Seleccionar una fecha \\
+   On/off & Elegir una opción o no \\
+   Productos & Seleccionar un producto \\
+   Textarea max150 & Introducir texto de máximo 150 caracteres \\
+   Textarea max65 & Introducir texto de máximo 65 caracteres \\
+   UPC & Seleccionar código UPC de un producto \\
+   \hline
+
+   \caption{Datatypes}
+   \label{table:datatypes}
+\end{longtable}
+
+
+\subsection{Doctypes}
+
+
+\begin{longtable}{ | p{5em} | l | l | }
+   \hline
+   \rowcolor{blue!25}
+   \multicolumn{1}{|c|}{Doctype} &
+   \multicolumn{1}{|c|}{Propiedades} &
+   \multicolumn{1}{|c|}{Datatype} \\
+   \hline
+   \endhead
+
+   \hline
+   \endfoot
+
+   \endlastfoot
+
+   Cadena
+       & Nombre & Textarea max150 \\
+       \cline{2-3}
+       & Abreviación & Textarea max65 \\
+       \cline{2-3}
+       & ID & Numeric \\
+       \cline{2-3}
+       & Correo electrónico & Email Address \\
+       \cline{2-3}
+       & Estado & On/off \\
+       \cline{2-3}
+       & Fecha actualización & Date Picker \\
+   \hline
+
+   \caption{Doctypes}
+   \label{table:doctypes}
+\end{longtable}

@@ -116,6 +116,34 @@ OUTPUT das.toc
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmti10.tfm
+INPUT vista_logica.tex
+INPUT vista_logica.tex
+INPUT imgs/diagrama_conceptual.png
+INPUT ./imgs/diagrama_conceptual.png
+INPUT ./imgs/diagrama_conceptual.png
+INPUT ./imgs/diagrama_conceptual.png
+INPUT ./imgs/diagrama_conceptual.png
+INPUT imgs/er.png
+INPUT ./imgs/er.png
+INPUT ./imgs/er.png
+INPUT ./imgs/er.png
+INPUT ./imgs/er.png
+INPUT vista_desarrollo.tex
+INPUT vista_desarrollo.tex
+INPUT imgs/diagrama_componentes.png
+INPUT ./imgs/diagrama_componentes.png
+INPUT ./imgs/diagrama_componentes.png
+INPUT ./imgs/diagrama_componentes.png
+INPUT ./imgs/diagrama_componentes.png
+INPUT vista_procesos.tex
+INPUT vista_procesos.tex
+INPUT vista_fisica.tex
+INPUT vista_fisica.tex
+INPUT imgs/diagrama_despliegue.png
+INPUT ./imgs/diagrama_despliegue.png
+INPUT ./imgs/diagrama_despliegue.png
+INPUT ./imgs/diagrama_despliegue.png
+INPUT ./imgs/diagrama_despliegue.png
 INPUT vista_casos_de_uso.tex
 INPUT vista_casos_de_uso.tex
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omscmr.fd
@@ -130,24 +158,8 @@ INPUT ./imgs/cu_retailer.png
 INPUT ./imgs/cu_retailer.png
 INPUT ./imgs/cu_retailer.png
 INPUT ./imgs/cu_retailer.png
-INPUT vista_logica.tex
-INPUT vista_logica.tex
-INPUT vista_implantacion.tex
-INPUT vista_implantacion.tex
-INPUT vista_implementacion.tex
-INPUT vista_implementacion.tex
-INPUT imgs/diagrama_componentes.png
-INPUT ./imgs/diagrama_componentes.png
-INPUT ./imgs/diagrama_componentes.png
-INPUT ./imgs/diagrama_componentes.png
-INPUT ./imgs/diagrama_componentes.png
-INPUT vista_de_datos.tex
-INPUT vista_de_datos.tex
-INPUT imgs/er.png
-INPUT ./imgs/er.png
-INPUT ./imgs/er.png
-INPUT ./imgs/er.png
-INPUT ./imgs/er.png
+INPUT componentes_umbraco.tex
+INPUT componentes_umbraco.tex
 INPUT das.aux
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb

@@ -21,6 +21,12 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{ikels}
+\BIBentryALTinterwordspacing
+IKêls. (2018) Que hacemos. [Online]. Available:
+  \url{http://www.ikels.com/que-hacemos/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{cmsBarker}
 D.~Barker, \emph{Web Content Management: Systems, Features, and Best
   Practices}.\hskip 1em plus 0.5em minus 0.4em\relax O'Reilly Media, 2016.
@@ -59,6 +65,12 @@ G.~E. Krasner and S.~T. Pope, ``A cookbook for using the model-view-controller
 A.~S. Tanenbaum and D.~J. Wetherall, \emph{Computer Networks}.\hskip 1em plus
   0.5em minus 0.4em\relax Pearson, 2010.
 
+\bibitem{netMicrosoft}
+\BIBentryALTinterwordspacing
+Microsoft. .net. [Online]. Available:
+  \url{https://www.microsoft.com/net/learn/dotnet/what-is-dotnet}
+\BIBentrySTDinterwordspacing
+
 \bibitem{apiChristensson}
 \BIBentryALTinterwordspacing
 P.~Christensson. (2016) Api definition. [Online]. Available:
@@ -74,6 +86,10 @@ P.~Christensson. (2016) Api definition. [Online]. Available:
 \bibitem{restFielding}
 R.~T. Fielding, ``Architectural styles and the design of network-based software
   architectures,'' Ph.D. dissertation, University of California, 2000.
+
+\bibitem{vistasKruchten}
+P.~Kruchten, ``The 4+1 view model of architecture,'' \emph{IEEE Software
+  12(6):45-50}, pp. 42--50, nov 1995.
 
 \bibitem{htmlW3C}
 S.~Moon, T.~Leithead, A.~Eicholz, A.~Danilo, and S.~Faulkner, ``{HTML} 5.2,''
@@ -97,15 +113,9 @@ W3Schools. What is razor? [Online]. Available:
   \url{https://www.w3schools.com/asp/razor_intro.asp}
 \BIBentrySTDinterwordspacing
 
-\bibitem{netMicrosoft}
-\BIBentryALTinterwordspacing
-Microsoft. .net. [Online]. Available:
-  \url{https://www.microsoft.com/net/learn/dotnet/what-is-dotnet}
-\BIBentrySTDinterwordspacing
-
 \bibitem{aspmvcMicrosoft}
 \BIBentryALTinterwordspacing
-------. (2010) Asp.net mvc 3. [Online]. Available:
+Microsoft. (2010) Asp.net mvc 3. [Online]. Available:
   \url{https://docs.microsoft.com/en-us/aspnet/mvc/mvc3}
 \BIBentrySTDinterwordspacing
 
@@ -160,12 +170,6 @@ DataTables. "data tables manual". [Online]. Available:
 \BIBentryALTinterwordspacing
 K.~Schwaber and J.~Sutherland. (2017) The scrum guide. [Online]. Available:
   \url{https://www.scrumguides.org/scrum-guide.html}
-\BIBentrySTDinterwordspacing
-
-\bibitem{ikels}
-\BIBentryALTinterwordspacing
-IKêls. (2018) Que hacemos. [Online]. Available:
-  \url{http://www.ikels.com/que-hacemos/}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.19)  19 OCT 2018 15:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.19)  30 OCT 2018 14:41
 entering extended mode
 **c:/Users/Valentina/Documents/Valentina/libro_pasantias/Anexos/das/das.tex
 (c:/Users/Valentina/Documents/Valentina/libro_pasantias/Anexos/das/das.tex
@@ -446,71 +446,78 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 l.50     \newpage
                   [1
 
-] [2] (vista_casos_de_uso.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
+] [2] (vista_logica.tex [3]
+<./imgs/diagrama_conceptual.png, id=64, 712.16063pt x 356.0803pt>
+File: ./imgs/diagrama_conceptual.png Graphic file (type png)
+<use ./imgs/diagrama_conceptual.png>
+Package pdftex.def Info: ./imgs/diagrama_conceptual.png  used on input line 6.
+(pdftex.def)             Requested size: 505.89pt x 252.94376pt.
+<./imgs/er.png, id=66, 568.37344pt x 591.71063pt>
+File: ./imgs/er.png Graphic file (type png)
+<use ./imgs/er.png>
+Package pdftex.def Info: ./imgs/er.png  used on input line 13.
+(pdftex.def)             Requested size: 505.89pt x 526.684pt.
+) (vista_desarrollo.tex [4 <./imgs/diagrama_conceptual.png>] [5 <./imgs/er.png>]
+<./imgs/diagrama_componentes.png, id=79, 587.19376pt x 248.42813pt>
+File: ./imgs/diagrama_componentes.png Graphic file (type png)
+<use ./imgs/diagrama_componentes.png>
+Package pdftex.def Info: ./imgs/diagrama_componentes.png  used on input line 8.
+(pdftex.def)             Requested size: 505.89pt x 214.03067pt.
+) (vista_procesos.tex) (vista_fisica.tex
+<./imgs/diagrama_despliegue.png, id=81, 451.6875pt x 198.7425pt>
+File: ./imgs/diagrama_despliegue.png Graphic file (type png)
+<use ./imgs/diagrama_despliegue.png>
+Package pdftex.def Info: ./imgs/diagrama_despliegue.png  used on input line 8.
+(pdftex.def)             Requested size: 505.89pt x 222.60522pt.
+) (vista_casos_de_uso.tex [6 <./imgs/diagrama_componentes.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 6.
  ("C:\Users\Valentina\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
+ [7 <./imgs/diagrama_despliegue.png>]
 \c@magicrownumbers=\count124
- [3]
-<./imgs/cu_admin.png, id=79, 791.20593pt x 749.80125pt>
+ [8]
+<./imgs/cu_admin.png, id=99, 764.10469pt x 763.35187pt>
 File: ./imgs/cu_admin.png Graphic file (type png)
 <use ./imgs/cu_admin.png>
-Package pdftex.def Info: ./imgs/cu_admin.png  used on input line 73.
-(pdftex.def)             Requested size: 505.89pt x 479.42497pt.
- [4]
-<./imgs/cu_retailer.png, id=86, 522.45187pt x 721.94719pt>
+Package pdftex.def Info: ./imgs/cu_admin.png  used on input line 74.
+(pdftex.def)             Requested size: 505.89pt x 505.38625pt.
+<./imgs/cu_retailer.png, id=100, 600.74437pt x 591.71063pt>
 File: ./imgs/cu_retailer.png Graphic file (type png)
 <use ./imgs/cu_retailer.png>
-Package pdftex.def Info: ./imgs/cu_retailer.png  used on input line 80.
-(pdftex.def)             Requested size: 417.96207pt x 577.55853pt.
- [5 <./imgs/cu_admin.png>] [6 <./imgs/cu_retailer.png>]
-Underfull \vbox (badness 10000) detected at line 145
+Package pdftex.def Info: ./imgs/cu_retailer.png  used on input line 81.
+(pdftex.def)             Requested size: 480.59615pt x 473.36914pt.
+ [9 <./imgs/cu_admin.png>] [10 <./imgs/cu_retailer.png>]
+Underfull \vbox (badness 10000) detected at line 146
  []
 
 
-Underfull \vbox (badness 10000) detected at line 197
+Underfull \vbox (badness 10000) detected at line 198
  []
 
-[7]
-Underfull \vbox (badness 10000) detected at line 245
- []
-
-) (vista_logica.tex) (vista_implantacion.tex) (vista_implementacion.tex
-<./imgs/diagrama_componentes.png, id=106, 587.19376pt x 248.42813pt>
-File: ./imgs/diagrama_componentes.png Graphic file (type png)
-<use ./imgs/diagrama_componentes.png>
-Package pdftex.def Info: ./imgs/diagrama_componentes.png  used on input line 9.
-(pdftex.def)             Requested size: 505.89pt x 214.03067pt.
-) (vista_de_datos.tex [8]
-<./imgs/er.png, id=112, 568.37344pt x 591.71063pt>
-File: ./imgs/er.png Graphic file (type png)
-<use ./imgs/er.png>
-Package pdftex.def Info: ./imgs/er.png  used on input line 4.
-(pdftex.def)             Requested size: 454.69937pt x 473.36914pt.
-) [9 <./imgs/diagrama_componentes.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
- [10 <./imgs/er.png>] [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
+[11]) (componentes_umbraco.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
  (das.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 98.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 92.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  ) 
 Here is how much of TeX's memory you used:
- 7621 strings out of 492973
- 114075 string characters out of 3124920
- 235477 words of memory out of 3000000
- 11338 multiletter control sequences out of 15000+200000
+ 7627 strings out of 492973
+ 114459 string characters out of 3124920
+ 235662 words of memory out of 3000000
+ 11343 multiletter control sequences out of 15000+200000
  5803 words of font info for 21 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,16n,43p,642b,633s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Valentina/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on das.pdf (12 pages, 289947 bytes).
+Output written on das.pdf (13 pages, 325356 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 216 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
+ 175 words of extra memory for PDF output out of 10000 (max. 10000000)
 
