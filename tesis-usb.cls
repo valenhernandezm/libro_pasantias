@@ -1094,13 +1094,13 @@
                    {\bfseries DECANATO DE ESTUDIOS PROFESIONALES}\par%--
                    \vskip 0.1cm
                    {\bfseries COORDINACI\'ON DE \MakeTextUppercase{\@coord}} \par%--
-                   \vskip 4cm%--
+                   \vskip 0.8cm%--
                    {\textbf{\MakeTextUppercase{\@titulo}} \par}%%--
-                   \vskip 2.5cm%--
+                   \vskip 0.8cm%--
                    {\large Por: \par%--
                    \vskip 0.2cm%--
                    \@autor}%--
-                   \vskip 2.0cm%---
+                   \vskip 0.8cm%---
                    {Realizado con la asesor\'ia de:\\%---
                    \vskip 0.3cm%---
                    \@tutor \par \ifcotutor \@cotutor \par \fi}%---
