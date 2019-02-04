@@ -44,16 +44,16 @@ Microsoft. Asp.net overview. [Online]. Available:
   \url{https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework}
 \BIBentrySTDinterwordspacing
 
-\bibitem{saas}
-\BIBentryALTinterwordspacing
-Techopedia. Software as a service. [Online]. Available:
-  \url{https://www.techopedia.com/definition/155/software-as-a-service-saas}
-\BIBentrySTDinterwordspacing
-
 \bibitem{umbraco}
 \BIBentryALTinterwordspacing
 Umbraco. (2018) The flexible cms. [Online]. Available:
   \url{https://umbraco.com/tour}
+\BIBentrySTDinterwordspacing
+
+\bibitem{saas}
+\BIBentryALTinterwordspacing
+Techopedia. Software as a service. [Online]. Available:
+  \url{https://www.techopedia.com/definition/155/software-as-a-service-saas}
 \BIBentrySTDinterwordspacing
 
 \bibitem{mvcKrasner}
@@ -123,6 +123,12 @@ Microsoft. (2010) Asp.net mvc 3. [Online]. Available:
 \BIBentryALTinterwordspacing
 ------. (2010) Asp.net web api. [Online]. Available:
   \url{https://msdn.microsoft.com/en-us/library/hh833994(v=vs.108).aspx}
+\BIBentrySTDinterwordspacing
+
+\bibitem{fluidity}
+\BIBentryALTinterwordspacing
+Fluidity. Fluidity. [Online]. Available:
+  \url{https://umco.github.io/umbraco-fluidity/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{git}

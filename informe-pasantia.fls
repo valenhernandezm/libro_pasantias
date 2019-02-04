@@ -85,6 +85,10 @@ INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xco
 INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty
 INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
 INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/colortbl/colortbl.sty
+INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/colortbl/colortbl.sty
+INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/array.sty
+INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/array.sty
 INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcore.code.tex
 INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/basiclayer/pgfcore.code.tex
 INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/generic/pgf/math/pgfmath.code.tex
@@ -155,8 +159,6 @@ INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/long
 INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/longtable.sty
 INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tabu/tabu.sty
 INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tabu/tabu.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/array.sty
-INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/tools/array.sty
 INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/varwidth/varwidth.sty
 INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/varwidth/varwidth.sty
 INPUT C:/Users/FabioUriel/AppData/Local/Programs/MiKTeX 2.9/tex/latex/float/float.sty
@@ -302,36 +304,98 @@ INPUT capitulo-4.tex
 INPUT capitulo-4.tex
 INPUT capitulo-5.tex
 INPUT capitulo-5.tex
-INPUT cu_admin_inicial.png
-INPUT ./cu_admin_inicial.png
-INPUT ./cu_admin_inicial.png
-INPUT ./cu_admin_inicial.png
-INPUT ./cu_admin_inicial.png
-INPUT cu_retailer_inicial.png
-INPUT ./cu_retailer_inicial.png
-INPUT ./cu_retailer_inicial.png
-INPUT ./cu_retailer_inicial.png
-INPUT ./cu_retailer_inicial.png
-INPUT er_viejo.png
-INPUT ./er_viejo.png
-INPUT ./er_viejo.png
-INPUT ./er_viejo.png
-INPUT ./er_viejo.png
-INPUT er.png
-INPUT ./er.png
-INPUT ./er.png
-INPUT ./er.png
-INPUT ./er.png
 INPUT cu_admin.png
 INPUT ./cu_admin.png
 INPUT ./cu_admin.png
 INPUT ./cu_admin.png
 INPUT ./cu_admin.png
-INPUT cu_retailer.png
-INPUT ./cu_retailer.png
-INPUT ./cu_retailer.png
-INPUT ./cu_retailer.png
-INPUT ./cu_retailer.png
+INPUT cu_retailer_inicial.png
+INPUT ./cu_retailer_inicial.png
+INPUT ./cu_retailer_inicial.png
+INPUT ./cu_retailer_inicial.png
+INPUT ./cu_retailer_inicial.png
+INPUT adminator.png
+INPUT ./adminator.png
+INPUT ./adminator.png
+INPUT ./adminator.png
+INPUT ./adminator.png
+INPUT vali.png
+INPUT ./vali.png
+INPUT ./vali.png
+INPUT ./vali.png
+INPUT ./vali.png
+INPUT content.png
+INPUT ./content.png
+INPUT ./content.png
+INPUT ./content.png
+INPUT ./content.png
+INPUT er.png
+INPUT ./er.png
+INPUT ./er.png
+INPUT ./er.png
+INPUT ./er.png
+INPUT er_viejo.png
+INPUT ./er_viejo.png
+INPUT ./er_viejo.png
+INPUT ./er_viejo.png
+INPUT ./er_viejo.png
+INPUT fluidity.png
+INPUT ./fluidity.png
+INPUT ./fluidity.png
+INPUT ./fluidity.png
+INPUT ./fluidity.png
+INPUT productos_fluidity.png
+INPUT ./productos_fluidity.png
+INPUT ./productos_fluidity.png
+INPUT ./productos_fluidity.png
+INPUT ./productos_fluidity.png
+INPUT catalogos.png
+INPUT ./catalogos.png
+INPUT ./catalogos.png
+INPUT ./catalogos.png
+INPUT ./catalogos.png
+INPUT navbar.png
+INPUT ./navbar.png
+INPUT ./navbar.png
+INPUT ./navbar.png
+INPUT ./navbar.png
+INPUT sidebar.png
+INPUT ./sidebar.png
+INPUT ./sidebar.png
+INPUT ./sidebar.png
+INPUT ./sidebar.png
+INPUT productos.png
+INPUT ./productos.png
+INPUT ./productos.png
+INPUT ./productos.png
+INPUT ./productos.png
+INPUT reporte_barras.png
+INPUT ./reporte_barras.png
+INPUT ./reporte_barras.png
+INPUT ./reporte_barras.png
+INPUT ./reporte_barras.png
+INPUT asignar_producto.png
+INPUT ./asignar_producto.png
+INPUT ./asignar_producto.png
+INPUT ./asignar_producto.png
+INPUT ./asignar_producto.png
+INPUT login.png
+INPUT ./login.png
+INPUT ./login.png
+INPUT ./login.png
+INPUT ./login.png
+INPUT precios.png
+INPUT ./precios.png
+INPUT ./precios.png
+INPUT ./precios.png
+INPUT ./precios.png
+INPUT tiendas.png
+INPUT ./tiendas.png
+INPUT ./tiendas.png
+INPUT ./tiendas.png
+INPUT ./tiendas.png
+INPUT capitulo-6.tex
+INPUT capitulo-6.tex
 INPUT conclusiones.tex
 INPUT conclusiones.tex
 INPUT informe-pasantia.bbl
@@ -356,6 +420,14 @@ INPUT ./Anexos/das/das.pdf
 INPUT Anexos/das/das.pdf
 INPUT ./Anexos/das/das.pdf
 INPUT Anexos/das/das.pdf
+INPUT ./Anexos/das/das.pdf
+INPUT Anexos/das/das.pdf
+INPUT ./Anexos/das/das.pdf
+INPUT Anexos/das/das.pdf
+INPUT ./Anexos/das/das.pdf
+INPUT Anexos/das/das.pdf
+INPUT ./Anexos/das/das.pdf
+INPUT ./Anexos/das/das.pdf
 INPUT ./Anexos/das/das.pdf
 INPUT Anexos/das/das.pdf
 INPUT ./Anexos/das/das.pdf

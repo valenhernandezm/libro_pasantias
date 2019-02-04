@@ -1,1 +1,106 @@
-\chapter{Conclusiones y recomendaciones}
+\chapter{Resultados}
+Se cumplió el objetivo que se planteó como el alcance inicial de la versión 2 de la aplicación. Durante el desarrollo se consiguió un error en la estructura que se llevaba en la solución de Visual Studio ya que se estaban mezclando los controladores WebApi que se encargan de traer los datos necesarios para las diferentes funcionalidades, con los SurfaceController que se encargan de las vistas por lo que se tomó un tiempo en corregir este error y el tiempo para completar las funcionalidades que quedaban fue mucho mas justo.
+
+Aunque se tuvo una fase de inducción, el pasante a lo largo del desarrollo del proyecto tuvo que mantenerse en constante aprendizaje de conceptos nuevos que aparecían durante el camino y que eran necesarios entender para poder completar el mismo, por lo que en algunos casos relantizó el desarrollo. El caso de uso que no se logró completar pertenecía al Módulo de Generación de Reportes. 
+
+
+\section{Estado actual de la aplicación CPI}
+La aplicación CPI tuvo como resultado una versión 2 funcional que abarca el 97\% de los casos de uso planteados en el alcance inicial. Al final del trabajo realizado la empresa quedó satisfecha con el trabajo realizado por el pasante y el resultado final de la aplicación. En la Tabla \ref{tab:casosDeUso} se muestran los casos de uso del sistema.
+
+
+
+\newcounter{magicrownumbers}
+\newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}}
+\begin{center}
+    \begin{longtable}{ | l | l | c | }
+        \hline
+        \rowcolor{blue!25}
+        \multicolumn{1}{|c|}{ID del Caso de Uso} &
+        \multicolumn{1}{|c|}{Caso de Uso} &
+        \multicolumn{1}{|c|}{Actor} \\
+        \hhline{===}
+        \endhead
+
+        \endfoot
+
+       CU-\rownumber & Iniciar sesión (Umbraco) & Admin \\ \hline
+       CU-\rownumber & Consultar lista miembros & Admin \\ \hline
+       CU-\rownumber & Gestionar miembro (CRUD) & Admin \\ \hline
+       CU-\rownumber & Consultar grupos & Admin \\ \hline
+       CU-\rownumber & Gestionar grupo (CRUD) & Admin \\ \hline
+       CU-\rownumber & Asignar miembro/s a grupo & Admin \\ \hline
+       CU-\rownumber & Remover miembro/s de grupo (CRUD) & Admin \\ \hline
+       CU-\rownumber & Cambiar permisos de miembro & Admin \\ \hline
+
+       CU-\rownumber & Gestionar contenido & Admin \\ \hline
+       CU-\rownumber & Consultar lista de cadenas & Admin \\ \hline
+       CU-\rownumber & Gestionar cadena (CRUD) & Admin \\ \hline
+       CU-\rownumber & Asignar tienda/s a cadena & Admin \\ \hline
+       CU-\rownumber & Remover tienda/s de cadena & Admin \\ \hline
+       CU-\rownumber & Consultar lista de productos & Admin \\ \hline
+       CU-\rownumber & Gestionar producto (CRUD) & Admin \\ \hline
+       CU-\rownumber & Consultar lista de productos UPC & Admin \\ \hline
+       CU-\rownumber & Gestionar producto UPC (CRUD) & Admin \\ \hline
+       CU-\rownumber & Asignar producto/s a producto UPC & Admin \\ \hline
+       CU-\rownumber & Remover producto/s de producto UPC & Admin \\ \hline
+       CU-\rownumber & Consultar lista de precios & Admin \\ \hline
+       CU-\rownumber & Consultar lista de tiendas & Admin \\ \hline
+       CU-\rownumber & Gestionar tienda (CRUD) & Admin \\ \hline
+       CU-\rownumber & Consultar lista de zonas & Admin \\ \hline
+       CU-\rownumber & Gestionar zonas (CRUD) & Admin \\ \hline
+       CU-\rownumber & Consultar lista de catálogo generales & Admin \\ \hline
+       CU-\rownumber & Gestionar catálogo (CRUD) & Admin \\ \hline
+       CU-\rownumber & Asignar producto/s a catálogo & Admin \\ \hline
+       CU-\rownumber & Remover producto/s de catálogo & Admin \\ \hline
+
+       
+       CU-\rownumber & Iniciar sesión (CPI) & Retailer \\ \hline
+       CU-\rownumber & Consultar lista de productos & Retailer \\ \hline
+       CU-\rownumber & Importar precios desde archivo excel & Retailer \\ \hline
+       CU-\rownumber & Consultar reporte precio producto & Retailer \\ \hline
+       CU-\rownumber & Exportar reporte precio producto & Retailer \\ \hline
+       CU-\rownumber & Filtrar reporte precio producto por fecha & Retailer \\ \hline
+       CU-\rownumber & Consultar reporte precio histórico de producto & Retailer \\ \hline
+       CU-\rownumber & Filtrar reporte precio histórico por fechas & Retailer \\ \hline
+       CU-\rownumber & Consultar reporte gráfico dispersión por catálogo & Retailer \\ \hline
+       CU-\rownumber & Exportar reporte gráfico dispersión por catálogo & Retailer \\ \hline
+       CU-\rownumber & Filtrar gráfico dispersión por catálogo & Retailer \\ \hline
+       CU-\rownumber & Filtrar gráfico dispersión por fecha & Retailer \\ \hline
+       CU-\rownumber & Consultar lista de catálogos personalizados & Retailer \\ \hline
+
+       \caption{Resumen de casos de uso de la aplicación web CPI.}
+       \label{tab:casosDeUso}
+       
+
+    \end{longtable}
+\end{center}
+
+La nueva aplicación desarrollada funciona como un agregado a sitios de Umbraco. No se ha desplegado en un ambiente de producción, solo fue probada en varias instalaciones locales, a pesar de esto el dueño del producto quedó satisfecho con los resultados obtenidos. Sigue un resumen de la funcionalidad por módulos desarrollada, dividido en partes: funcionalidad en el front end de eFuel y funcionalidad en el back office de Umbraco.
+
+\subsection{Funcionalidad en el front end}
+\begin{itemize}
+    \item \emph{Seguridad}: Inicio de sesión con credenciales.
+    
+    \item \emph{Productos}: Listado de productos con filtros para el producto UPC y descripción del producto. 
+
+    \item \emph{Reportes}: Generación de reportes de:
+            \begin{itemize}
+                 \item Precio producto, para comparar los precios del mismo productos entre las cadenas que son competencia.
+                 \item Precios históricos de un producto en un rango de fechas, para ver el cambio del precio de un producto.
+                 \item Precios de productos en un catálogo.
+            \end{itemize}
+
+          Además exportar los reportes que poseen tablas a un archivo en formato Microsoft Excel.
+ 
+\end{itemize}
+
+\subsection{Funcionalidad en el back office de Umbraco}
+\begin{itemize}
+    \item \emph{Seguridad}: inicio de sesión con credenciales; administración (creación, edición, detalles, eliminación y permisos) de miembros de CPI.
+    
+    \item \emph{Cadenas}: listado de cadenas; administración (creación, edición, vista de detalles y eliminación) de cadenas.
+    
+    \item \emph{Zonas}: listado de zonas; administración (creación, edición, vista de detalles y eliminación) de zonas.
+    
+    \item \emph{Administración}: listado de productos, precios, tiendas, y catálogos; administración (creación, edición, vista de detalles y eliminación) de productos, precios, tiendas, y catálogos. 
+\end{itemize}

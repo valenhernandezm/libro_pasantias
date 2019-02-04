@@ -1,12 +1,13 @@
 \vskip 2cm
     \section{Vista de Casos de Uso} \label{vistaCasosDeUso}
-    En esta vista se describirá el sistema desde el punto de vista de los casos de uso. El sistema tiene 2 actores:
+    En esta vista se describirá el sistema desde el punto de vista de los casos de uso. El sistema tiene 2 actores principales:
 
     \begin{itemize}
         \item \emph{Admin}: Administrador de CPI. Es un usuario de Umbraco, lo que quiere decir que cuenta con las credenciales para poder ingresar al back-end de Umbraco y tiene los permisos necesarios para administrar las entidades y los grupos de CPI.
-        \item \emph{cpi-user}: Es un grupo de CPI, los pertenecientes a este grupo poseen credenciales para entrar al sistema.
         \item \emph{Retailer}: Representa a una cadena. Solo tiene acceso a la información referente a las tiendas y productos que pertenecen a la cadena.
-         \end{itemize}
+    \end{itemize}
+    En el back office de Umbraco en la sección Member, se creó un grupo llamado \emph{cpi-user} en el que los miembros pertenientes al mismo, tienen las credenciales necesarias para acceder al sistema CPI.
+    
 \pagebreak
     \subsection{Resumen de Casos de Uso}
     \newcounter{magicrownumbers}
@@ -44,6 +45,7 @@
            CU-\rownumber & Consultar lista de precios & Admin \\ \hline
            CU-\rownumber & Consultar lista de tiendas & Admin \\ \hline
            CU-\rownumber & Gestionar tienda (CRUD) & Admin \\ \hline
+           CU-\rownumber & Asignar tienda a cadena & Admin \\ \hline
            CU-\rownumber & Consultar lista de zonas & Admin \\ \hline
            CU-\rownumber & Gestionar zonas (CRUD) & Admin \\ \hline
 	       CU-\rownumber & Consultar lista de catálogo generales & Admin \\ \hline
@@ -55,10 +57,15 @@
            CU-\rownumber & Iniciar sesión (CPI) & Retailer \\ \hline
            CU-\rownumber & Consultar lista de productos & Retailer \\ \hline
            CU-\rownumber & Importar precios desde archivo excel & Retailer \\ \hline
-           CU-\rownumber & Consultar precio producto & Retailer \\ \hline
-           CU-\rownumber & Consultar histórico de producto & Retailer \\ \hline
-           CU-\rownumber & Consultar gráfico dispersión por categoría & Retailer \\ \hline
-           CU-\rownumber & Filtrar gráfico dispersión por categoría & Retailer \\ \hline
+           CU-\rownumber & Consultar reporte precio producto & Retailer \\ \hline
+           CU-\rownumber & Exportar reporte precio producto & Retailer \\ \hline
+           CU-\rownumber & Filtrar reporte precio producto por fecha & Retailer \\ \hline
+           CU-\rownumber & Consultar reporte precio histórico de producto & Retailer \\ \hline
+           CU-\rownumber & Filtrar reporte precio histórico por fechas & Retailer \\ \hline
+           CU-\rownumber & Consultar reporte gráfico dispersión por catálogo & Retailer \\ \hline
+           CU-\rownumber & Exportar reporte gráfico dispersión por catálogo & Retailer \\ \hline
+           CU-\rownumber & Filtrar gráfico dispersión por catálogo & Retailer \\ \hline
+           CU-\rownumber & Filtrar gráfico dispersión por fecha & Retailer \\ \hline
            CU-\rownumber & Consultar lista de catálogos personalizados & Retailer \\ \hline
            CU-\rownumber & Gestionar catálogo (CRUD) & Retailer \\ \hline
            CU-\rownumber & Asignar producto/s a catálogo & Retailer \\ \hline

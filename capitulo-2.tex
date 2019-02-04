@@ -1,18 +1,18 @@
 \chapter{Marco Teórico}
-En el presente capítulo se definen las bases teóricas sobre las cuáles se apoya el proyecto. Para el desarrollo de la aplicación \textit{CPI} se utilizó Umbraco \cite{umbraco} como plataforma principal para de manejo de contenido (CMS) \cite{cmsBarker} y utilizando el patrón MVC \cite{mvcKrasner}.
+En el presente capítulo se definen las bases teóricas sobre las cuáles se apoya el proyecto. Para el desarrollo de la aplicación \textit{CPI} se utilizó Umbraco \cite{umbraco} como plataforma principal para manejo de contenido (CMS) \cite{cmsBarker} y se usó el patrón MVC \cite{mvcKrasner}.
 
 \section{Bases Teóricas}
 
 \subsection{CMS}
 Un Sistema de Gestión de Contenido o CMS, por sus siglas en inglés \textit{Content Management System}, es un paquete de software que brinda cierto nivel de automatización de las tareas requeridas para administrar el contenido de manera efectiva. Un CMS permite a los usuarios crear nuevo contenido, editar contenido existente, y hacer el contenido accesible al público \cite{cmsBarker}.
 
-Para los editores el CMS les permite crear contenido nuevo, editar contenido existente, realizar procesos en el contenido mediante una interfaz de edición (referida como \textit{back-end} que es la capa de acceso a los datos de la aplicación) y finalmente les permite colocar este contenido a disposición de otros usuarios en una interfaz (referida como el \textit{front-end}, es decir, la capa de presentación de la aplicación).
+Para los editores, el CMS les permite crear contenido nuevo, editar contenido existente, realizar procesos con el contenido mediante una interfaz de edición (referida como \textit{back-end} que es la capa de acceso a los datos de la aplicación) y finalmente les permite colocar este contenido a disposición de otros usuarios en una interfaz (referida como el \textit{front-end}, es decir, la capa de presentación de la aplicación).
 
 Un CMS permite el control del contenido, esto se refiere a que mantiene un constante seguimiento del contenido (donde se encuentra el contenido, quién puede acceder a él, y cómo se relaciona con otros contenidos). Por otro lado permite la reutilización del contenido (usar contenido en más de un lugar).
 
-Una de las mayores ventajas de el uso de CMS es que facilita las tareas mencionadas anteriormente para usuarios que no tienen preparación técnica. En el caso de la aplicación \textit{CPI}, la mayoría de los usuarios no poseen conocimientos especializados en el área de computación, por lo cual es conveniente el desarrollo del sistema sobre un CMS
+Una de las mayores ventajas del uso de CMS es que facilita las tareas mencionadas anteriormente para usuarios que no tienen preparación técnica. En el caso de la aplicación \textit{CPI}, la mayoría de los usuarios no poseen conocimientos especializados en el área de computación, por lo cual es conveniente el desarrollo del sistema sobre un CMS
 
-El CMS sobre el cual se trabajó para el desarrollo de la aplicación cuenta con funcionalidades que ya están implementadas que son necesarias para ésta, como la autenticación para los usuarios, permisología, interfaces que facilitan el manejo de la base de datos, entre otras cosas. Cuenta con gran variedad de paquetes, librerías y módulos que facilitan el desarrollo de la aplicación. 
+El CMS sobre el cual se trabajó para el desarrollo de la aplicación cuenta con funcionalidades que ya están implementadas que son necesarias para ésta, como la autenticación para los usuarios, permisología, interfaces que facilitan el manejo de la base de datos, entre otras cosas. Cuenta con gran variedad de paquetes, librerías y módulos que facilitan el desarrollo de la aplicación.
 
 \subsection{Modelo Cliente-Servidor}
 Arquitectura de redes de computadoras ampliamente utilizado y que forma la base del uso de redes en gran medida, consta de dos entidades: un cliente y un servidor. El cliente le envía una solicitud al servidor y espera una respuesta. Luego, el servidor recibe la solicitud, lleva a cabo el trabajo requerido, o busca los datos solicitados y devuelve una respuesta al cliente \cite{redesTanenbaum}.
@@ -76,3 +76,12 @@ El modelo “4+1” de Kruchten, es un modelo de vistas diseñado por el profeso
     \label{fig:vistas}
     \end{center}
 \end{figure}
+
+\subsection{Document type (Doctype)}
+Un Document Type es la definición de datos para el contenido de un sitio web, es el concepto mas importante de Umbraco. Es un concepto análogo a la definición de una clase en un lenguaje orientado a objetos, no son el contenido o datos sino la definicion de su estructura y propiedades. 
+\subsection{Data type}
+Un Data Type determina la estructura y el tipo de información que puede ir en una propiedad de un Doctype.
+\subsection{Back Office}
+Se entinde por Back Office al back end de Umbraco, la interfaz de administración de contenido de un sitio de Umbraco, se accede a el mediante una ruta especial y es necesario poseer credenciales para poder ingresar. El back office se divide en secciones, las cuales por defecto son: Content (para gestión de contenido), Media (gestión de archivos multimedia), Settings (gestión de los Document Types del sitio, plantillas del front end, scripts, idiomas, diccionario y los tipos de archivos multimedia), Developer (gestión de paquetes, macros y Data Types), Users (gestión de usuarios con credenciales para entrar al back office) y Members (gestión de usuarios con credenciales al front end).
+\subsection{Nodo} \label{nodoUmbraco}
+El contenido de Umbraco se guarda como nodos en un árbol de contenidos. Cada nodo es una instancia de un Doctype.
