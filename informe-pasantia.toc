@@ -1,9 +1,9 @@
 \babel@toc {spanish}{}
-\contentsline {chapter}{\MakeTextUppercase {Dedicatoria}}{iv}
-\contentsline {chapter}{\MakeTextUppercase {Agradecimientos}}{v}
-\contentsline {chapter}{\MakeTextUppercase {Resumen}}{vi}
-\contentsline {chapter}{\MakeTextUppercase {\'{I}ndice general}}{vii}
-\contentsline {chapter}{\MakeTextUppercase {\'{I}ndice de figuras}}{x}
+\contentsline {chapter}{\MakeTextUppercase {Resumen}}{v}
+\contentsline {chapter}{\MakeTextUppercase {Dedicatoria}}{vi}
+\contentsline {chapter}{\MakeTextUppercase {Agradecimientos}}{vii}
+\contentsline {chapter}{\MakeTextUppercase {\'{I}ndice general}}{viii}
+\contentsline {chapter}{\MakeTextUppercase {\'{I}ndice de figuras}}{xi}
 \contentsline {chapter}{\MakeTextUppercase {Introducci\IeC {\'o}n}}{1}
 \contentsline {chapter}{\MakeTextUppercase {Cap\'{\i }tulo}~I:~\MakeTextUppercase {Entorno empresarial}}{3}
 \contentsline {section}{\numberline {1.1}Antecedentes de la empresa}{3}

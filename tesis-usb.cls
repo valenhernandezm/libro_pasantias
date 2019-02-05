@@ -303,17 +303,7 @@
                     {\bfseries Sartenejas, \@fecha}%%---
                \end{center}%--
           % lomo del libro 2/4
-               \newpage%---
-               \null%---
-               \thispagestyle{empty}%---
-               \begin{tabular}{c}%---
-                    \begin{sideways} \normalsize \parbox{4cm}{\centering USB \\ \MakeTextUppercase{\@carrera}} \end{sideways} \\
-                    [0.1cm]%---
-                    \begin{sideways} \normalsize \parbox{12cm}{\centering \MakeTextUppercase{\@titulo}} \end{sideways} \\
-                    [0.1cm]%---
-                    \begin{sideways} \normalsize \parbox{5cm}{\centering \MakeTextUppercase{\@autori} \\ \@agno} \end{sideways} \\
-                    [0.1cm]%---
-               \end{tabular}%---
+               
           \end{titlepage}%---
           % p\'agina del t\'itulo (portada interna) 3/4
           \begin{titlepage} %---
@@ -348,7 +338,7 @@
           \end{titlepage}%---
           % p\'agina de acta de evaluaci\'on (veredicto) 4/4
           \newpage%---
-          \setcounter{page}{2}%---
+          \setcounter{page}{3}%---
           \includepdf{acta}
      \else % POSTGRADO
           % caratula del libro (portada de tapa dura) 1/4
